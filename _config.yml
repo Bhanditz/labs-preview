@@ -1,0 +1,41 @@
+name: "Europeana Labs"
+paginate: 10
+paginate_path: "/page:num"
+
+permalink: pretty
+pygments: true
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+baseurl: ""
+
+lunr_search:
+  excludes: [rss.xml, atom.xml]
+
+url: "http://labs.europeana.eu"
+
+prose:
+    rooturl: '_posts'
+    ignore:
+        - _config.yml
+        - CNAME
+        - Gemfile
+        - Gemfile.lock
+        - index.html
+        - /_data
+        - /_includes
+        - /_layouts
+        - /_plugins
+        - /_site
+    metadata:
+        _posts/gallery:
+            - name: "layout"
+              field:
+                element: "hidden"
+                value: "gallery-item"
+            - name: "category"
+              field:
+                element: "hidden"
+                value: "gallery"
+
+rss_path: 
+rss_name: rss.xml
