@@ -1,0 +1,18 @@
+---
+layout: apps-item
+category: apps
+permalink: /apps/vufind-europeana-search-results-recommendation-module
+title: VuFind Europeana search results recommendation module
+imageurl:
+  - 
+tags:
+  - 
+links:
+  - http://vufind.org/
+  - 
+  - https://vufind.org/jira/browse/VUFIND-444
+---
+
+VuFind is an Open Source discovery interface for digital libraries used by a large number of institutions.
+
+The National Library of Ireland has generalised their implementation of the Europeana API for all VuFind users. If you're an institution using VuFind, you can register for an API key too and configure the widget for your own site!

@@ -1,0 +1,16 @@
+---
+layout: apps-item
+category: apps
+permalink: /apps/myhometo.wn
+title: myHometo.wn
+imageurl:
+  - 
+tags:
+  - 
+links:
+  - 
+---
+
+myHometo.wn can be likened to a public genealogy for all cities across a country.
+
+This particular prototype showcases how people can add their personal stories to an ever-growing online story about Sweden and its cities. It is a high-potential crowd-sourcing tool for European cultural institutions.
