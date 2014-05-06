@@ -1,4 +1,0 @@
-Labs
-====
-
-Labs website project
