@@ -1,0 +1,126 @@
+---
+layout: search-list
+title: Search
+---
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+ 	<li class="grid__item one-whole {{tags}}">
+            <div class="block block-thumb ">
+
+                <div class="b-thumb">
+                    <a href="{{url}}">
+                        <img src="{{& imageurl}}" alt=""/>
+                    </a>
+                </div>
+
+                <div class="b-text">
+	                    <h1 class="headline gamma"><a href="{{url}}">{{title}}</a></h1>
+	                    <div class="description">
+	                        {{{excerpt}}}                       
+	                    </div>
+	                    <div class="clear"></div>
+
+						<div class="tags">
+	                        <i class="icon icon-tag"></i>
+							{{#tags}}
+								<a href="#" class="tag_alt">{{.}}</a>
+	                    	{{/tags}}
+	                   
+	                    </div>
+						
+                </div>
+
+            </div>
+        </li>
+  {{/entries}}
+</script>
+{% endraw %}
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  	try{
+	
+  var inputFieldQ = $(".search-query");
+   inputFieldQ.lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+   
+    inputFieldQ.focus();
+    
+   }catch(e){
+   	alert(e.message);
+   }
+   
+
+   	
+	$("ul.tags li a").click(function(event){
+
+		event.preventDefault();		
+		$("ul.tags li a").removeClass("current-tag");
+		$(this).addClass("current-tag");
+		var clickedTagText = $(this).text();
+		$("#search-results li").show();
+		$("#search-results li").each(function(){
+			
+  			var iskaniTag = $(this).find('a').filter(function(index) { return $(this).text() === clickedTagText; });
+  			if(iskaniTag.length>0){
+  					
+  			}else{
+  				$(this).hide();
+  			}
+  			
+  		});
+	}); 
+    
+  });
+
+</script>
+
+<div class="grid__item one-quarter palm--one-whole">
+	<div class="subnav">
+	    <h4 class="label epsilon"> Filter by:</h4>
+	    <ul class="tags tags-large">
+
+					
+		{% for tag in site.tags %}
+			<li><a href="#{{ tag | first | tags_links | slugize }}" rel="{{ tag | first | tags_links | slugize }}" class="tag">{{ tag | first }}</a></li>
+					
+		{% endfor %}
+				
+ 
+	    </ul>
+    </div>
+	
+   <ul class="tabs tabs-v">
+     <li><a href="">Suggest a Dataset</a></li>
+     <li><a href="">Help improve this content</a></li>
+   </ul>
+</div>
+
+
+<div class="grid__item palm--one-whole three-quarters">
+<div id="mobileSearchForm" style="padding: 3px; text-align: right;">
+		<form id="search" action="{{site.baseurl}}/search" method="get" class="inline-form">
+        	
+            <fieldset>
+                <legend class="is-vishidden">Search</legend>
+                <label for="search-field" class="is-vishidden">Search</label>
+                <input type="text" placeholder="Search" id="search-query" name="q" class="search-field search-query" autocomplete="off" style="max-width: 200px; height: 43px;">
+                <button class="search-submit">
+                    <span class="icon-search" aria-hidden="true"></span>
+                    <span class="is-vishidden">Search</span>
+                </button>
+            </fieldset>
+        </form>
+	</div>
+		
+	
+	<section id="search-results" style="display: none;">
+	  <div class="entries">
+	  </div>
+	</section>
+</div>
