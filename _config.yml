@@ -2,8 +2,6 @@ name: "Europeana Labs"
 paginate: 10
 paginate_path: "/page:num"
 
-markdown:      kramdown
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
 permalink: pretty
 pygments: true
 
