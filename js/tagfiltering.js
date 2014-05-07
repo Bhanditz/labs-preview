@@ -11,7 +11,8 @@
             filterOperator: "AND",
             paginationHolder: "div.pagination-holder",
             paginationContainerId: "list",
-            activeTagClass: "active"
+            activeTagClass: "active",
+            modelNoPagination: true
         };
 
         if (options) {
@@ -83,12 +84,11 @@
         }
 
         function performFilter() {
-
             $(settings.listid + " li")
                 .removeClass("not-filtered")
                 .removeClass("filtered")
                 .addClass("not-filtered");
-
+                
 
             if (fil.length > 0) {
                 $(settings.listid + " li" + fil).removeClass("not-filtered").addClass("filtered");
@@ -98,6 +98,9 @@
                     .removeClass("filtered");
             }
 
+                if(settings.modelNoPagination){
+                	 $(settings.listid + " li.not-filtered").hide();
+                }
         }
 
         function performPagination() {
