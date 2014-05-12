@@ -13,7 +13,6 @@ imageurl:
   - "/img/datasets/battle_1_800.jpg"
 tags:
   - History
-
 licenses:
   - pd  
       
