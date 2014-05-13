@@ -1,11 +1,7 @@
 ---
 layout: data-item
 category: data
-<<<<<<< HEAD
-title: Battles on artwork and drawings from the Rijksmuseum in the Netherlands
-=======
 title: Battles on artwork and drawings from the Rijksmuseum in Amsterdam
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 permalink: data/Battles-on-artwork-and-drawings-from-the-Rijksmuseum-in-the-Netherlands
 provider: Rijksmuseum
 description: A collection of  thousand drawings, prints and artworks of battles across Europe through the centuries.
@@ -17,11 +13,7 @@ imageurl:
   - "/img/datasets/battle_1_800.jpg"
 tags:
   - History
-<<<<<<< HEAD
-
-=======
->>>>>>> 7178211eb6b618fa5825d30c752cb3696ae5f6f5
 licenses:
-  - pd  
+  - pd
       
 ---
