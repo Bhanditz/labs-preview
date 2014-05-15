@@ -20,7 +20,7 @@ Each month sees a wealth of new content added (we now have over 33 million items
 
 In our [data section](http://labs.europeana.eu/data/ "Europeana Labs Data") each featured dataset has a link to the main site (the Europeana Portal) where you can browse items, filter by your own terms, and follow links to the source material.
 
-### Some recent examples include
+### Recent examples of re-usable datasets
 - [the entire Rijksmuseum dataset](/data/works-of-art-from-the-rijksmuseum) - more than 110,000 paintings, drawings, statues and other works of art
 - [specimens from the Natural History Museum, London](/data/scans-of-plants-and-more-natural-history-objects-from-the-openup-project) - more than 110,000 images of plant, mollusc and other natural history specimens
 - [Historic events in paintings from the Amsterdam Museum](http://preview.labs.eanadev.org/data/historic-events-in-paintings-from-the-amsterdam-museum) - a carefully selected group of 212 paintings depicting notable historic events
