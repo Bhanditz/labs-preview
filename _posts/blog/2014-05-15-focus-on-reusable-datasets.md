@@ -3,7 +3,7 @@ published: true
 layout: blog-item
 category: blog
 permalink: blog/focus-on-reusable-datasets
-title: "Can I use it?"
+title: "Focus on reusable datasets"
 imageurl: 
   - "/img/blog/2014-04-15-focus-on-reusable-datasets.jpg"
 tags: 
