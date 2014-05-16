@@ -22,7 +22,7 @@ In our [data section](http://labs.europeana.eu/data/ "Europeana Labs Data") each
 
 ### Recent examples of re-usable datasets
 - [the entire Rijksmuseum dataset](/data/works-of-art-from-the-rijksmuseum) - more than 110,000 paintings, drawings, statues and other works of art
-- [fossils, minerals, fishes and other natural history objects from N&aacute;rodn&iacute; muzeum ](/data/natural-history-objects-from-the-openup-project/) - more than 8,000 images of specimens and their labels
+- [fossils, minerals, fishes and other natural history objects from N&aacute;rodn&iacute; Muzeum ](/data/natural-history-objects-from-the-openup-project/) - more than 8,000 images of specimens and their labels
 - [images of insects from the Zoological Research Museum, Koenig](/data/insects-from-the-openup-project/) - almost 3,000 images of insects with additional scientific information on scanned labels
 - [Historic events in paintings from the Amsterdam Museum](http://preview.labs.eanadev.org/data/historic-events-in-paintings-from-the-amsterdam-museum) - a carefully selected group of 212 paintings depicting notable historic events
 
