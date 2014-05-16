@@ -21,6 +21,7 @@ Be aware that any use of the lofs should comply  with Europeana's [privacy polic
 We describe below the details of the Europeana Logs actions and the Europeana session clickstream. We thank Maria Gäde researcher at Humboldt-Universität zu Berlin for providing us with this documentation. 
 
 ##Europeana Logs actions 
+
 | Action | Explanation |
 |:-------------|:-------------|
 | "BRIEF_RESULT"  | User launches a query and is directed to the brief result page.| 
