@@ -26,7 +26,7 @@ In our [data section](http://labs.europeana.eu/data/ "Europeana Labs Data") each
 - [Historic events in paintings from the Amsterdam Museum](http://preview.labs.eanadev.org/data/historic-events-in-paintings-from-the-amsterdam-museum) - a carefully selected group of 212 paintings depicting notable historic events
 
 ### Browse datasets by themes
-You can browse all of our growing inventory of datasets by themes such as [Natural History](/data/%23tag=natural-history "natural history datasets on Europeana Labs"), [Maps](/data/%23tag=maps "maps datasets on Europeana Labs") and [Photographs](/data/%23tag=photographs "photographs datasets on Europeana Labs").
+You can browse all of our growing inventory of datasets by themes such as [Natural History](/data/#tag=natural-history "natural history datasets on Europeana Labs"), [Maps](/data/#tag=maps "maps datasets on Europeana Labs") and [Photographs](/data/#tag=photographs "photographs datasets on Europeana Labs").
 
 ## Datasets for API users
 
