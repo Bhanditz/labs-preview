@@ -8,7 +8,7 @@ description: A collection of about a thousand drawings, prints, paintings and ot
 contact: info@rijksmuseum.nl
 portal: "http://www.europeana.eu/portal/search.html?query=PROVIDER:Rijksmuseum&qf=slag" 
 console: "http://labs.europeana.eu/api/console?function=search&query=PROVIDER:Rijksmuseum&qf=slag"
-providerurl: "https://www.rijksmuseum.nl/"
+providerurl: "http://www.rijksmuseum.nl/"
 imageurl: 
   - "/img/datasets/battle_1_800.jpg"
 tags:
