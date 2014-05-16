@@ -61,12 +61,12 @@ layout: homepage
 	                <div class="b-text">
 
 	                    {%if post.featured %}
-		                    <h1 class="headline gamma"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h1>
+		                    <h2 class="headline gamma"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
 		                    <div class="description">
 		                        {{post.excerpt}}                        
 		                    </div>
 						{% else %}
-							<h5><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h5>
+							<h3><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
 	                    {% endif %}
 						<a href="{{site.baseurl}}{{post.url}}" title="{{post.title}}" class="text-btn-homepage">Find out more</a>
 	                </div>
