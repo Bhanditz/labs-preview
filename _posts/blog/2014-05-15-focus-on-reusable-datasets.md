@@ -25,6 +25,7 @@ In our [data section](/data/ "Europeana Labs Data") each featured dataset has a 
 - [fossils, minerals, fishes and other natural history objects from N&aacute;rodn&iacute; Muzeum ](/data/natural-history-objects-from-the-openup-project/) - more than 8,000 images of specimens and their labels
 - [images of insects from the Zoological Research Museum, Koenig](/data/insects-from-the-openup-project/) - almost 3,000 images of insects with additional scientific information on scanned labels
 - [Historic events in paintings from the Amsterdam Museum](/data/historic-events-in-paintings-from-the-amsterdam-museum) - a carefully selected group of 212 paintings depicting notable historic events
+- or [see all of our featured datasets](/data "Europeana featured datasets") (currently 27)
 
 ### Browse datasets by themes
 You can browse all of our growing inventory of datasets by themes such as [Natural History](/data/#tag=natural-history "natural history datasets on Europeana Labs"), [Maps](/data/#tag=maps "maps datasets on Europeana Labs") and [Photographs](/data/#tag=photographs "photographs datasets on Europeana Labs").
