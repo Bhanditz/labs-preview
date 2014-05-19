@@ -37,4 +37,4 @@ You'll also find more techniques in our documentation on [Querying Providers and
 
 ---
 
-<small>Image: A selection from over 7,500 shoes from the [Rossimoda Shoe Museum](http://www.europeana.eu/portal/record/2048207/02472.html) (CC-BY-SA). Composite image created by James Morley using the [Background Image Generator](http://www.bgreco.net/tiler/) from bgreco.net.</small>
+<small>Image: A selection from over 7,500 shoes from the [Rossimoda Shoe Museum](http://www.europeana.eu/portal/search.html?qf=DATA_PROVIDER%3a%22Rossimoda%20Shoe%20Museum%22&rows=24) (CC-BY-SA). Composite image created by James Morley using the [Background Image Generator](http://www.bgreco.net/tiler/) from bgreco.net.</small>
