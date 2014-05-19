@@ -8,7 +8,7 @@ description: 212 paintings with groups of people signing important papers, being
 contact: info@amsterdammuseum.nl 
 portal: http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A2021608*&rows=24&qf=anno&qf=REUSABILITY%3Aopen&qf=TYPE%3AIMAGE&qf=schilder
 console: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A2021608*&rows=24&qf=anno&qf=REUSABILITY%3Aopen&qf=TYPE%3AIMAGE&qf=schilder
-providerurl: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A2021608*&rows=24&qf=anno&qf=REUSABILITY%3Aopen&qf=TYPE%3AIMAGE&qf=schilder
+providerurl: http://www.amsterdammuseum.nl/
 imageurl:
   - "/img/datasets/2021608_Amsterdam.jpg"
 tags:

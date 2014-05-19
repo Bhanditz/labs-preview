@@ -8,7 +8,7 @@ description: Almost 3,000 images of insects with additional scientific informati
 contact: info@zfmk.de
 portal: http://www.europeana.eu/portal/search.html?query=europeana_collectionName:11618*&qf=RIGHTS:http://creativecommons.org/licenses/by/*&rows=12
 console: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName:11618*&qf=RIGHTS:http://creativecommons.org/licenses/by/*&rows=12
-providerurl: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName:11618*&qf=RIGHTS:http://creativecommons.org/licenses/by/*&rows=12
+providerurl: http://www.zfmk.de/index.en.html
 imageurl:
   - "/img/datasets/11618_CCBY_Bonn.jpg"
 tags:

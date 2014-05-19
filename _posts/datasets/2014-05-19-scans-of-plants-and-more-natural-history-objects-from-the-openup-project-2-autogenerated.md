@@ -8,7 +8,7 @@ description: More than 110,000 scans of plants  mounted on sheets and photograph
 contact: openup.helpdesk@africamuseum.be
 portal: http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A11621*&rows=12
 console: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A11621*&rows=12
-providerurl: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A11621*&rows=12
+providerurl: http://www.nhm.ac.uk/
 imageurl:
   - "/img/datasets/11621_NHM.jpg"
 tags:

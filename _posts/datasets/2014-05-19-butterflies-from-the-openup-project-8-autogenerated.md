@@ -8,7 +8,7 @@ description: More than 400 records with images of butterflies and additional sci
 contact: info@mfn-berlin.de
 portal: http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A11622*&rows=12
 console: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A11622*&rows=12
-providerurl: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A11622*&rows=12
+providerurl: http://www.naturkundemuseum-berlin.de/
 imageurl:
   - "/img/datasets/11622_Globis.jpg"
 tags:

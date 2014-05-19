@@ -8,7 +8,7 @@ description: A collection of more than 6,000 documents and images. In German.
 contact: siegmann@eu1914-1918.eu
 portal: http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A9200231*&rows=12
 console: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A9200231*&rows=12
-providerurl: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A9200231*&rows=12
+providerurl: http://staatsbibliothek-berlin.de/
 imageurl:
   - "/img/datasets/9200231_SBB.jpg"
 tags:

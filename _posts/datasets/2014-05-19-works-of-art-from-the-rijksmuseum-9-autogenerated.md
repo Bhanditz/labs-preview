@@ -8,7 +8,7 @@ description: More than 110,000 paintings, drawings, statues and other works of a
 contact: info@rijksmuseum.nl
 portal: http://www.europeana.eu/portal/search.html?query=europeana_collectionName%3A90402*&rows=12
 console: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A90402*&rows=12
-providerurl: http://labs.europeana.eu/api/console/?function=search&query=europeana_collectionName%3A90402*&rows=12
+providerurl: http://www.rijksmuseum.nl
 imageurl:
   - "/img/datasets/90402_Rijks.jpg"
 tags:
