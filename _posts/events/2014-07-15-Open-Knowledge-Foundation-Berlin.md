@@ -6,7 +6,7 @@ title: Open Knowledge Festival 2014 - Open Minds to Open Action
 imageurl: 
   - "/img/events/2014-07-15-Open-Knowledge-Foundation-Berlin.png"
 tags: 
-  - hackathon
+  - 
 links:
   - http://2014.okfestival.org/
 excerpt:
@@ -15,12 +15,6 @@ startdate:
   - 15/07/2014
 enddate:
   - 17/07/2014
-datenotconfirmed:
-  - ""
-starttime:
-  - ""
-streetaddress:
-  - ""
 city:
   - "Berlin"
 country:
@@ -32,8 +26,8 @@ featured:
 ---
 
 The programme is built around three streams:
-a.      Knowledge – with topics such as open access, open research data, open educational resources, open science, data journalism and campaigning, data visualisation and literacy
-b.      Tools – topics include non-profit technology, open source software, open hardware, design, architecture and urban planning
-c.      Society – with sessions around designing institutions, building communities, protecting environments, powering economies through open government, transparency, security, privacy, open tech businesses, open development, open education, open culture, open sustainability and open economy
+1.      Knowledge – with topics such as open access, open research data, open educational resources, open science, data journalism and campaigning, data visualisation and literacy
+2.      Tools – topics include non-profit technology, open source software, open hardware, design, architecture and urban planning
+3.      Society – with sessions around designing institutions, building communities, protecting environments, powering economies through open government, transparency, security, privacy, open tech businesses, open development, open education, open culture, open sustainability and open economy
  
 The festival will enable the participants to define solid goals, build new partnerships and co-create the roadmap for the next steps of the open movement.
