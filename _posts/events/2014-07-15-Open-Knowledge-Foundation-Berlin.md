@@ -26,8 +26,8 @@ featured:
 ---
 
 The programme is built around three streams:
-1.      Knowledge – with topics such as open access, open research data, open educational resources, open science, data journalism and campaigning, data visualisation and literacy
-2.      Tools – topics include non-profit technology, open source software, open hardware, design, architecture and urban planning
-3.      Society – with sessions around designing institutions, building communities, protecting environments, powering economies through open government, transparency, security, privacy, open tech businesses, open development, open education, open culture, open sustainability and open economy
+1. Knowledge – with topics such as open access, open research data, open educational resources, open science, data journalism and campaigning, data visualisation and literacy
+2. Tools – topics include non-profit technology, open source software, open hardware, design, architecture and urban planning
+3. Society – with sessions around designing institutions, building communities, protecting environments, powering economies through open government, transparency, security, privacy, open tech businesses, open development, open education, open culture, open sustainability and open economy
  
 The festival will enable the participants to define solid goals, build new partnerships and co-create the roadmap for the next steps of the open movement.
