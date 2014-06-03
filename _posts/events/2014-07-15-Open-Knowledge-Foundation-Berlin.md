@@ -4,7 +4,7 @@ category: events
 permalink: /events/Open_Knowledge_Foundation_2014
 title: Open Knowledge Festival 2014 - Open Minds to Open Action
 imageurl: 
-  - "/img/events/_dummy-img.jpg"
+  - "/img/events/2014-07-15-Open-Knowledge-Foundation-Berlin.png"
 tags: 
   - hackathon
 links:
