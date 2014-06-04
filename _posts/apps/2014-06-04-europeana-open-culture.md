@@ -14,7 +14,6 @@ links:
   - "https://play.google.com/store/apps/details?id=com.glimworm.app.europeana&hl=en"
 contact: 
   name: Europeana
-  email: "api@europeana.eu"
 ---
 
 The Europeana Open Culture app lets users explore hand-picked and beautiful image collections from some of Europe's top cultural institutions. They can browse, share and download for free more than 350,000 high-resolution images from four themes: Maps and Plans, Images of the Past, Treasures of Art and Treasures of Nature.
