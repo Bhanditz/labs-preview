@@ -25,7 +25,7 @@ In our [data section](/data/ "Europeana Labs Data") each featured dataset has a 
 - [Early photographic portraits and other items](/data/) - over 150 miscellaneous new items from the [Nordiska Museet](http://www.nordiskamuseet.se/), from early photographs portraits to images of shoes! Released under a [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/) license.
 - [French WW1 photographs](/data/) - over 6,000 diverse and rich photographs from [Gallica, Bibliotheque nationale de France](http://gallica.bnf.fr/) available under a [Creative Commons Public Domain Mark](http://creativecommons.org/publicdomain/mark/1.0/) license.
 
-### Featured theme
+### Featured theme - First World War
 You can browse all of our growing inventory of datasets by themes. This month, why not check out the [WW1 related datasets](/data/#tag=first-world-war "1st World War datasets on Europeana Labs")?
 
 ## Datasets for API users
