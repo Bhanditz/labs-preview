@@ -1,7 +1,7 @@
 ---
 category: apps
 layout: "apps-item"
-published: false
+published: true
 title: Europeana Open Culture
 featured: false
 permalink: "/apps/europeana-open-culture"
