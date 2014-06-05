@@ -12,7 +12,7 @@ tags:
   - Datasets
 ---
 
-Each month sees a wealth of new and updated datasets added to to Europeana. 
+Each month sees a wealth of new and updated datasets added to Europeana. 
 
 Continuing our focus on content that we think will be of particular interest for re-use, here are three notable new datasets added in May.
 
