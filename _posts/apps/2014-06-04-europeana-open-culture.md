@@ -3,7 +3,7 @@ category: apps
 layout: "apps-item"
 published: false
 title: Europeana Open Culture
-featured: true
+featured: false
 permalink: "/apps/europeana-open-culture"
 imageurl: 
   - "/img/apps/Europeana_Open_Culture.png"
