@@ -21,6 +21,10 @@ title: Events
     });	
 </script>
 
+{% for category in site.categories%}
+	{{ category | first }}
+{% endfor%}
+
 <div id="filtered-list" class="grid__item palm--one-whole three-quarters">
     <ul id="EventsList"  class="post-list grid">
     	{% assign sorted_events = site.categories.events | sortEventByDate %}
