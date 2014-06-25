@@ -12,7 +12,8 @@ providerurl: http://images.is.ed.ac.uk/
 imageurl:
   - "/img/datasets/9200259-Edinburgh.jpg"
 tags:
-  - Tourism, Architecture
+  - Tourism
+  - Architecture
 
 licenses:
 dataset: 9200259
