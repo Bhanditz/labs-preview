@@ -12,7 +12,9 @@ providerurl: http://www.bl.uk/
 imageurl:
   - "/img/datasets/9200319-BL.jpg"
 tags:
-  - Tourism, History, First World War
+  - Tourism
+  - History
+  - First World War
 
 licenses:
 dataset: 9200319
