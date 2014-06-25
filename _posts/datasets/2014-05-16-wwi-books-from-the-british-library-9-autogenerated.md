@@ -12,7 +12,7 @@ providerurl: http://www.bl.uk/
 imageurl:
   - "/img/datasets/9200319-BL.jpg"
 tags:
-  - Tourism
+  - Geodata
   - History
   - First World War
 
