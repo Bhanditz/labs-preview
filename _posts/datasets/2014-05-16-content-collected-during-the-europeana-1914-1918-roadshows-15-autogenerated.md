@@ -12,7 +12,8 @@ providerurl: http://www.europeana1914-1918.eu/
 imageurl:
   - "/img/datasets/2020601-14-18.jpg"
 tags:
-  - History, First World War
+  - History
+  - First World War
 
 licenses:
 dataset: 2020601
