@@ -12,7 +12,8 @@ providerurl: http://images.is.ed.ac.uk/
 imageurl:
   - "/img/datasets/9200260-Edinburgh.jpg"
 tags:
-  - History, Photographs
+  - History
+  - Photographs
 
 licenses:
 dataset: 9200260
