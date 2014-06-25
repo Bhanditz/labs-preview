@@ -12,7 +12,9 @@ providerurl: http://www.snk.sk/
 imageurl:
   - "/img/datasets/9200323-Slovak.jpg"
 tags:
-  - Tourism, History, First World War
+  - Geodata
+  - History
+  - First World War
 
 licenses:
 dataset: 9200323
