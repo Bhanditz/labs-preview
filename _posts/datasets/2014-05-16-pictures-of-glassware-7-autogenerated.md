@@ -12,7 +12,8 @@ providerurl: http://www.nationaalglasmuseum.nl/
 imageurl:
   - "/img/datasets/2021621-glass.jpg"
 tags:
-  - Tourism, Design
+  - Tourism
+  - Design
 
 licenses:
 dataset: 2021621
