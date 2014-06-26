@@ -12,7 +12,8 @@ providerurl: http://balkanstudies.bg/index.php/en.html
 imageurl:
   - "/img/datasets/2021502-Bulgaria.jpg"
 tags:
-  - Tourism, Archaeology
+  - Tourism
+  - Archaeology
 
 licenses:
 dataset: 2021502
