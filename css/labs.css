@@ -475,3 +475,25 @@ h1, h2, h3, h4 {font-family: Ubuntu, Arial, sans-serif; }
 .subnav .tags {margin-bottom: 5px;}
 .subnav .tags a {cursor: pointer;}
 a.show-more-tags {padding-bottom: 15px; cursor: pointer;}
+
+
+a {
+   
+word-wrap: break-word;
+    
+  }
+.prose a{
+	word-wrap: break-word;
+white-space: normal;
+}
+
+@media only screen and (max-width: 24em) {
+  /**
+   * Whole
+   */
+  /* line 376, scss/objects/_csswizardry-grids.scss */
+  .palm--one-whole {
+    width: 100%;
+    padding 2px; 
+  }
+}
