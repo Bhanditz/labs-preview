@@ -12,7 +12,8 @@ providerurl: www.dizi.lt
 imageurl:
   - "/img/datasets/9419-Lithuania.jpg"
 tags:
-  - Tourism, Photographs
+  - Tourism
+  - Photographs
 
 licenses:
 dataset: 9419
