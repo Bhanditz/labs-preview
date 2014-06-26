@@ -12,7 +12,8 @@ providerurl: http://www.beeldengeluid.nl/tags/nederlands-instituut-voor-beeld-en
 imageurl:
   - "/img/datasets/2021613-NISV.jpg"
 tags:
-  - Tourism, Social Networks
+  - Tourism
+  - Social Networks
 
 licenses:
 dataset: 2021613
