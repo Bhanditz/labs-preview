@@ -12,7 +12,8 @@ providerurl: http://www.naturalis.nl/en/
 imageurl:
   - "/img/datasets/10102-Sterna.jpg"
 tags:
-  - Tourism, Natural History
+  - Tourism
+  - Natural History
 
 licenses:
 dataset: 10102
