@@ -6,7 +6,7 @@ title: Biblioteca Digital Hispánica
 imageurl: 
   - "/img/apps/biblioteca-digital-hispanica/HIspania2.png"
 featured: false
-published: true
+published: false
 contact:
   name: 
   email: 
