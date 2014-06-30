@@ -1,5 +1,6 @@
 ---
 category: apps
+floss: true
 layout: "apps-item"
 published: true
 title: europeana4j
