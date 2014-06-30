@@ -28,6 +28,7 @@
 		setTimeout(function (){
 
              performFiltering();
+             
 
          }, 500);
          
@@ -94,6 +95,8 @@
 	            createFilter();
 	            performFilter();
 	            performPagination();   
+	            $(".show-more-tags").click();
+	            
         }
 
         function activateTagsByHashUrl() {

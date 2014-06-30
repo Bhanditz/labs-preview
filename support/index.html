@@ -52,7 +52,19 @@ excerpt:
 $(document).ready(function(){
 	$("#messageContainer").hide();
 	$("#loadingIcon").hide();
+	
+	var subject = getParameterByName("subject");
+	if(subject.length>0){
+		$("#subject").val(subject);
+	}
 });
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
 
 function sendEmail(){
 	$("#loadingIcon").show();
