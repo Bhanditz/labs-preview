@@ -16,5 +16,9 @@
 	{% if page.contact.website %}
 	<li class="website"><i class="icon icon-link"></i>&nbsp;<strong>Website:</strong>&nbsp;<a href="{{page.contact.website}}" title="{{page.title}} Website">{{ page.contact.website }}</li>
 	{% endif %}
+	
+				{% if page.floss%}
+				 <li class="floss"><i class="icon icon-link"></i>&nbsp;<a href="http://bit.ly/CHFLOSS" target="_blank">View the full directory of Open Source Tools and suggest new entries</a></li>
+				{%endif%}
 </ul>
 {% endif %}
