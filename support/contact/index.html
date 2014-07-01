@@ -88,8 +88,9 @@ function sendEmail(){
 	                	$("#messageContainer").show();
                 	}else{
 						$("#messageContainer").removeClass("alert-error").addClass("alert-success");
-	                	$("#messageContainer").html(data.Message);
+	                	$("#messageContainer").html("Thank you, your mesage has been sucessfully sent.");
 	                	$("#frmContact").hide();
+	                	$("#messageContainer").show();
                 	}
                 	
                 	$("#loadingIcon").hide();
