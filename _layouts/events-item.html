@@ -22,10 +22,10 @@
 			        	{{page.city}}<br/>
 			        	{{page.country}}<br/>
 			        	<span class="icon icon-calendar">&nbsp;</span>{{page.startdate}}
-			        			{%  if post.enddate %}
-				        			{% if  post.startdate != post.enddate %}
+			        			{%  if page.enddate %}
+				        			{% if  page.startdate != page.enddate %}
 				        			<span>
-				        			  &nbsp; - {{post.enddate}}
+				        			  &nbsp; - {{page.enddate}}
 				        			   </span>
 				        			{% endif %}
 			        			{% endif %}
