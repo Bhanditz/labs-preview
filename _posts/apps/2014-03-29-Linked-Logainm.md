@@ -7,6 +7,8 @@ featured: false
 permalink: apps/Linked-Logainm
 tags: 
   - Linked Open Data
+  - Geo-spatial applications
+  - Semantic enrichment
 links: 
   - "http://apps.dri.ie/locationLODer/"
   - "http://data.logainm.ie/sparql](http://data.logainm.ie/sparql"
