@@ -10,11 +10,11 @@ tags:
   - Open Source tools
   - Media Applications
   - Media Annotation/Tagging
-
 links:
   - http://iiif.io/mirador/
   - https://github.com/IIIF/mirador
- 
+imageurl:
+  - "/img/no-image.gif"
 contact:
   name: "Stanford University"
  
