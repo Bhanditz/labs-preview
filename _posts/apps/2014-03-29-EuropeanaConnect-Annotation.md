@@ -7,6 +7,9 @@ featured: false
 permalink: apps/EuropeanaConnect-Annotation
 tags: 
   - R&D results
+  - Media annotation/tagging
+  - Media applications 
+  - Social applications 
 links: 
   - "http://dme.arcs.ac.at/annotation/"
 imageurl: 
