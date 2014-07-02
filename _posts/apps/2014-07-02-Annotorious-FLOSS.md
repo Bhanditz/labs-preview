@@ -14,7 +14,7 @@ links:
   - http://annotorious.github.io
   - https://github.com/annotorious/annotorious
 contact: 
-  name: "Rainer Simon
+  name: "Rainer Simon"
   name: "Peter Pilgerstorfer" 
   name: "Paul Weichhart"
 ---
