@@ -4,16 +4,16 @@ category: apps
 floss: true
 permalink: /apps/ApacheTika-FLOSS
 title: "Apache Tika"
-imageurl:
 featured: false
 tags:
   - Open Source tools
   - Metadata Retrieval Services
   - Semantic Enrichment
-
 links:
   - http://tika.apache.org/
   - http://tika.apache.org/download.html
+imageurl:
+  - "/img/no-image.gif"
  
 ---
 
