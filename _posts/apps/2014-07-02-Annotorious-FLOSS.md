@@ -4,12 +4,11 @@ category: apps
 floss: true
 permalink: /apps/Annotorious-FLOSS
 title: "Annotorious"
-imageurl:
+imageurl: " "
 featured: false
 tags:
   - Open Source tools
   - Media Annotation/Tagging
-
 links:
   - http://annotorious.github.io
   - https://github.com/annotorious/annotorious
