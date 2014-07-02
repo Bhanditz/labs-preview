@@ -4,7 +4,6 @@ category: apps
 floss: true
 permalink: /apps/Blacklight-FLOSS
 title: "Blacklight"
-imageurl:
 featured: false
 tags:
   - Open Source tools
@@ -12,7 +11,8 @@ tags:
 links:
   - http://projectblacklight.org/
   - https://github.com/projectblacklight/blacklight
-
+imageurl:
+  - "/img/no-image.gif"
 ---
 
 RoR gem discovery interface for any Solr index.
