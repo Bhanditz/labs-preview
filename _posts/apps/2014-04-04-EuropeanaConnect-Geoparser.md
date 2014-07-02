@@ -7,6 +7,8 @@ featured: false
 permalink: apps/EuropeanaConnect-Geoparser
 tags: 
   - R&D results
+  - Semantic extraction
+  - Geo-spatial applications
 links: 
   - "http://europeana-geo.isti.cnr.it/geoparser"
 imageurl: 
@@ -15,6 +17,8 @@ contact:
   name: "For more information, or to give feedback, please contact:[Nuno Freire](nuno.freire@theeuropeanlibrary.org)"
 
 ---
+**Disclaimer**: The Goeparser is currently down. The service should be re-started in the coming months. 
+
 **EuropeanaConnect Geoparser** - A tool to extract place names from text.
 
 This tool works with the EuropeanaConnect Gazetteer.
