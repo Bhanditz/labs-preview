@@ -24,4 +24,5 @@ Crowdsourcing video annotation software.
 Demo is available at [woordentikkertje.manbijthond.nl] (woordentikkertje.manbijthond.nl)
 
 **License** : GPL
+
 **Europeana Affiliation** : Netherlands Institute for Sound and Vision
