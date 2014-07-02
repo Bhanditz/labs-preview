@@ -7,6 +7,9 @@ featured: false
 permalink: apps/Europeana4D
 tags: 
   - R&D results
+  - Spatio-temporal search
+  - Search and browsing
+  - Geo-spatial applications
 links: 
   - "http://www.tinyurl.com/e4d-project"
   - "http://www.tinyurl.com/e4d-demo"
