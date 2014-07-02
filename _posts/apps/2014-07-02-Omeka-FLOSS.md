@@ -10,12 +10,12 @@ tags:
   - Open Source tools
   - Exhibition Management
   - Collection Management
-
 links:
   - http://omeka.org/
   - http://omeka.org/download/
   - https://github.com/omeka
-
+imageurl:
+  - "/img/no-image.gif"
 contact: 
   name: "Roy Rosenzweig Center for History and New Media, George Mason University"
 ---
