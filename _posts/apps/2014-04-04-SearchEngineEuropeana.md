@@ -7,6 +7,8 @@ featured: false
 permalink: apps/SearchEngineEuropeana
 tags: 
   - R&D results
+  - Linked Open Data
+  - Search and browsing
 links: 
   - "http://eculture.cs.vu.nl/europeana/session/search"
 imageurl: 
