@@ -4,7 +4,8 @@ category: apps
 floss: true
 permalink: /apps/Annotorious-FLOSS
 title: "Annotorious"
-imageurl: " "
+imageurl:
+  - "/img/no-image.gif"
 featured: false
 tags:
   - Open Source tools
