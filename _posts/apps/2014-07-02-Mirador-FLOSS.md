@@ -15,7 +15,7 @@ links:
   - http://iiif.io/mirador/
   - https://github.com/IIIF/mirador
  
- contact:
+contact:
   name: "Stanford University"
  
 ---
