@@ -7,7 +7,7 @@ title: europeana4j
 featured: false
 permalink: apps/europeana4j
 tags: 
-  - Open Source Project
+  - Open Source tools
   - Client Library
 imageurl:
   - "/img/apps/europeana4j/europeana4j.jpg"
