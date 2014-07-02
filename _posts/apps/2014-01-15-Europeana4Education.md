@@ -12,7 +12,7 @@ contact:
   website: http://www.youcoop.org
   address: Palma
   telephone:
-tags: [API Implementation]
+tags: API Implementation
 links:
   - http://www.athenaeurope.org/index.php?en/191/europeana-opensearch
 ---
