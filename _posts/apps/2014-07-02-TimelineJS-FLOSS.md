@@ -10,10 +10,11 @@ tags:
   - Exhibition Management
   - Media Applications
   - Data Annotation/Curation
-  
 links:
   - http://timeline.knightlab.com/
   - https://github.com/NUKnightLab/TimelineJS
+imageurl:
+  - "/img/no-image.gif"
 contact:
   - name: "Northwestern University Knight Lab"
 
