@@ -15,7 +15,7 @@ links:
   - http://timeline.knightlab.com/
   - https://github.com/NUKnightLab/TimelineJS
 contact:
-	name: "Northwestern University Knight Lab"
+  - name: "Northwestern University Knight Lab"
 
 ---
 
