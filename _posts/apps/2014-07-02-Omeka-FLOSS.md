@@ -16,11 +16,12 @@ links:
   - https://github.com/omeka
 imageurl:
   - "/img/no-image.gif"
-contact: 
-  name: "Roy Rosenzweig Center for History and New Media, George Mason University"
+  
 ---
 
 A Collection/Exhibition Management System
+
+**Developer(s)**: Roy Rosenzweig Center for History and New Media, George Mason University
 
 **License** : GNU GPL
 
