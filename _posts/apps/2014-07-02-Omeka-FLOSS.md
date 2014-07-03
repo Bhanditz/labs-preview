@@ -23,6 +23,6 @@ A Collection/Exhibition Management System
 
 **Developer(s)**: Roy Rosenzweig Center for History and New Media, George Mason University
 
-**License** : GNU GPL
+**License**: GNU GPL
 
-**Europeana Affiliation** : Used by Europeana for virtual exhibitions
+**Europeana Affiliation**: Used by Europeana for virtual exhibitions
