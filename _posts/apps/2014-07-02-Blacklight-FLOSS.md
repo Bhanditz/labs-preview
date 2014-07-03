@@ -18,4 +18,4 @@ imageurl:
 RoR gem discovery interface for any Solr index.
 Demo is available at [https://github.com/projectblacklight/blacklight/wiki/Examples] (https://github.com/projectblacklight/blacklight/wiki/Examples)
 
-**License** : Creative Commons Attribution-Share Alike 3.0 United States License
+**License**: Creative Commons Attribution-Share Alike 3.0 United States License
