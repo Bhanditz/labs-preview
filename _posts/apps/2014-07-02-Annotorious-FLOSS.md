@@ -19,4 +19,4 @@ Annotorious is a JavaScript annotation library for images and zoomable images. L
 
 **Developer(s)**: Rainer Simon, Peter Pilgerstorfer, Paul Weichhart
 
-**License** : LGPL
+**License**: LGPL
