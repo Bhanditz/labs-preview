@@ -19,5 +19,5 @@ imageurl:
 
 The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries.
 
-**License** : Apache License, Version 2.0
+**License**: Apache License, Version 2.0
 
