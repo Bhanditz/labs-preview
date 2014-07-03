@@ -7,7 +7,7 @@ featured: false
 permalink: apps/EFG-metadata-editor
 tags: 
   - R&D results
-  - Metadata mapping/conversion/normalisation
+  - Data mapping/conversion
 links: 
   - "http://www.europeanfilmgateway.eu/"
   - "http://multimatch01.isti.cnr.it/MetadataEditorPublic"
