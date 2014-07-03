@@ -15,11 +15,11 @@ links:
   - https://github.com/NUKnightLab/TimelineJS
 imageurl:
   - "/img/no-image.gif"
-contact:
-  - name: "Northwestern University Knight Lab"
 
 ---
 
 TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.
 
-**License** : Mozilla Public License, v. 2.0
+**Developer(s)**: Northwestern University Knight Lab
+
+**License**: Mozilla Public License, v. 2.0
