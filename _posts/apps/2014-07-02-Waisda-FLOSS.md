@@ -1,6 +1,6 @@
 ---
-layout: apps-item
 category: apps
+layout: apps-item
 floss: true
 permalink: /apps/Waisda-FLOSS
 title: "Waisda?"
@@ -17,10 +17,12 @@ links:
   - https://github.com/beeldengeluid/waisda
 imageurl: 
   - "/img/apps/Waisda/thoughtlab_image_0000_UGC--.png"
+  
 contact: 
-  name: "Maarten Brinkerink
+  name:  Maarten Brinkerink
   email: mbrinkerink@beeldengeluid.nl
 
+---
 **Waisda?** - A prototype Dutch-language game site which explores the social tagging of video in the cultural heritage domain.
 
 Waisda? is a crowdsourcing video annotation software that introduces gaming as a way of encouraging users to add tags to cultural heritage content.
