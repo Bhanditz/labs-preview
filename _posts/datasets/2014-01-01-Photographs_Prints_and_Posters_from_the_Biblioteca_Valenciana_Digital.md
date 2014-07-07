@@ -14,6 +14,7 @@ imageurl:
 tags:
   - Photographs
   - Prints
+  - geodata
 
 licenses:
   - pd  
