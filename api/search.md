@@ -55,7 +55,7 @@ Each item is a search result and is represented by a summary of its metadata rec
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
-| completeness | Number | A number from 1 to 10 that is an internal measure of the metadata quality. It is based on the availability of mandatory and optional schema fields. |
+| europeanaCompleteness | Number | A number from 1 to 10 that is an internal measure of the metadata quality. It is based on the availability of mandatory and optional schema fields. |
 | dataProvider<sup>\*</sup> | Array (String) | The names of Europeana Data Providers who provided the object. |
 | europeanaCollectionName<sup>\*</sup> | Array (String) | The names of the Europeana collections that contain the item |
 | id<sup>\*</sup> | String | The Europeana ID of the record. |
@@ -71,6 +71,32 @@ Each item is a search result and is represented by a summary of its metadata rec
 | language | Array (String) | Languages assigned to the resource with reference to the Provider.  Usually, this field contains the languages of the metadata of the record. |
 | title | Array (String) | The main and alternative titles of the item. |
 | year | Array (String) | A point of time associated with an event in the life of the original analog or born digital object. Find more in [EDM Definition](http://pro.europeana.eu/documents/900548/bb6b51df-ad11-4a78-8d8a-44cc41810f22) |
+| edmIsShownAt | Array (String) |  |
+| edmPlaceLatitude | Array (String) | Latitude position. |
+| edmPlaceLongitude | Array (String) | Longitude positiong. |
+| score | Number | The relevancy score calculated by the search engine. Depends of the query. |
+| edmConceptTerm | Array (String) | skos_concept |
+| edmConceptPrefLabel |  | cc_skos_prefLabel |
+| edmConceptBroaderTerm | Array (String) | cc_skos_broader |
+| edmConceptBroaderLabel |  | cc_skos_broader |
+| edmTimespanBegin | Array (String) | ts_edm_begin |
+| edmTimespanEnd | Array (String) | ts_edm_end |
+| edmTimespanBroaderTerm | Array (String) | ts_dcterms_isPartOf |
+| edmTimespanBroaderLabel | edm:TimeSpan/dcterms:isPartOf | ts_dcterms_isPartOf |
+| ugc | Array (Boolnean) | Whether or not has user generated contents in the record |
+| country | Array (String) | COUNTRY |
+| edmPlaceBroaderTerm | Array (String) | pl_dcterms_isPartOf |
+| edmPlaceAltLabel |  | pl_skos_altLabel |
+| dctermsIsPartOf | Array (String) | pl_dcterms_isPartOf |
+| dctermsSpatial | Array (String) | proxy_dcterms_spatial |
+| edmPlace | Array (String) | edm_place |
+| edmTimespan | Array (String) | edm_timespan |
+| edmAgent | Array (String) | edm_agent |
+| edmAgentLabel |  | ag_skos_prefLabel |
+| dcContributor | Array (String) | proxy_dc_contributor |
+| isShownBy | Array (String) | provider_aggregation_edm_isShownBy |
+| dcDescription | Array (String) | proxy_dc_description |
+| edmLandingPage | Array (String) | europeana_aggregation_edm_landingPage |
 | timestamp_created_epoch | Number | UNIX timestamp of the date when record were created |
 | timestamp_update_epoch | Number | UNIX timestamp of the date when record were last updated |
 | timestamp_created | String | ISO 8601 format of the date when record were created |
