@@ -99,6 +99,8 @@ A collection of facets that describe the resultant dataset.
 
 <sup>\*</sup> _indicates an obligatory property_
 
+## Metadata sets
+
 ## Callback Function
 Name of a client side (JavaScript) callback function. If you set a funtion the JSON response will be wrapped by this function call, so it is not JSON, but [JSONP](http://en.wikipedia.org/wiki/JSONP) (JSON with Paggings). JSONP provides a method to request data from a server in a different domain, something prohibited by typical web browsers because of the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
 
