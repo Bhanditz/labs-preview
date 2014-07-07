@@ -101,6 +101,82 @@ A collection of facets that describe the resultant dataset.
 
 ## Metadata sets
 
+### Minimal profile
+
+The minimal profile returns the follwoing fields:
+
+| Name in API response | EMD field | Name is searching |
+|:-------------|:-------------|:-----|
+| dataProvider | ore:Aggregation/edm:dataProvider | provider_aggregation_edm_dataProvider |
+| dcCreator | edm:ProvidedCHO/dc:creator | proxy_dc_creator |
+| edmIsShownAt | ore:Aggregation/edm:isShownAt | provider_aggregation_edm_isShownAt |
+| edmPlaceLatitude | edm:Place/wgs84_pos:lat | pl_wgs84_pos_lat |
+| edmPlaceLongitude | edm:Place/wgs84_pos:long | pl_wgs84_pos_long |
+| edmPreview | <br> | europeana_aggregation_edm_preview |
+| europeanaCompleteness | <br> | COMPLETENESS |
+| guid | <br> | <br> |
+| id | <br> | europeana_id |
+| link | <br> | <br> |
+| provider | ore:Aggregation/edm:provider | PROVIDER |
+| rights | ore:Aggregation/edm:rights | RIGHTS |
+| score | <br> | score |
+| title | edm:ProvidedCHO/dc:title, edm:ProvidedCHO/dcterms:alternative | title |
+| type | <br> | TYPE |
+| year | <br> | YEAR |
+
+
+### Standard profile
+
+The standard profile returns all the fields of the minimal profile plus and the following fields:
+
+| Name in API response | EMD field | Name is searching |
+|:-------------|:-------------|:-----|
+| edmConceptTerm | skos:Concept/@rdf:about | skos_concept |
+| edmConceptPrefLabel | skos:Concept/skos:prefLabel | cc_skos_prefLabel |
+| edmConceptBroaderTerm | skos:Concept/skos:broader | cc_skos_broader |
+| edmConceptBroaderLabel | skos:Concept/skos:broader | cc_skos_broader |
+| edmTimespanLabel | edm:TimeSpan/skos:prefLabel | ts_skos_prefLabel |
+| edmTimespanBegin | edm:TimeSpan/edm:begin | ts_edm_begin |
+| edmTimespanEnd | edm:TimeSpan/edm:end | ts_edm_end |
+| edmTimespanBroaderTerm | edm:TimeSpan/dcterms:isPartOf | ts_dcterms_isPartOf |
+| edmTimespanBroaderLabel | edm:TimeSpan/dcterms:isPartOf | ts_dcterms_isPartOf |
+| recordHashFirstSix | <br> | europeana_recordHashFirstSix |
+| ugc | ore:Aggregation/edm:ugc | UGC |
+| completeness | <br> | COMPLETENESS |
+| country | edm:EuropeanaAggregation/edm:country | COUNTRY |
+| europeanaCollectionName | <br> | europeana_collectionName |
+| edmPlaceBroaderTerm | edm:Place/dcterms:isPartOf | pl_dcterms_isPartOf |
+| edmPlaceAltLabel | edm:Place/skos:altLabel | pl_skos_altLabel |
+| dctermsIsPartOf | edm:Place/dcterms:isPartOf | pl_dcterms_isPartOf |
+| timestampCreated | <br> | timestamp_created |
+| timestampUpdate | <br> | timestamp_update |
+| language | edm:EuropeanaAggregation/edm:language | LANGUAGE |
+
+### Portal profile
+
+The portal profile returns all the fields of the standard profile plus and the following fields:
+
+| Name in API response | EMD field | Name is searching |
+|:-------------|:-------------|:-----|
+| dctermsSpatial | edm:ProvidedCHO/dcterms:spatial | proxy_dcterms_spatial |
+| edmPlace | edm:Place/@rdf:about | edm_place |
+| edmTimespan | edm:TimeSpan/@rdf:about | edm_timespan |
+| edmAgent | edm:Agent/@rdf:about | edm_agent |
+| edmAgentLabel | edm:Agent/skos:prefLabel | ag_skos_prefLabel |
+| dcContributor | edm:ProvidedCHO/dc:contributor | proxy_dc_contributor |
+
+
+### Rich profile
+
+The rich profile returns all the fields of the portal profile plus and the following fields:
+
+| Name in API response | EMD field | Name is searching |
+|:-------------|:-------------|:-----|
+| isShownBy | ore:Aggregation/edm:isShownBy | provider_aggregation_edm_isShownBy |
+| dcDescription | edm:ProvidedCHO/dc:description | proxy_dc_description |
+| edmLandingPage | edm:EuropeanaAggregation/edm:landingPage | europeana_aggregation_edm_landingPage |
+
+
 ## Callback Function
 Name of a client side (JavaScript) callback function. If you set a funtion the JSON response will be wrapped by this function call, so it is not JSON, but [JSONP](http://en.wikipedia.org/wiki/JSONP) (JSON with Paggings). JSONP provides a method to request data from a server in a different domain, something prohibited by typical web browsers because of the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
 
