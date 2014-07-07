@@ -30,7 +30,7 @@ Search for records.
 | standard | TBD |
 | facets | Information about [facets](http://labs.europeana.eu/api/repository/#facets) is added. For the records the Standard profile is used. |
 | breadcrumbs | information about the query is added in the form of [breadcrumbs](http://labs.europeana.eu/api/search/#breadcrumb). Facets are added as well; for the records the Standard profile is used. |
-| portal | Standard, Facets, and Breadcrumb combined |
+| portal | `standard`, `facets`, and `breadcrumb` combined |
 | params | The header of the response will contain a params key, which lists the requested and default parameters of the API call. |
 
 ## Response
