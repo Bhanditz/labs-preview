@@ -8,7 +8,7 @@ excerpt: Retrieving a single record from the dataset
 * TOC
 {:toc}
 
-Retrieve a single record from the Europeana dataset. On the relation between EDM and records read [this](http://labs.europeana.eu/api/data-hierarchy/#edm_and_records).
+Retrieve a single record from the Europeana dataset. On the relation between EDM and records read [this](http://labs.europeana.eu/api/data-hierarchy/#edm-and-records).
 
     http://europeana.eu/api/v2/record/[recordID].json
     
@@ -44,7 +44,7 @@ Retrieve a single record from the Europeana dataset. On the relation between EDM
 | optOut | Boolean | Flag indicating whether the provider allowed retrieval of thumbnail of the record |
 | places | Array([Place](edm_#Place)) | A collection of EDM Place objects contextually related to the object. Find more in the EDM Definition. |
 | provider | Array(String) | A singleton collection with the name of the organization that delivered this object to Europeana. |
-| providedCHOs | Array([ProvidedCHO](#edm_ProvidedCHO)) | A collection of Provided Cultural Heritage Objects related to the record. Find more in the EDM Definition. |
+| providedCHOs | Array([ProvidedCHO](#edm-ProvidedCHO)) | A collection of Provided Cultural Heritage Objects related to the record. Find more in the EDM Definition. |
 | proxies | Array([Proxy](#Proxy)) | A collection of proxy objects for Provided Cultural Heritage Objects. Find more in the EDM Definition. |
 | timespans | Array([TimeSpan](#TimeSpan)) | A collection of EDM TimeSpan objects contextually related to the object. Find more in the EDM Definition. |
 | timestamp_created_epoch | Number | Unix time of the date when the object was created. |
