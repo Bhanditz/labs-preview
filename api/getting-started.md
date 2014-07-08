@@ -114,7 +114,7 @@ function processEuropeanaSearch(json){
   alert(json.object.title.join(', '));
 }
 </script>
-<script src="http://www.europeana.eu/api/v2/record/0000/1111.json?wskey=xxxx&profile=similar&callback=processEuropeanaSearch"></script>
+<script src="http://europeana.eu/api/v2/record/0000/1111.json?wskey=xxxx&callback=processEuropeanaSearch"></script>
 ```
 
 Of course in this example we didn't do any rocket science with the returned Europeana record, it is your turn to do some fascinating thing.
