@@ -62,4 +62,42 @@ The following HTTP status codes are returned:
 
 ## Callback Function
 
-TBD
+Name of a client side (JavaScript) callback function. If you set a funtion the JSON response will be wrapped by this function call, so it is not JSON, but [JSONP](http://en.wikipedia.org/wiki/JSONP) (JSON with Paggings). JSONP provides a method to request data from a server in a different domain, something prohibited by typical web browsers because of the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
+
+> "Under the same origin policy, a web page served from server1.example.com cannot normally connect to or communicate with a server other than server1.example.com. An exception is the HTML script element. Exploiting the open policy for script elements, some pages use them to retrieve JavaScript code that operates on dynamically generated JSON-formatted data from other origins. This usage pattern is known as JSONP. Requests for JSONP retrieve not JSON, but arbitrary JavaScript code. They are evaluated by the JavaScript interpreter, not parsed by a JSON parser." (Wikipedia: [JSONP](http://en.wikipedia.org/wiki/JSONP))
+
+A callback can be added to any JSON-based call by appending &callback=callbackname to the call, where the callbackname should be an existing JavaScript function existing on the client side. The API returns JSONP response, like this one:
+
+    /api/v2/record/[record ID].json?wskey=xxxx&profile=similar&**callback=processEuropeanaSearch**
+
+returns
+
+```JavaScript
+processEuropeanaSearch({
+  "apikey":"xxxxx",
+  "action":"record.json",
+  "success":true,
+  "statsDuration":22,
+  "requestNumber":8,
+  "object":{
+    "type":"TEXT",
+    "title":["Bibliotheca Indica"],
+    "about":"[record ID]",
+    ....
+  }
+})
+```
+
+The JSON response is wrapped into your function, and the function use JSON as input parameter, and it immediatelly runs when it returns. In your client you have to define the callback function before you call the API. A client side example:
+
+```HTML
+<script>
+function processEuropeanaSearch(json){
+  alert(json.object.title.join(', '));
+}
+</script>
+<script src="http://www.europeana.eu/api/v2/record/9200143/41CCA52E2986E491BBA631D4899768A5002C455A.json?wskey=xxxx&profile=similar&callback=processEuropeanaSearch"></script>
+```
+
+Of course in this example we didn't do any rocket science with the returned Europeana record, it is your turn to do some fascinating thing.
+
