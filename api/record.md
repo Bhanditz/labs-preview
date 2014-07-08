@@ -16,8 +16,8 @@ Retrieve a single record from the Europeana dataset. On the relation between EDM
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
-| recordID | String | [Europeana ID](http://labs.europeana.eu/api/data-hierarchy/#identifying_records) of the record to retrieve. |
-| callback | String | Name of a [client side callback function](http://labs.europeana.eu/api/search/#callback_function). |
+| recordID | String | [Europeana ID](http://labs.europeana.eu/api/data-hierarchy/#identifying-records) of the record to retrieve. |
+| callback | String | Name of a [client side callback function](http://labs.europeana.eu/api/search/#callback-function). |
 
 
 ## Response
@@ -32,12 +32,12 @@ Retrieve a single record from the Europeana dataset. On the relation between EDM
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
-| about | String | [Europeana ID](http://labs.europeana.eu/api/data-hierarchy/#identifying_records) of the returned object.|
-| agents | Array([Agent](#edm_agent)) | A collection of EDM Agent objects contextually related to the object. Find more in the EDM Definition. |
-| aggregations | Array([Aggregation](#edm_aggregation)) | A collection of EDM Aggregation objects related to the object. Find more in the EDM Definition. |
-| concepts | Array([Concept](#edm_concept)) | A collection of EDM Concept objects contextually related to the object. Find more in the EDM Definition. |
+| about | String | [Europeana ID](http://labs.europeana.eu/api/data-hierarchy/#identifying-records) of the returned object.|
+| agents | Array([Agent](#edm-agent)) | A collection of EDM Agent objects contextually related to the object. Find more in the EDM Definition. |
+| aggregations | Array([Aggregation](#edm-aggregation)) | A collection of EDM Aggregation objects related to the object. Find more in the EDM Definition. |
+| concepts | Array([Concept](#edm-concept)) | A collection of EDM Concept objects contextually related to the object. Find more in the EDM Definition. |
 | country | Array(String) | TBD |
-| europeanaAggregation | Array([EuropeanaAggregation](#edm_EuropeanaAggregation)) | A collection of EDM Europeana Aggregation objects related to the object. Find more in the EDM Definition.|
+| europeanaAggregation | Array([EuropeanaAggregation](#edm-EuropeanaAggregation)) | A collection of EDM Europeana Aggregation objects related to the object. Find more in the EDM Definition.|
 | europeanaCollectionName | Array(String) | A collection of names of the datasets the object belongs to. |
 | europeanaCompleteness | Number | A number between 0 and 10 representing the metadata quality of the object. |
 | language | Array(String) | A singleton collection with the language of the object. |
