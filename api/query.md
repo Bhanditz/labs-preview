@@ -77,7 +77,7 @@ To search for objects by their geographic location you should specify the boundi
 
 [Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=pl_wgs84_pos_lat:[45%20TO%2047]%20AND%20pl_wgs84_pos_long:[7%20TO%208])
 
-## Date Search
+## Timestamp Search
 
 One can also search objects by date. Currently, full-fledge date search is supported only for the fields storing the creation (timestamp_created) and update (timestamp_update) dates of the objects which are available in two formats: the UNIX epoch timestamp and the ISO 8601 formatted date. To search for objects created or updated on a given date, use the following query:
 
