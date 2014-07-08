@@ -21,6 +21,7 @@ Search for records.
 | rows | Number | The number of records to return. Maximum is 100. Defaults to 12. |
 | start | Number | The item in the search results to start with. The first item is 1. Defaults to 1. |
 | callback | String | Name of a client side [callback function](#callback-function). |
+| reusability | String | Filter by copyright status. Possible values are open, restricted or permission, see [reusability parameters](#reusability-parameters). |
 | facet | String | Name of an individual facet. See [individual facets](#individual-facets) |
 | f.[facet name].facet.limit | Number | Number of values an individual facet should contain. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#individual-facets) |
 | f.[facet name].facet.offset | Number | The offset of the first value in an individual facet. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#individual-facets) |
@@ -38,6 +39,13 @@ We have two profile types: one to control which fields of the record should be i
 | breadcrumbs | information about the query is added in the form of [breadcrumbs](http://labs.europeana.eu/api/search/#breadcrumb). Facets are added as well; for the records the Standard profile is used. |
 | params | The header of the response will contain a params key, which lists the requested and default parameters of the API call. |
 | portal | `standard`, `facets`, and `breadcrumb` combined, plus additional fields over `standard` metadata set.  See [metadata sets](http://labs.europeana.eu/api/search/#metadata-sets). |
+
+### The possible values of the reusability parameter
+| Value | Description |
+|:------|:------------|
+| open | The records are freely reusable. The licenses in this category are [NOC](http://creativecommons.org/publicdomain/mark/), [CC-ZERO](http://creativecommons.org/publicdomain/zero/1.0/), [CC-BY](http://creativecommons.org/licenses/by/), [CC-BY-SA](http://creativecommons.org/licenses/by-sa/) |
+| restricted | The records are reusable, but with restrictions. The licenses in this category are [CC-BY-NC](http://creativecommons.org/licenses/by-nc/), [CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/), [CC-BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/), [CC-BY-ND](http://creativecommons.org/licenses/by-nd/), [OOC-NC](http://www.europeana.eu/rights/out-of-copyright-non-commercial/) |
+| permission | You can reuse the records only with explicit permission. |
 
 ## Response
 
