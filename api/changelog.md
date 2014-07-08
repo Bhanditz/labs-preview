@@ -91,14 +91,15 @@ returns
 New values in search and full record responses, giving information about when the particular record was created and updated. We provide these information both as UNIX timestamp, and as a more human readable ISO 8601 format (ISO 8601 Data elements and interchange formats – Information interchange – Representation of dates and times.http://en.wikipedia.org/wiki/ISO_8601).
 
 * __timestamp_created_epoch__: UNIX timestamp of the date when record were created
-* timestamp_update_epoch: UNIX timestamp of the date when record were last updated
-* timestamp_created: ISO 8601 format of the date when record were created
-* timestamp_update: ISO 8601 format of the date when record were last updated
+* __timestamp_update_epoch__: UNIX timestamp of the date when record were last updated
+* __timestamp_created__: ISO 8601 format of the date when record were created
+* __timestamp_update__: ISO 8601 format of the date when record were last updated
 
 Examples
 
 Search response:
 
+```JavaScript
 {
   "apikey": "xxxxxxxxxx",  
   "action": "search.json",  
@@ -116,9 +117,11 @@ Search response:
   ],
   ...
 }
+```
 
 Record response:
 
+```JavaScript
 {
   "apikey": "xxxxxxxxxx",  
   "action": "record.json",  
@@ -132,43 +135,56 @@ Record response:
   },
   ...
 }
+```
 
 You even search for this information:
 
 Searching for a particular date:
 
+```
 &query=timestamp_created:"2013-03-16T20:26:27.168Z"
 &query=timestamp_updated:"2013-03-16T20:26:27.168Z"
+```
 
 searching for date range (as [date1 TO date2]):
 
+```
 &query=timestamp_created:["2013-03-15T19:58:36.43Z"+TO+"2013-04-15T19:58:36.43Z"]
 &query=timestamp_updated:["2013-03-15T19:58:36.43Z"+TO+"2013-04-15T19:58:36.43Z"]
+```
 
 Solr's date mathematics is also works:
 [xxx TO NOW] = untill now:
 
+```
 &query=timestamp_created:[2013-10-06T23:59:59.999Z+TO+NOW]
 &query=timestamp_updated:[2013-10-06T23:59:59.999Z+TO+NOW]
+```
 
 [xxx TO NOW+1DAY] = untill tomorrow:
 
+```
 &query=timestamp_created:[2013-10-06T23:59:59.999Z+TO+NOW%2B1DAY]
 &query=timestamp_updated:[2013-10-06T23:59:59.999Z+TO+NOW%2B1DAY]
+```
 
 [xxx TO NOW-1DAY] = untill yesterday:
 
+```
 &query=timestamp_created:[2013-10-06T23:59:59.999Z+TO+NOW-1DAY]
 &query=timestamp_updated:[2013-10-06T23:59:59.999Z+TO+NOW-1DAY]
+```
 
 [NOW-2MONTH/DAY TO NOW/DAY] = last two months:
 
+```
 &query=timestamp_created:[NOW-2MONTH/DAY+TO+NOW/DAY]
 &query=timestamp_updated:[NOW-2MONTH/DAY+TO+NOW/DAY]
+```
 
-Keep in mind, that + sign should be encoded as %2B, otherwise it will be taken as space, and results an invalid Solr query. More on Solr date math syntax:
-http://lucene.apache.org/solr/4_6_0/solr-core/org/apache/solr/util/DateMathParser.html
-Retrieving individual facets
+Keep in mind, that + sign should be encoded as %2B, otherwise it will be taken as space, and results an invalid Solr query. More on Solr date math syntax: (http://lucene.apache.org/solr/4_6_0/solr-core/org/apache/solr/util/DateMathParser.html)
+
+### Retrieving individual facets
 
 So far the user could get the default facets Europeana set. From now on the API users can select which facets they would like to retrieve. We have introduced a new parameter: facet. When you request facet you have to set the profile either as facets or as portal (which covers facets as well).
 
@@ -183,15 +199,15 @@ Requesting a single facet:
 
 Requesting multiple facets can be done with three different syntaxes. You can add multiple facet parameters, or one facet parameter with multiple values separated by commas or spaces:
 
-    multiple facet parameters
+multiple facet parameters
 
     &facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets
 
-    multiple facets separated by commas
+multiple facets separated by commas
 
     &facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets
 
-    multiple facets separated by spaces
+multiple facets separated by spaces
 
     &facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets
 
@@ -207,7 +223,7 @@ Requesting the default facets:
 
 Combining default facets with custom facets:
 
-&facet=DEFAULT+proxy_dc_contributor&profile=facets
+    &facet=DEFAULT+proxy_dc_contributor&profile=facets
 
 Offset and limit of facets
 
