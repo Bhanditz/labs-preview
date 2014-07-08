@@ -90,7 +90,7 @@ returns
 
 New values in search and full record responses, giving information about when the particular record was created and updated. We provide these information both as UNIX timestamp, and as a more human readable ISO 8601 format (ISO 8601 Data elements and interchange formats – Information interchange – Representation of dates and times.http://en.wikipedia.org/wiki/ISO_8601).
 
-* *timestamp_created_epoch*: UNIX timestamp of the date when record were created
+* __timestamp_created_epoch__: UNIX timestamp of the date when record were created
 * timestamp_update_epoch: UNIX timestamp of the date when record were last updated
 * timestamp_created: ISO 8601 format of the date when record were created
 * timestamp_update: ISO 8601 format of the date when record were last updated
