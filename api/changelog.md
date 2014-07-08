@@ -232,10 +232,66 @@ The API user can set how many facet values she would like to retrieve, and which
     f.[facet name].facet.limit such as &f.PROVIDER.facet.limit=30
     f.[facet name].facet.offset such as &f.PROVIDER.facet.offset=30
 
-Both parameter accepts numeric values.
+Both parameters accept numeric values.
 
 The default offset value is 0, it means no offset, the first item to return is the first item in the list. 1 offset the list by one, so the first item to return is the second and so on.
 
 In limit 0 means not to return anything.
 
 The special DEFAULT shortcut works here as well, and it limit the facets which are part of the above mentioned set. So &f.DEFAULT.facet.limit=20 works for RIGHTS, and PROVIDER, but doesn't work for non default facets such as proxy_dc_contributor.
+
+## Version 2-0-12 (2014-06-18)
+
+### /v2/translateQuery.json
+
+Translate a term to different languages. Right now this functionality is a wrapper around an Wikipeadia API call, but we work on other implementation.
+
+WARNING: Right now it is in alpha phase of the development, do not rely in production service!
+
+Request parameters:
+
+| wskey | String |Your API key |
+| languageCodes | String | The ISO language codes separated by commas or spaces |
+| term | String | The term to translate |
+
+Returns
+
+| translations | Array | A list of translations. Each translation contains two fields:<br>text: the text of the translation<br>languageCode: the ISO language code of the translation |
+| translatedQuery | String | A query string where each translations are concatenated by the boolean OR operator. |
+
+Example
+
+Get the translations of Notre Dame
+
+    http://europeana.eu/api/v2/translateQuery.json?languageCodes=nl,en,hu&wskey=xxxxxxxx&term=notre%20dame
+
+It returns
+
+```JavaScript
+{
+  "apikey": "xxxxxxxx",
+  "action": "translateQuery.json",
+  "success": true,
+  "requestNumber": 8957,
+  "translations": [
+    {
+      "text": "Notre-Dame",
+      "languageCode": "nl"
+    },
+    {
+      "text": "Notre Dame",
+      "languageCode": "en"
+    },
+    {
+      "text": "Notre Dame",
+      "languageCode": "de"
+    }
+  ],
+  "translatedQuery": "Notre-Dame OR \"Notre Dame\""
+}
+```
+
+### Renaming field "europeanaCollectionName" to "edmDatasetName"
+
+Following the change in Europeana Data Model schema, we add edmDatasetName with the same content as the europeanaCollectionName. For a grace period we keep both fields, but next year we will return only edmDatasetName, so please update your API client. The field is available in search, object and provider calls.
+
