@@ -102,8 +102,8 @@ Each item is a search result and is represented by a summary of its metadata rec
 | edmLandingPage | Array (String) | This property captures the relation between an aggregation representing a cultural heritage object and the Web resource representing that object on the provider’s web site. |
 | timestamp_created_epoch | Number | UNIX timestamp of the date when record were created |
 | timestamp_update_epoch | Number | UNIX timestamp of the date when record were last updated |
-| timestamp_created | String | ISO 8601 format of the date when record were created |
-| timestamp_update | String | ISO 8601 format of the date when record were last updated |
+| timestamp_created | String | [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) format of the date when record were created |
+| timestamp_update | String | [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) format of the date when record were last updated |
 
 ### breadcrumb
 
