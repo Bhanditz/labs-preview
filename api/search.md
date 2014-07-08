@@ -20,7 +20,10 @@ Search for records.
 | qf | String | Facet filtering query. This parameter can be defined more than once. See [Query Syntax](http://labs.europeana.eu/api/query) page for more information. |
 | rows | Number | The number of records to return. Maximum is 100. Defaults to 12. |
 | start | Number | The item in the search results to start with. The first item is 1. Defaults to 1. |
-| callback| String| Name of a client side [callback function](#callback_function).|
+| callback | String | Name of a client side [callback function](#callback-function). |
+| facet | String | Name of an individual facet. See [individual facets](#custom-facets) |
+| f.[facet name].facet.limit | Number | Number of values an individual facet should contain. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#custom-facets) |
+| f.[facet name].facet.offset | Number | The offset of the first value in an individual facet. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#custom-facets) |
 
 ### The possible values of the profile parameter
 
@@ -202,6 +205,87 @@ The rich profile returns all the fields of the portal profile plus and the follo
 | dcDescription | edm:ProvidedCHO/dc:description | proxy_dc_description |
 | edmLandingPage | edm:EuropeanaAggregation/edm:landingPage | europeana_aggregation_edm_landingPage |
 
+## Individual facets
+
+So far the user could get only the default Europeana facet set. From now on API users can select which facets they would like to retrieve via the `facet` parameter. When you request facet you have to set the profile either as `facets` or as `portal` (which covers facets as well).
+
+The value of the parameter could be "DEFAULT" (which is a shortcut of the Europeana facet set we make use on the portal, which contains UGC, LANGUAGE, TYPE, YEAR, PROVIDER, DATA_PROVIDER, COUNTRY and RIGHTS), or any field name which is indexed and stored in Apache Solr.
+We maintain a table in API documentation about the existing fields: http://labs.europeana.eu/api/api-fields.html. In the field type column "text" means indexed as as a row of distinct terms, while "string" means indexed as phrase, so the whole content is taken as one individual unit.
+
+Users can set one or more facets in one query.
+
+Requesting a single facet:
+
+    &facet=proxy_dc_contributor&profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_contributor&profile=facets
+
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_contributor&profile=facets)
+    
+Requesting multiple facets can be done with three different syntaxes. You can add multiple facet parameters, or one facet parameter with multiple values separated by commas or spaces:
+
+Multiple facet parameters:
+
+    &facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets)
+
+Multiple facets separated by commas
+
+    &facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets)
+
+Multiple facets separated by spaces
+
+    &facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
+
+    &facet=proxy_dc_coverage+proxy_dc_contributor&profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage+proxy_dc_contributor&profile=facets
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
+
+Requesting the default facets:
+
+    &profile=portal
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&profile=portal
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&profile=portal)
+
+    &profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&profile=facets
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&profile=facets)
+
+    &facet=DEFAULT&profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=DEFAULT&profile=facets
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=DEFAULT&profile=facets)
+
+Combining default facets with custom facets:
+
+    &facet=DEFAULT+proxy_dc_contributor&profile=facets
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=DEFAULT+proxy_dc_contributor&profile=facets
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=DEFAULT%20proxy_dc_contributor&profile=facets)
+
+### Offset and limit of facets
+
+The API user can set how many facet values she would like to retrieve, and which should be the first one. With this parameters, she can page over all facet values without requesting too much at a time. The limit and offset parameter syntax is a little bit tricky, but if you are familiar with Apache Solr syntax, it won't be strange, because it is the same.
+
+    Syntax: f.[facet name].facet.limit
+    Example: &f.PROVIDER.facet.limit=30
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30)
+
+    Syntax: f.[facet name].facet.offset
+    Example: &f.PROVIDER.facet.offset=30
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30)
+
+Both parameter accepts numeric values.
+
+The default offset value is 0, it means no offset, the first item to return is the first item in the list. 1 offset the list by one, so the first item to return is the second and so on.
+
+In limit 0 means not to return anything.
+
+The special `DEFAULT` shortcut works here as well, and it limit the facets which are part of the above mentioned set. So `&f.DEFAULT.facet.limit=20` works for RIGHTS, and PROVIDER, but doesn't work for non default facets such as proxy_dc_contributor.
 
 ## Callback Function
 Name of a client side (JavaScript) callback function. If you set a funtion the JSON response will be wrapped by this function call, so it is not JSON, but [JSONP](http://en.wikipedia.org/wiki/JSONP) (JSON with Paggings). JSONP provides a method to request data from a server in a different domain, something prohibited by typical web browsers because of the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
