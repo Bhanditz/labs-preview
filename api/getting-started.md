@@ -59,6 +59,23 @@ The following HTTP status codes are returned:
 | 429 | The request could be served because the application has reached its usage limit. |
 | 500 | Internal Server Error. Something has gone wrong, tell us!|
 
+## Namespaces
+
+In the documentation we sometime refer to namespace prefixes, such as dc, skos, edm. Here we list all the namespace prefixes and URIs.
+
+| prefix | Namespace URI | More info |
+|:-------|:--------------|:----------|
+| dc | http://purl.org/dc/elements/1.1/ | Dublin Core |
+| dcterms | http://purl.org/dc/terms/ | Dublin Core Mmetadata Initiative (DCMI) Metadata Terms http://dublincore.org/documents/2012/06/14/dcmi-terms/ |
+| edm | http://www.europeana.eu/schemas/edm/ | Europeana Data Model |
+| foaf | http://xmlns.com/foaf/0.1/ | FOAF (Friend of a Friend) Vocabulary http://xmlns.com/foaf/spec/ |
+| ore | http://www.openarchives.org/ore/terms/ | Open Archives Initiative Object Reuse and Exchange http://www.openarchives.org/ore/1.0/ |
+| owl | http://www.w3.org/2002/07/owl# | OWL Web Ontology Language |
+| rdaGr2 | http://rdvocab.info/ElementsGr2/ | RDA Group 2 elements. http://metadataregistry.org/schema/show/id/15.html |
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# | Resource Description Framework |
+| skos | http://www.w3.org/2004/02/skos/core# | Simple Knowledge Organization System http://www.w3.org/2009/08/skos-reference/skos.html |
+| wgs84 | http://www.w3.org/2003/01/geo/wgs84_pos# | WGS84 Geo Positioning http://www.w3.org/2003/01/geo/ |
+
 
 ## Callback Function
 
