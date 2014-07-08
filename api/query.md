@@ -5,7 +5,7 @@ published: true
 excerpt: Search query syntax supported by the API
 ---
 
-Internally, Europeana uses [Apache SOLR](http://lucene.apache.org/solr/) platform to store its data and thus [Apache Lucene Query Syntax](https://lucene.apache.org/core/4_1_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description) is supported by queries. Advanced users are encouraged to use Lucene and Apache SOLR guides to get most out of the Europeana repository. For others, we supply a basic guide for querying Europeana.
+Internally, Europeana uses [Apache Solr](http://lucene.apache.org/solr/) platform to store its data and thus [Apache Lucene Query Syntax](https://lucene.apache.org/core/4_1_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package_description) is supported by queries. Advanced users are encouraged to use Lucene and Apache SOLR guides to get most out of the Europeana repository. For others, we supply a basic guide for querying Europeana.
 
 ## Basic Search
 
@@ -147,6 +147,7 @@ Changes in the last two months
 
 [Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=timestamp_created:[NOW-3MONTH/DAY%20TO%20NOW/DAY])
 
+You can find more about data mathematics at [Solr's API documentation](http://lucene.apache.org/solr/4_6_0/solr-core/org/apache/solr/util/DateMathParser.html)
 
 ## Refinements
 
@@ -170,9 +171,9 @@ Querying by [facets](http://labs.europeana.eu/api/search/#facet) is also done us
 
 Here are more examples of faceted search. Looking for objects containing the term _Paris_ among objects described in _French_:
 
-    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&qf=LANGUAGE:FR
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&qf=LANGUAGE:fr
 
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=Paris&qf=LANGUAGE:FR)
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=Paris&qf=LANGUAGE:fr)
 
 Looking for objects containing the term _Paris_ among objects dated by the year _1789_:
 
@@ -196,7 +197,7 @@ Looking for objects containing the term _Paris_ among objects provided by _The E
 
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&qf=PROVIDER:The+European+Library
 
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=Paris&qf=PROVIDER:The+European+Library)
+[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=Paris&qf=PROVIDER:%22The%20European%20Library%22)
     
 Looking for objects containing the term _Paris_ among objects provided by the user community:
 
