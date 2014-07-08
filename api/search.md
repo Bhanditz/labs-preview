@@ -56,14 +56,14 @@ Each item is a search result and is represented by a summary of its metadata rec
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
 | europeanaCompleteness | Number | A number from 1 to 10 that is an internal measure of the metadata quality. It is based on the availability of mandatory and optional schema fields. |
-| dataProvider<sup>\*</sup> | Array (String) | The names of Europeana Data Providers who provided the object. |
-| europeanaCollectionName<sup>\*</sup> | Array (String) | The names of the Europeana collections that contain the item |
-| id<sup>\*</sup> | String | The Europeana ID of the record. |
-| guid<sup>\*</sup> | String | A link to the object page on the Europeana portal to be used by client applications. |
-| link<sup>\*</sup> | String | A link to the API object call. This link should be used to retrieve the full metadata object. |
-| provider<sup>\*</sup> | String | The name or identifier of the provider of the object.|
-| rights<sup>\*</sup> | Array (String) | A collection of URLs referring to the object rights. |
-|type<sup>\*</sup> | String | The type of the provided object (TEXT, VIDEO, SOUND, IMAGE, 3D) |
+| dataProvider | Array (String) | The names of Europeana Data Providers who provided the object. |
+| europeanaCollectionName | Array (String) | The names of the Europeana collections that contain the item |
+| id | String | The Europeana ID of the record. |
+| guid | String | A link to the object page on the Europeana portal to be used by client applications. |
+| link | String | A link to the API object call. This link should be used to retrieve the full metadata object. |
+| provider | String | The name or identifier of the provider of the object.|
+| rights | Array (String) | A collection of URLs referring to the object rights. |
+| type | String | The type of the provided object (TEXT, VIDEO, SOUND, IMAGE, 3D) |
 | dcCreator | Array (String) | A collection entities primarily responsible for making the resource. |
 | edmConceptLabel | String | The label of the SKOS Concept of the record. Find more in [EDM Definition](http://pro.europeana.eu/documents/900548/bb6b51df-ad11-4a78-8d8a-44cc41810f22) |
 | edmPreview | String | A link to the representation of the object on Europeana. |
@@ -71,32 +71,32 @@ Each item is a search result and is represented by a summary of its metadata rec
 | language | Array (String) | Languages assigned to the resource with reference to the Provider.  Usually, this field contains the languages of the metadata of the record. |
 | title | Array (String) | The main and alternative titles of the item. |
 | year | Array (String) | A point of time associated with an event in the life of the original analog or born digital object. Find more in [EDM Definition](http://pro.europeana.eu/documents/900548/bb6b51df-ad11-4a78-8d8a-44cc41810f22) |
-| edmIsShownAt | Array (String) |  |
-| edmPlaceLatitude | Array (String) | Latitude position. |
-| edmPlaceLongitude | Array (String) | Longitude positiong. |
+| edmIsShownAt | Array (String) | The URL of a web view of the object in full information context. |
+| edmPlaceLatitude | Array (String) | The latitude of a spatial thing (decimal degrees). |
+| edmPlaceLongitude | Array (String) | The longitude of a spatial thing (decimal degrees). |
 | score | Number | The relevancy score calculated by the search engine. Depends of the query. |
-| edmConceptTerm | Array (String) | skos_concept |
-| edmConceptPrefLabel |  | cc_skos_prefLabel |
-| edmConceptBroaderTerm | Array (String) | cc_skos_broader |
-| edmConceptBroaderLabel |  | cc_skos_broader |
-| edmTimespanBegin | Array (String) | ts_edm_begin |
-| edmTimespanEnd | Array (String) | ts_edm_end |
+| edmConceptTerm | Array (String) | A SKOS Concept. |
+| edmConceptPrefLabel |  | The preferred form of the name of the concept. |
+| edmConceptBroaderTerm | Array (String) | The identifier of a broader concept in the same thesaurus or controlled vocabulary |
+| edmConceptBroaderLabel |  | A human readable name of a broader concept. |
+| edmTimespanBegin | Array (String) | The date the timespan started. |
+| edmTimespanEnd | Array (String) | The date the timespan finished. |
 | edmTimespanBroaderTerm | Array (String) | ts_dcterms_isPartOf |
 | edmTimespanBroaderLabel | edm:TimeSpan/dcterms:isPartOf | ts_dcterms_isPartOf |
 | ugc | Array (Boolnean) | Whether or not has user generated contents in the record |
-| country | Array (String) | COUNTRY |
+| country | Array (String) | The name of the country in which the Provider is based or “Europe” in the case of Europe-wide projects. |
 | edmPlaceBroaderTerm | Array (String) | pl_dcterms_isPartOf |
-| edmPlaceAltLabel |  | pl_skos_altLabel |
-| dctermsIsPartOf | Array (String) | pl_dcterms_isPartOf |
-| dctermsSpatial | Array (String) | proxy_dcterms_spatial |
-| edmPlace | Array (String) | edm_place |
-| edmTimespan | Array (String) | edm_timespan |
-| edmAgent | Array (String) | edm_agent |
-| edmAgentLabel |  | ag_skos_prefLabel |
-| dcContributor | Array (String) | proxy_dc_contributor |
-| isShownBy | Array (String) | provider_aggregation_edm_isShownBy |
-| dcDescription | Array (String) | proxy_dc_description |
-| edmLandingPage | Array (String) | europeana_aggregation_edm_landingPage |
+| edmPlaceAltLabel |  | Alternative forms of the name of the place. |
+| dctermsIsPartOf | Array (String) | A related resource in which the described resource is physically or logically included. |
+| dctermsSpatial | Array (String) | Spatial characteristics of the resource. |
+| edmPlace | Array (String) | The URI of an EDM Place object. |
+| edmTimespan | Array (String) | The URI of an EDM Timespan object. |
+| edmAgent | Array (String) | The URI of an EDM Agent object |
+| edmAgentLabel |  | Name of the agent. |
+| dcContributor | Array (String) | An entity responsible for making contributions to the resource. |
+| isShownBy | Array (String) | The URL of a web view of the object. |
+| dcDescription | Array (String) | A description of the resource. |
+| edmLandingPage | Array (String) | This property captures the relation between an aggregation representing a cultural heritage object and the Web resource representing that object on the provider’s web site. |
 | timestamp_created_epoch | Number | UNIX timestamp of the date when record were created |
 | timestamp_update_epoch | Number | UNIX timestamp of the date when record were last updated |
 | timestamp_created | String | ISO 8601 format of the date when record were created |
