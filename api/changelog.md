@@ -250,12 +250,16 @@ WARNING: Right now it is in alpha phase of the development, do not rely in produ
 
 Request parameters:
 
+| Parameter | Datatype | Description |
+|:-------------|:-------------|:-----|
 | wskey | String |Your API key |
 | languageCodes | String | The ISO language codes separated by commas or spaces |
 | term | String | The term to translate |
 
 Returns
 
+| Name | Datatype | Description |
+|:--------|:-------------|:-----|
 | translations | Array | A list of translations. Each translation contains two fields:<br>text: the text of the translation<br>languageCode: the ISO language code of the translation |
 | translatedQuery | String | A query string where each translations are concatenated by the boolean OR operator. |
 
