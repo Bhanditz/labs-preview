@@ -238,42 +238,50 @@ Multiple facet parameters:
 
     &facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets)
 
 Multiple facets separated by commas
 
     &facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets)
 
 Multiple facets separated by spaces
 
     &facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
 
     &facet=proxy_dc_coverage+proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage+proxy_dc_contributor&profile=facets
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
 
 Requesting the default facets:
 
     &profile=portal
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&profile=portal
+
 [Test on API Console](/api/console/?function=search&query=paris&profile=portal)
 
     &profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&profile=facets
+
 [Test on API Console](/api/console/?function=search&query=paris&profile=facets)
 
     &facet=DEFAULT&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=DEFAULT&profile=facets
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=DEFAULT&profile=facets)
 
 Combining default facets with custom facets:
 
     &facet=DEFAULT+proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=DEFAULT+proxy_dc_contributor&profile=facets
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=DEFAULT%20proxy_dc_contributor&profile=facets)
 
 ### Offset and limit of facets
@@ -283,11 +291,13 @@ The API user can set how many facet values she would like to retrieve, and which
     Syntax: f.[facet name].facet.limit
     Example: &f.PROVIDER.facet.limit=30
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30)
 
     Syntax: f.[facet name].facet.offset
     Example: &f.PROVIDER.facet.offset=30
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30
+
 [Test on API Console](/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30)
 
 Both parameter accepts numeric values.
