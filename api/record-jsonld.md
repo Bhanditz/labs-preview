@@ -1,3 +1,10 @@
+---
+layout: "api-page"
+title: Record in JSON-LD
+published: true
+excerpt: Retrieving a single record from the dataset in JSON-LD format
+---
+
 ## JSON-LD
 
 JSON-LD is stands for JSON for Linking Data, and is lightweight Linked Data format.
