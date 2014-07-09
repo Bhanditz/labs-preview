@@ -15,9 +15,9 @@ Search for records.
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
-| query | String | The search term(s). See [Query Syntax](http://labs.europeana.eu/api/query) for information on forming complex queries and examples. |
+| query | String | The search term(s). See [Query Syntax](/api/query) for information on forming complex queries and examples. |
 | profile | String | Profile parameter controls the format and richness of the response. See [the possible values of the profile parameter](#the-possible-values-of-the-profile-parameter). |
-| qf | String | Facet filtering query. This parameter can be defined more than once. See [Query Syntax](http://labs.europeana.eu/api/query) page for more information. |
+| qf | String | Facet filtering query. This parameter can be defined more than once. See [Query Syntax](/api/query) page for more information. |
 | rows | Number | The number of records to return. Maximum is 100. Defaults to 12. |
 | start | Number | The item in the search results to start with. The first item is 1. Defaults to 1. |
 | callback | String | Name of a client side [callback function](#callback-function). |
@@ -32,13 +32,13 @@ We have two profile types: one to control which fields of the record should be i
 
 | Value | Description |
 |:------|:------------|
-| minimal | Returns minimal set of metadata. See [metadata sets](http://labs.europeana.eu/api/search/#metadata-sets). |
-| standard | Returns a boarder set of metadata. See [metadata sets](http://labs.europeana.eu/api/search/#metadata-sets). |
-| rich | Returns the broadest set of metadata. See [metadata sets](http://labs.europeana.eu/api/search/#metadata-sets). |
-| facets | Information about [facets](http://labs.europeana.eu/api/repository/#facets) is added. For the records the Standard profile is used. |
-| breadcrumbs | information about the query is added in the form of [breadcrumbs](http://labs.europeana.eu/api/search/#breadcrumb). Facets are added as well; for the records the Standard profile is used. |
+| minimal | Returns minimal set of metadata. See [metadata sets](/api/search/#metadata-sets). |
+| standard | Returns a boarder set of metadata. See [metadata sets](/api/search/#metadata-sets). |
+| rich | Returns the broadest set of metadata. See [metadata sets](/api/search/#metadata-sets). |
+| facets | Information about [facets](/api/repository/#facets) is added. For the records the Standard profile is used. |
+| breadcrumbs | information about the query is added in the form of [breadcrumbs](/api/search/#breadcrumb). Facets are added as well; for the records the Standard profile is used. |
 | params | The header of the response will contain a params key, which lists the requested and default parameters of the API call. |
-| portal | `standard`, `facets`, and `breadcrumb` combined, plus additional fields over `standard` metadata set.  See [metadata sets](http://labs.europeana.eu/api/search/#metadata-sets). |
+| portal | `standard`, `facets`, and `breadcrumb` combined, plus additional fields over `standard` metadata set.  See [metadata sets](/api/search/#metadata-sets). |
 
 ### The possible values of the reusability parameter
 
@@ -50,7 +50,7 @@ We have two profile types: one to control which fields of the record should be i
 
 ## Response
 
-For the common data fields returned by both search and object response, see Getting started guide's [response](http://labs.europeana.eu/api/getting-started/#response) section.
+For the common data fields returned by both search and object response, see Getting started guide's [response](/api/getting-started/#response) section.
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
@@ -63,7 +63,7 @@ For the common data fields returned by both search and object response, see Gett
 
 ### item
 
-Each item is a search result and is represented by a summary of its metadata record. The actual content depends of the profile parameter, see [metadata sets](http://labs.europeana.eu/api/search/#metadata-sets).
+Each item is a search result and is represented by a summary of its metadata record. The actual content depends of the profile parameter, see [metadata sets](/api/search/#metadata-sets).
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
@@ -219,7 +219,7 @@ The rich profile returns all the fields of the portal profile plus and the follo
 So far the user could get only the default Europeana facet set. From now on API users can select which facets they would like to retrieve via the `facet` parameter. When you request facet you have to set the profile either as `facets` or as `portal` (which covers facets as well).
 
 The value of the parameter could be "DEFAULT" (which is a shortcut of the Europeana facet set we make use on the portal, which contains UGC, LANGUAGE, TYPE, YEAR, PROVIDER, DATA_PROVIDER, COUNTRY and RIGHTS), or any field name which is indexed and stored in Apache Solr.
-We maintain a table in API documentation about the existing fields: http://labs.europeana.eu/api/api-fields.html. In the field type column "text" means indexed as as a row of distinct terms, while "string" means indexed as phrase, so the whole content is taken as one individual unit.
+We maintain a table in API documentation about the existing  (API Fields)[/api/api-fields/]. In the field type column "text" means indexed as as a row of distinct terms, while "string" means indexed as phrase, so the whole content is taken as one individual unit.
 
 Users can set one or more facets in one query.
 
@@ -228,7 +228,7 @@ Requesting a single facet:
     &facet=proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_contributor&profile=facets
 
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_contributor&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_contributor&profile=facets)
     
 Requesting multiple facets can be done with three different syntaxes. You can add multiple facet parameters, or one facet parameter with multiple values separated by commas or spaces:
 
@@ -236,43 +236,43 @@ Multiple facet parameters:
 
     &facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage&facet=proxy_dc_contributor&profile=facets)
 
 Multiple facets separated by commas
 
     &facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage,proxy_dc_contributor&profile=facets)
 
 Multiple facets separated by spaces
 
     &facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
 
     &facet=proxy_dc_coverage+proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=proxy_dc_coverage+proxy_dc_contributor&profile=facets
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&facet=proxy_dc_coverage%20proxy_dc_contributor&profile=facets)
 
 Requesting the default facets:
 
     &profile=portal
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&profile=portal
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&profile=portal)
+[Test on API Console](/api/console/?function=search&query=paris&profile=portal)
 
     &profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&profile=facets
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&profile=facets)
 
     &facet=DEFAULT&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=DEFAULT&profile=facets
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=DEFAULT&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&facet=DEFAULT&profile=facets)
 
 Combining default facets with custom facets:
 
     &facet=DEFAULT+proxy_dc_contributor&profile=facets
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=DEFAULT+proxy_dc_contributor&profile=facets
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=DEFAULT%20proxy_dc_contributor&profile=facets)
+[Test on API Console](/api/console/?function=search&query=paris&facet=DEFAULT%20proxy_dc_contributor&profile=facets)
 
 ### Offset and limit of facets
 
@@ -281,12 +281,12 @@ The API user can set how many facet values she would like to retrieve, and which
     Syntax: f.[facet name].facet.limit
     Example: &f.PROVIDER.facet.limit=30
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30)
+[Test on API Console](/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.limit=30)
 
     Syntax: f.[facet name].facet.offset
     Example: &f.PROVIDER.facet.offset=30
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30)
+[Test on API Console](/api/console/?function=search&query=paris&facet=PROVIDER&profile=facets&f.PROVIDER.facet.offset=30)
 
 Both parameter accepts numeric values.
 
