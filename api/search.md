@@ -41,6 +41,7 @@ We have two profile types: one to control which fields of the record should be i
 | portal | `standard`, `facets`, and `breadcrumb` combined, plus additional fields over `standard` metadata set.  See [metadata sets](http://labs.europeana.eu/api/search/#metadata-sets). |
 
 ### The possible values of the reusability parameter
+
 | Value | Description |
 |:------|:------------|
 | open | The records are freely reusable. The licenses in this category are [NOC](http://creativecommons.org/publicdomain/mark/), [CC-ZERO](http://creativecommons.org/publicdomain/zero/1.0/), [CC-BY](http://creativecommons.org/licenses/by/), [CC-BY-SA](http://creativecommons.org/licenses/by-sa/) |
