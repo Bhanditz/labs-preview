@@ -97,9 +97,9 @@ The big differences between normal JSON and JSON-LD are
 
 1) JSON-LD makes use qualified names (in the format of namespace prefix : property name such as "dc:creator"), and not camel case ("dcCreator")
 
-2) JSON-LD has a `@context` part, which lists the namespaces and their prefixes
+2) JSON-LD has a `@context` part, which links object properties in a JSON document to concepts in an ontology. In our case this lists the used namespaces and their prefixes.
 
-3) JSON-LD makes difference between the resource type values (typically URIs), and string literals
+3) JSON-LD makes difference between the resource type values ([IRIs](http://en.wikipedia.org/wiki/Internationalized_resource_identifier)), and string literals
 
 A resource value:
 ```JavaScript
@@ -112,3 +112,4 @@ A normal string literal:
 ```JavaScript
 "dc:creator": "Europeana",
 ```
+
