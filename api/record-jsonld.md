@@ -21,7 +21,19 @@ The basic structure of a JSON-LD response is similar than the normal JSON:
         {
             "@id": "http://data.europeana.eu/aggregation/europeana/09102/_CM_0839888",
             "@type": "edm:EuropeanaAggregation",
-            ...
+            "dc:creator": "Europeana",
+            "edm:aggregatedCHO": {
+                "@id": "http://data.europeana.eu/item/09102/_CM_0839888"
+            },
+            "edm:collectionName": "09102_Ag_EU_MIMO_ESE",
+            "edm:country": "Europe",
+            "edm:landingPage": {
+                "@id": "http://www.europeana.eu/portal/record/09102/_CM_0839888.html"
+            },
+            "edm:language": "mul",
+            "edm:rights": {
+                "@id": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+            }
         },
         {
             "@id": "http://data.europeana.eu/aggregation/provider/09102/_CM_0839888",
@@ -79,4 +91,24 @@ The basic structure of a JSON-LD response is similar than the normal JSON:
     ]
 
 }
+```
+
+The big differences between normal JSON and JSON-LD are
+
+1) JSON-LD makes use qualified names (in the format of namespace prefix : property name such as "dc:creator"), and not camel case ("dcCreator")
+
+2) JSON-LD has a `@context` part, which lists the namespaces and their prefixes
+
+3) JSON-LD makes difference between the resource type values (typically URIs), and string literals
+
+A resource value:
+```JavaScript
+"edm:landingPage": {
+  "@id": "http://www.europeana.eu/portal/record/09102/_CM_0839888.html"
+}, 
+```
+
+A normal string literal:
+```JavaScript
+"dc:creator": "Europeana",
 ```
