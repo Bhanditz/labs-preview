@@ -14,7 +14,7 @@ To look for records that contain a search term in one of the data fields, provid
     Syntax: "Mona Lisa"
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query="Mona+Lisa"
 
-[Test on API Console](http://labs.europeana.eu/api/console/?function=search&query=%22Mona%20Lisa%22)
+[Test on API Console](/api/console/?function=search&query=%22Mona%20Lisa%22)
 
 Note that like in many other search applications omitting the quotes will result in searching for records that contain the term _Mona_ or the term _Lisa_ but not necessarily both of them.
 
