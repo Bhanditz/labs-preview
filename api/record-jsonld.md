@@ -5,6 +5,9 @@ published: true
 excerpt: Retrieving a single record from the dataset in JSON-LD format
 ---
 
+* TOC
+{:toc}
+
 ## JSON-LD
 
 JSON-LD is stands for JSON for Linking Data, and is lightweight Linked Data format.
