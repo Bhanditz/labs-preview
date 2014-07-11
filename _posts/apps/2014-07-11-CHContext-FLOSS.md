@@ -19,6 +19,7 @@ CHContext is a JavaScript-based widget that is able to provide a list of links t
 
 Demo is available at [https://github.com/psnc-dl/wp-chcontext/wiki/Sites-Using-the-Widget](https://github.com/psnc-dl/wp-chcontext/wiki/Sites-Using-the-Widget)
 
-**Developer(s)**: Digital Libraries Team of Poznań Supercomputing and Networking Center
+
 **License** : EUPL V. 1.1
+
 **Europeana Affiliation**: Europeana Awareness
