@@ -14,7 +14,7 @@ links:
   - http://annotorious.github.io
   - https://github.com/annotorious/annotorious
 imageurl:
-  - "/img/apps/Annotorious/Annotorious.jpeg"
+  - "/img/apps/Annotorious/Annotorious.jpg"
  
 ---
 
