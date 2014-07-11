@@ -12,7 +12,7 @@ links:
   - http://projectblacklight.org/
   - https://github.com/projectblacklight/blacklight
 imageurl:
-  - "/img/no-image.gif"
+  - "/img/apps/Blacklight/Blacklight.jpeg"
 ---
 
 RoR gem discovery interface for any Solr index.
