@@ -20,4 +20,5 @@ The Annotator is an open-source JavaScript library and tool that can be added to
 Demo is available at [http://okfnlabs.org/annotator/demo/](http://okfnlabs.org/annotator/demo/)
 
 **Developer(s)**: Open Knowledge Foundation
+
 **License** : either MIT or GNU GPLv3
