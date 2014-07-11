@@ -19,4 +19,5 @@ links:
 IIPImage is an advanced high-performance feature-rich image server system for web-based streamed viewing and zooming of ultra high-resolution images.
 
 **Developer(s)**: Ruven Pillay
+
 **License** : GNU General Public License, v. 3
