@@ -11,8 +11,9 @@ tags:
 links:
   - http://projectblacklight.org/
   - https://github.com/projectblacklight/blacklight
+
 imageurl:
-  - "/img/apps/Blacklight/Blacklight.jpeg"
+  - "/img/apps/Blacklight/Blacklight.jpg"
 ---
 
 RoR gem discovery interface for any Solr index.
