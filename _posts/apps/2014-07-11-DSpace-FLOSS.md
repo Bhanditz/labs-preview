@@ -19,7 +19,7 @@ links:
  
 ---
 DSpace open source software is a turnkey repository application
-Demo available at [http://demo.dspace.org/}(http://demo.dspace.org/)
+Demo available at [http://demo.dspace.org/](http://demo.dspace.org/)
 
 **Developer(s)**: DSpace Foundation
 
