@@ -8,6 +8,7 @@ featured: false
 tags:
   - Open Source tools
   - Collection Management
+  
 imageurl:
   - "/img/no-image.gif"
 links:
@@ -20,5 +21,6 @@ Phraseanet is an Open Source Digital Asset Management (DAM) software.
 Demo is available at [https://www.phraseanet.com/en/community/online-demo/](https://www.phraseanet.com/en/community/online-demo/)
 
 **Developer(s)**: Alchemy
+
 **License** : GNU General Public License version 3.0 (GPLv3)
 
