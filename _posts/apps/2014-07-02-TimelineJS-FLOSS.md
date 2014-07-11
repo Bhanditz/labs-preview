@@ -14,7 +14,7 @@ links:
   - http://timeline.knightlab.com/
   - https://github.com/NUKnightLab/TimelineJS
 imageurl:
-  - "/img/apps/TinelineJs/TimelineJs.jpeg"
+  - "/img/apps/TimelineJs/TimelineJs.jpg"
 
 ---
 
