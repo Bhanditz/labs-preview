@@ -3,7 +3,7 @@ layout: apps-item
 category: apps
 floss: true
 permalink: /apps/Phraseanet
-title: "Phraseanet
+title: "Phraseanet"
 featured: false
 tags:
   - Open Source tools
