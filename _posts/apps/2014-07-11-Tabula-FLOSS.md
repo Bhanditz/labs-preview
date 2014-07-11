@@ -18,7 +18,7 @@ links:
 ---
 Tabula is a tool for liberating data tables trapped inside PDF files.
 
-**Developer(s): Manuel Aristarán
+**Developer(s)**: Manuel Aristarán
 
 **License** : MIT license
 
