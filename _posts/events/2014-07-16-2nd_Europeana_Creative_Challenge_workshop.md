@@ -34,6 +34,7 @@ Apps&Cultura has teamed up with Europeana Creative for this year’s Hack at Hom
 The team from Europeana will be organising a hands on workshop demonstrating how to use the Europeana API and include it in your applications. If you have an idea for a great application but are a little overwhelmed by what Europeana content you could use, how to access it, or maybe the usage restrictions then this is the workshop for you!
 
 ### Agenda
+Wednesday 16 July 2014
 - Welcome & Introduction (17.00 - 17.20)
 - Showcasing Europeana content (17.20 - 17.30)
 - Barcelona specific datasets (17.30 – 18.00)
