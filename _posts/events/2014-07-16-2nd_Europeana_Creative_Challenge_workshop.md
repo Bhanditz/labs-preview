@@ -18,7 +18,7 @@ startdate:
 starttime:
   - "17:00"
 streetaddress:
-  - "Dissney Hub"
+  - "Dissney Hub, Plaça de les Glòries Catalanes, 37 08018"
 city:
   - "Barcelona"
 country:
