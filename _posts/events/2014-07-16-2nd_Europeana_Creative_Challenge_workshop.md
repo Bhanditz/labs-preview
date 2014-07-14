@@ -12,7 +12,7 @@ links:
   - http://appscultura.hackathome.com/es/anuncios/europeana-creative-challenge/
   - http://pro.europeana.eu/web/europeana-creative/challenges
 excerpt:
-  - "Apps&amp;Cultura has teamed up with Europeana Creative for this year’s Hack at Home competition and the second round of the Europeana Creative Challenges. In this workshop the team from Europeana will be organising a hands on workshop demonstrating how to use the Europeana API and include it into your applications."
+  - "Apps&amp;Cultura has teamed up with Europeana Creative for this year’s Hack at Home competition and the second round of the Europeana Creative Challenges. In this workshop the team from Europeana will be demonstrating how to use the Europeana API and include it into your applications."
 startdate:
   - 16/07/2014
 starttime:
