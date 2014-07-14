@@ -9,7 +9,7 @@ These physical Labs across Europe offer real world places where you can go to pl
 
 [View the Labs locations](/locations)
 
-## Support
+## Contact
 
 Whether you have a technical question about the API that isn't answered by the documentation, or maybe have an idea but you're not quite sure how to build it into a viable product, we're always happy to do what we can to support good projects.
 
