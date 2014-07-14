@@ -3,7 +3,7 @@ published: true
 layout: events-item
 category: events
 permalink: /events/2nd-Europeana-Creative-Challenge-workshop-Barcelona
-title: AppsCultura workshop - using Europeana content and the Europeana API
+title: AppsCultura workshop using Europeana content and the Europeana API
 imageurl: 
   - "/img/events/2nd-creative-challenge.png"
 tags: 
