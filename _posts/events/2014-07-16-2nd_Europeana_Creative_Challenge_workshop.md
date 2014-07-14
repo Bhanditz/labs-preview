@@ -44,5 +44,7 @@ Wednesday 16 July 2014
 
 Before the workshop, why not explore [Europeana Labs](/) so you can familiarise yourself with what is currently available and come prepared with questions relating to the Europeana API & specific data sets you’re looking for. 
 
-Meanwhile don’t hesitate to [contact us](/support/contact/) if you have any questions or need additional support to access the data you need.
+If you have any questions relating to the [second round of challenges on Tourism & Social Networks](http://ecreativechallenges2014.istart.org/) this will also be a great opportunity for you to ask and receive feedback/support!
+ 
+The event will also be web streamed and recorded so if you can’t make it to Barcelona on the day you’ll be able to watch online or catch up after the event. Webstreaming link coming soon so check back here or catch us on Twitter [@eCreativeEU](https://twitter.com/eCreativeEU) for the latest info & link.
 
