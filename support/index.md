@@ -5,7 +5,7 @@ published: true
 
 ## Locations
 
-These physical Labs across Europe offer real world places you can go to play, develop, test and build apps and products.
+These physical Labs across Europe offer real world places where you can go to play, develop, test and build apps and products.
 
 [View the Labs locations](/locations)
 
