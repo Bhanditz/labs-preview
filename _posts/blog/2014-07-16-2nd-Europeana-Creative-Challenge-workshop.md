@@ -52,16 +52,19 @@ All metadata in Europeana is licensed as CC0 so is free to re-use. Individual it
 - more information about the different licenses and how to query them is contained in the blog post [Can I use it?](/blog/can-i-use-it/)
 
 ### Retrieving media assets
-This is a very common question from developers, so here's a quick overview and a few details about what can and what can't (currently at least) be done: 
+
+This is a very common question from developers, so here's a quick overview and a few details about what can and what can't (currently at least) be done.
 
 - every item returned in a standard search call will have a url to a thumbnail e.g. "edmPreview": [ "http://europeanastatic.eu/api/image?uri=http%3A%2F%2Fcoleccionfff.unav.es%2Fbvunav%2Fi18n%2Fcatalogo_imagenes%2Fimagen_id.cmd%3FidImagen%3D10000592&size=LARGE&type=IMAGE" ]  
 (note that if we have not been able to create a thumbnail, for example if the item is not an image, then a placeholder thumbnail will be returned)
+
 - in addition, each item **may** have a direct link to the original media file. This is returned in the edmIsShowBy attribute (**currently** only available through an individual record call so you would need to iterate through each item in the search results - we currently have a new 'rich' profile in development that will return this attribute within the search results)
+
 - you can query just for records that have such links by using &query=provider_aggregation_edm_isShownBy:\* in your API call
+
 - because of variability in the types of items and in the data supplied by providers, the format of these original files will vary (for example various image formats, pdfs, audio & video files, and links to html pages with image viewers). If you wanted to use this attribute for example to display high resolution images your code should first detect and check the format.
  
-A lot of work is currently being undertaken to address this and provide a more direct and precise way of retrieving original media, but as illustrated by sites like [Culture Collage](http://www.zenlan.com/collage/europeana/#barcelona) and [museums.eu](http://museums.eu/museum/details/16007/the-british-library) quite rich experiences can still be created using the thumbnails alone. 
-
+A lot of work is being undertaken to address this and provide a more direct and precise way of retrieving original media, but as illustrated by sites like [Culture Collage](http://www.zenlan.com/collage/europeana/#barcelona) and [museums.eu](http://museums.eu/museum/details/16007/the-british-library), and the [Europeana Open Culture mobile app](http://labs.europeana.eu/apps/europeana-open-culture/), rich experiences can still be created using the thumbnails alone.
 
 ## Where next?
 
