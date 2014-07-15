@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: blog-item
 category: blog
 permalink: blog/2nd-Europeana-Creative-Challenge-workshop-Barcelona
