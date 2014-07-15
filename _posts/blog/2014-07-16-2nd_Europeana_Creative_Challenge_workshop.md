@@ -13,13 +13,13 @@ tags:
 
 This blog post has been created to support the [Europeana Creative Challenge workshop, Barcelona, 16 July 2014](/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona/), held in association with Apps&Cultura.
 
-It's also a place where you can post requests related to the API and the Challenge - just add comments below and we'll 
+It's also a place where anyone interested in the challenges can post requests related to the API and the Challenge - just add comments below and we'll respond.
 
 ## Getting started
 You should find everything you need to get started using the Europeana API in the Europeana Labs website.
 
 ### New to Europeana?
-- explore our [sample datasets](/data) to see exanples of just some of the openly licensed content that is available
+- explore our [sample datasets](/data) to see examples of just some of the openly licensed content that is available
 - get inspiration from our [gallery of existing apps](/apps) to see what is possible
 
 ### New to the Europeana API?
