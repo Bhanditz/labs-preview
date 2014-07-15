@@ -39,8 +39,8 @@ If you have any questions, just leave a comment below or check out the [other wa
 
 ### Querying by location
 
-- you can very easily specify a bounding box to query on geotagged items. The easiest way to do this is via the [API Console](/api/console/)
-- for non-geotagged items you can naturally run standard text searches based on place names. If you can't find what you want, or are getting a lot of unrelated items, experiment with 'where' and 'what' searches e.g. [where: Barcelona](http://labs.europeana.eu/api/console/?function=search&query=where:barcelona&start=1&rows=24) and [what: Barcelona](http://labs.europeana.eu/api/console/?function=search&query=what:barcelona&start=1&rows=24) (note that the former method will typically retrieve items located in Barcelona (e.g. from Barcelona-based collections), the latter items depicting Barcelona.
+- you can very easily specify a bounding box to query geotagged items. The easiest way to do this is via the [API Console](/api/console/) and enter coordinates in the 'Spatial params' filter.
+- to include non-geotagged items you can run standard text searches based on place names. These will naturally be less precise, but if you can't find what you want, or are getting a lot of unrelated items, experiment with 'where' and 'what' searches e.g. [where: Barcelona](http://labs.europeana.eu/api/console/?function=search&query=where:barcelona&start=1&rows=24) and [what: Barcelona](http://labs.europeana.eu/api/console/?function=search&query=what:barcelona&start=1&rows=24) (note that the former method will typically retrieve items located in Barcelona (e.g. from Barcelona-based collections), the latter typically items depicting Barcelona.
 
 ### Licensing
 
