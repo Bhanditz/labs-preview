@@ -1,11 +1,11 @@
 ---
-published: false
+published: true
 layout: blog-item
 category: blog
 permalink: blog/2nd-Europeana-Creative-Challenge-workshop-Barcelona
 title: "2nd Europeana Creative Challenge Workshop, Barcelona, 16 July 2014"
 imageurl: 
-  - "/img/blog/2014-07-16-2nd_Europeana_Creative_Challenge_workshop.jpg"
+  - "/img/blog/2014-07-16-2nd-Europeana-Creative-Challenge-workshop.jpg"
 tags: 
   - "Europeana Creative"
   - challenge
@@ -30,6 +30,9 @@ You should find everything you need to get started using the Europeana API in th
 - our [API Console](/api/console/) allows you to easily build and test queries
 - there are a number of client libraries available for languages such as php, Python and Django
 - we have also produced a [directory of open source tools](/apps/#tag=open-source-tools) that might be useful to developers, covering topics such as metadata management, annotation, front end display etc.
+
+### Colaborate
+- we're always keen to facilitate collaborations between developers, and with our own team. A great example is the Europeana Open Culture app for iOS and Android which has been released as an open source platform for building tablet-based experiences using Europeana content. It's [available on GitHub](https://github.com/europeana/openculture/wiki) under the "European Union Public Licence". 
 
 ### Need help?
 
@@ -56,7 +59,7 @@ This is a very common question from developers, so here's a quick overview and a
 - you can query just for records that have such links by using &query=provider_aggregation_edm_isShownBy:\* in your API call
 - because of variability in the types of items and in the data supplied by providers, the format of these original files will vary (for example various image formats, pdfs, audio & video files, and links to html pages with image viewers). If you wanted to use this attribute for example to display high resolution images your code should first detect and check the format.
  
-A lot of work is currently being undertaken to address this and provide a more direct and precise way of retrieving original media, but as illustrated by sites like [Culture Collage](http://www.zenlan.com/collage/europeana/#barcelona) and [museums.eu](http://museums.eu/museum/details/16007/the-british-library) quite rich experiences can still be created using the thumbnails alone.
+A lot of work is currently being undertaken to address this and provide a more direct and precise way of retrieving original media, but as illustrated by sites like [Culture Collage](http://www.zenlan.com/collage/europeana/#barcelona) and [museums.eu](http://museums.eu/museum/details/16007/the-british-library) quite rich experiences can still be created using the thumbnails alone. 
 
 
 ## Where next?
