@@ -8,7 +8,6 @@ imageurl:
   - "/img/blog/2014-07-16-2nd-Europeana-Creative-Challenge-workshop.jpg"
 
 tags:
-  - workshop
   - eCreative
 
 ---
