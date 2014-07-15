@@ -11,9 +11,9 @@ tags:
   - challenge
 ---
 
-This blog post has been created to support the [Europeana Creative Challenge workshop, Barcelona, 16 July 2014](/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona/), held in association with Apps&Cultura.
+This blog post has been created to support the [Europeana Creative Challenge workshop, Barcelona, 16 July 2014](/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona/), held in association with Apps&Cultura. For those not able to attend the event will be livestreamed at http://xmpp.iglor.es/appscultura_europeanalab/
 
-It's also a place where anyone interested in the challenges can post requests related to the API and the Challenge - just add comments below and we'll respond.
+This post is also a place where anyone interested in the challenges can post ideas and requests related to the API and the Challenge - just [add a comment](#comments) below and we'll respond.
 
 ## Getting started
 You should find everything you need to get started using the Europeana API in the Europeana Labs website.
@@ -67,3 +67,5 @@ Our data, API and associated documentation are constantly updated and improved. 
 ---
 
 <small>Header image: [Opstand in Barcelona, 1640, Johann David Zunnern, 1701](http://europeana.eu/portal/record/90402/RP_P_1896_A_19368_1959.html?start=8&query=barcelona&startPage=1&qf=TYPE%3AIMAGE&qf=REUSABILITY%3Aopen&qf=provider_aggregation_edm_isShownBy%3A*&qf=PROVIDER%3ARijksmuseum&rows=24) from Rijksmuseum (Public Domain).</small>
+
+<a name="comments"></a>
