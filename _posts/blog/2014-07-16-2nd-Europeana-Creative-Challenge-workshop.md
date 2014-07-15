@@ -7,6 +7,10 @@ title: "2nd Europeana Creative Challenge Workshop, Barcelona, 16 July 2014"
 imageurl: 
   - "/img/blog/2014-07-16-2nd-Europeana-Creative-Challenge-workshop.jpg"
 
+tags:
+  - workshop
+  - eCreative
+
 ---
 This blog post has been created to support the [Europeana Creative Challenge workshop, Barcelona, 16 July 2014](/events/2nd-Europeana-Creative-Challenge-workshop-Barcelona/), held in association with Apps&Cultura. For those not able to attend, the event will be livestreamed at [http://xmpp.iglor.es/appscultura_europeanalab/](http://xmpp.iglor.es/appscultura_europeanalab/)
 
@@ -28,7 +32,7 @@ You should find everything you need to get started using the Europeana API in th
 - there are a number of client libraries available for languages such as php, Python and Django
 - we have also produced a [directory of open source tools](/apps/#tag=open-source-tools) that might be useful to developers, covering topics such as metadata management, annotation, front end display etc.
 
-### Colaborate
+### Collaborate
 - we're always keen to facilitate collaborations between developers, and with our own team. A great example is the Europeana Open Culture app for iOS and Android which has been released as an open source platform for building tablet-based experiences using Europeana content. It's [available on GitHub](https://github.com/europeana/openculture/wiki) under the "European Union Public Licence". 
 
 ### Need help?
