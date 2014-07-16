@@ -73,6 +73,16 @@
         	$("a.show-more-tags").remove();
 
 			$("ul.tags li").removeClass("othertags");
+
+			var existingTags = new Array();
+			$("#otherTagsUl li.othertags").each(function(){
+				var lcDataText = $(this).data('btntext').toLowerCase();
+				if ($.inArray(lcDataText, existingTags)!=-1) {
+					$(this).remove();
+				} else {
+					existingTags.push(lcDataText);
+				}
+			});
 	        
 			if($("ul.tags li").length>5){
 	        	$("ul.tags").parent().append("<a class=\"show-more-tags\" data-state=\"more1\">+show more</a>");
