@@ -98,7 +98,7 @@
 				$("ul.tags li").slice(6, $("ul.tags li").length).detach().appendTo("#otherTagsUl");
 	        	
 				$("#otherTagsUl li").each(function(){
-					$(this).addClass("othertags")
+					$(this).addClass("othertags");
 				});
 				
 	        	$("a.show-more-tags").click(function(){
