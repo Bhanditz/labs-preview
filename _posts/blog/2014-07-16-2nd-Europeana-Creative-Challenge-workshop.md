@@ -80,7 +80,9 @@ Our data, API and associated documentation are constantly updated and improved. 
 Leave a comment below, or see some of the other ways to [contact us](/support/contact). 
 
 But whatever you do
-- do [enter the Europeana reative Challenge](http://ecreativechallenges2014.istart.org/)
+
+- [enter the Europeana Creative Challenge](http://ecreativechallenges2014.istart.org/)
+
 ---
 
 <small>Header image: [Opstand in Barcelona, 1640, Johann David Zunnern, 1701](http://europeana.eu/portal/record/90402/RP_P_1896_A_19368_1959.html?start=8&query=barcelona&startPage=1&qf=TYPE%3AIMAGE&qf=REUSABILITY%3Aopen&qf=provider_aggregation_edm_isShownBy%3A*&qf=PROVIDER%3ARijksmuseum&rows=24) from Rijksmuseum (Public Domain).</small>
