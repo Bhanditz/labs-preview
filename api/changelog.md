@@ -226,7 +226,9 @@ The special DEFAULT shortcut works here as well, and it limit the facets which a
 
 ## Version 2.0.8 (2013-10-23)
 
-New parameter: `reusability`. It might have two possible values: Free and Limited. It is an additional filter, which selects those items, which can be reusable free, or in a limited way. They are shorthands for a couple of right values:
+### New parameter: reusability
+
+The new `reusability` parameter can have two possible values: Open and Limited. It is an additional filter, which selects those items, which can be reusable free, or in a limited way. They are shorthands for a couple of right values:
 
 Free:
 
@@ -235,7 +237,7 @@ Free:
 * CC-BY: http://creativecommons.org/licenses/by/
 * CC-BY-SA: http://creativecommons.org/licenses/by-sa/
 
-Limited
+Limited:
 
 * CC-BY-NC: http://creativecommons.org/licenses/by-nc/
 * CC-BY-NC-SA: http://creativecommons.org/licenses/by-nc-sa/
