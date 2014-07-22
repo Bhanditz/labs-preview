@@ -45,9 +45,9 @@ It is no surprise that amongst Europeana’s 33 million objects, provided by ove
 
 Here are some example queries to get you started - browse the content through the Europeana Portal, or take a look at how you can retrieve these records for your own app through the API console:
 
-- Over 10,000 user contributed stories: [Browse stories](http://www.europeana1914-1918.eu/en/collection/search?count=12&page=1&utf8=%E2%9C%93&qf%5Bindex%5D=c) | [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29&qf=UGC%3Atrue) | [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=UGC:true&profile=minimal&reusability=open)
-- The Somme in WW1: [Browse items](http://europeana.eu/portal/search.html?query=Somme&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29) | [API console](http://labs.europeana.eu/api/console/?function=search&query=somme&qf=(%22world+war+I%22%20OR%20%221914-1918%22))
-- A small selection of openly licensed video and audio clips: [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&qf=TYPE%3AVIDEO&qf=TYPE%3ASOUND&qf=%28%22world%2Bwar%2BI%22%29+OR+%28%221914-1918%22%29&qf=REUSABILITY%3Aopen) | [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=TYPE:VIDEO%20OR%20TYPE:SOUND&profile=minimal&reusability=open)
+- Over 10,000 user contributed stories: [Browse stories](http://www.europeana1914-1918.eu/en/collection/search?count=12&page=1&utf8=%E2%9C%93&qf%5Bindex%5D=c) \| [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29&qf=UGC%3Atrue) \| [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=UGC:true&profile=minimal&reusability=open)
+- The Somme in WW1: [Browse items](http://europeana.eu/portal/search.html?query=Somme&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29) \| [API console](http://labs.europeana.eu/api/console/?function=search&query=somme&qf=(%22world+war+I%22%20OR%20%221914-1918%22))
+- A small selection of openly licensed video and audio clips: [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&qf=TYPE%3AVIDEO&qf=TYPE%3ASOUND&qf=%28%22world%2Bwar%2BI%22%29+OR+%28%221914-1918%22%29&qf=REUSABILITY%3Aopen) \| [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=TYPE:VIDEO%20OR%20TYPE:SOUND&profile=minimal&reusability=open)
 
 ## API news
 
@@ -66,8 +66,9 @@ If you’re working with the Europeana APIs and have something to share, do [let
 Best regards,
 
 James Morley
+
 The Europeana Labs team
 
-We’ve sent this newsletter out via email to all our API key holders, and to those who have expressed an interest in hearing the latest developer news. If you want to be added to the list please [subscribe for updates via email here](http://eepurl.com/RpdnT).
+PS We’ve sent this newsletter out via email to all our API key holders, and to those who have expressed an interest in hearing the latest developer news. If you want to be added to the list please [subscribe for updates via email here](http://eepurl.com/RpdnT).
 
 <p><small>Image credit: "<a href="http://vangoyourself.com/vango/madonna-and-child-ambrogio-borgognone-1465-1525-vangod-by-nina/" title="Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina">Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina</a>" via the Europeana Creative pilot project <a href="http://vangoyourself.com/">VanGoYourself</a>. The image is used under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)">Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)</a> license.</small></p>
