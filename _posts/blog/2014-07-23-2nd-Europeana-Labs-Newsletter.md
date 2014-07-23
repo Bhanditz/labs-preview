@@ -68,7 +68,7 @@ We welcome [feedback and suggestions](http://labs.europeana.eu/support/contact/)
 
 ## Keep up-to-date
 
-This developer newsletter is sent out every few months, but if you want more immediate news [sign up to our developer forum](https://groups.google.com/forum/#!forum/europeanaapi) where you will see announcements of new features and have a chance to chat with fellow developers. Also, keep an eye on the Europeana Labs website which will be continuously updated with new datasets, apps, events and blog posts. There’s a handy rss feed too.
+This developer newsletter is sent out every few months, but if you want more immediate news [sign up to our developer forum](https://groups.google.com/forum/#!forum/europeanaapi) where you will see announcements of new features and have a chance to chat with fellow developers. Also, keep an eye on the Europeana Labs website which will be continuously updated with new datasets, apps, events and blog posts. There’s a [handy rss feed](/rss.xml) too.
 
 ---
 
