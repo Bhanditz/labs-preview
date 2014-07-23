@@ -39,7 +39,7 @@ In one place, you’ll now find everything from practical support through to ins
 - It’s the home for our [API documentation](http://labs.europeana.eu/api/) and the [API console](http://labs.europeana.eu/api/console/) where you can experiment with API calls. 
 - There are examples of [client libraries](http://labs.europeana.eu/apps/#tag=client-library) and 50 selected [open source tools](http://labs.europeana.eu/apps/#tag=open-source-tools) that will help developers quickly build new apps using the Europeana API and content.
 - You’ll find [featured datasets](http://labs.europeana.eu/data/), selected to showcase providers who have supplied high quality, openly licensed, re-usable content. 
-- Our [Apps gallery](http://labs.europeana.eu/apps/) aims to inspire new ideas by featuring the wide range of existing applications.
+- Our [apps gallery](http://labs.europeana.eu/apps/) aims to inspire new ideas by featuring the wide range of existing applications.
 
 We will now be concentrating on adding regular blog posts, events and yet more openly licensed datasets and inspirational apps. If there’s anything you’d like to see, just [let us know](http://labs.europeana.eu/support/contact/).
 
