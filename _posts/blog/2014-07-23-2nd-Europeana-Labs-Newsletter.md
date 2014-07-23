@@ -64,11 +64,11 @@ This developer newsletter is sent out every few months, but if you want more imm
 
 If you’re working with the Europeana APIs and have something to share, do [let us know](http://labs.europeana.eu/support/contact/). We’re always excited to read of new ways that developers have found to use our content and we feature the best of these here on Europeana Labs. For selected ones we’ll be inviting guest blog posts where you can share your experiences and promote your work.
 
-Best regards,
+*Best regards,*
 
-James Morley
+*James Morley*
 
-The Europeana Labs team
+*The Europeana Labs team*
 
 PS We’ve sent this newsletter out via email to all our API key holders, and to those who have expressed an interest in hearing the latest developer news. If you want to be added to the list please [subscribe for updates via email here](http://eepurl.com/RpdnT) (frequency will be no more than once per month, and clearly we will not use your details for any other purpose).
 
