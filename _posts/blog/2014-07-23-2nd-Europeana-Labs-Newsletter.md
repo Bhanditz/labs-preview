@@ -2,7 +2,7 @@
 layout: blog-item
 category: blog
 permalink: blog/2nd-Europeana-Labs-Newsletter
-title: Explore the ever-growing Europeana Labs; take a creative challenge
+title: Newsletter: Europeana Labs update; take a creative challenge
 imageurl: 
   - "/img/blog/140723-2nd-newsletter.jpg"
 tags: 
