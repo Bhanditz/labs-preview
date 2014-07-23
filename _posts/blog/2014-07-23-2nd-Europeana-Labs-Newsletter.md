@@ -9,7 +9,9 @@ tags:
   - Newsletter
 ---
 
+<p><small>Image credit: "<a href="http://vangoyourself.com/vango/madonna-and-child-ambrogio-borgognone-1465-1525-vangod-by-nina/" title="Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina">Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina</a>" via the Europeana Creative pilot project <a href="http://vangoyourself.com/">VanGoYourself</a>. The image is used under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)">Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)</a> license.</small></p>
 <br>
+
 **Welcome to the 2nd Europeana Labs newsletter. Every few months we bring you the latest news from Europeana, focussed on showcasing the exciting opportunities available to our developer community and inspiring you to be creative with Europe’s cultural heritage!**
 
 * TOC
@@ -85,5 +87,3 @@ If you’re working with the Europeana APIs and have something to share, do [let
 PS We’ve sent this newsletter out via email to all our API key holders, and to those who have expressed an interest in hearing the latest developer news. If you want to be added to the list please [subscribe for updates via email here](http://eepurl.com/RpdnT) (frequency will be no more than once per month, and clearly we will not use your details for any other purpose).
 
 ---
-
-<p><small>Image credit: "<a href="http://vangoyourself.com/vango/madonna-and-child-ambrogio-borgognone-1465-1525-vangod-by-nina/" title="Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina">Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina</a>" via the Europeana Creative pilot project <a href="http://vangoyourself.com/">VanGoYourself</a>. The image is used under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)">Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)</a> license.</small></p>
