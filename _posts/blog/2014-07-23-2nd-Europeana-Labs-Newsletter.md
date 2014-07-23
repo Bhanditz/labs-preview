@@ -9,7 +9,8 @@ tags:
   - Newsletter
 ---
 
-Welcome to the 2nd Europeana Labs newsletter. Every few months we bring you the latest news from Europeana, focussed on showcasing the exciting opportunities available to our developer community and inspiring you to be creative with Europe’s cultural heritage!
+<br>
+**Welcome to the 2nd Europeana Labs newsletter. Every few months we bring you the latest news from Europeana, focussed on showcasing the exciting opportunities available to our developer community and inspiring you to be creative with Europe’s cultural heritage!**
 
 ## Apply now for 2nd Europeana Creative Innovation Challenges
  
@@ -45,9 +46,9 @@ It is no surprise that amongst Europeana’s 33 million objects, provided by ove
 
 Here are some example queries to get you started - browse the content through the Europeana Portal, or take a look at how you can retrieve these records for your own app through the API console:
 
-- Over 10,000 user contributed stories: [Browse stories](http://www.europeana1914-1918.eu/en/collection/search?count=12&page=1&utf8=%E2%9C%93&qf%5Bindex%5D=c) \| [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29&qf=UGC%3Atrue) \| [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=UGC:true&profile=minimal&reusability=open)
-- The Somme in WW1: [Browse items](http://europeana.eu/portal/search.html?query=Somme&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29) \| [API console](http://labs.europeana.eu/api/console/?function=search&query=somme&qf=(%22world+war+I%22%20OR%20%221914-1918%22))
-- A small selection of openly licensed video and audio clips: [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&qf=TYPE%3AVIDEO&qf=TYPE%3ASOUND&qf=%28%22world%2Bwar%2BI%22%29+OR+%28%221914-1918%22%29&qf=REUSABILITY%3Aopen) \| [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=TYPE:VIDEO%20OR%20TYPE:SOUND&profile=minimal&reusability=open)
+- Over 10,000 user contributed stories: [Browse stories](http://www.europeana1914-1918.eu/en/collection/search?count=12&page=1&utf8=%E2%9C%93&qf%5Bindex%5D=c) &#124; [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29&qf=UGC%3Atrue) &#124; [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=UGC:true&profile=minimal&reusability=open)
+- The Somme in WW1: [Browse items](http://europeana.eu/portal/search.html?query=Somme&rows=24&qf=%28%22world%2Bwar%2BI%22+OR+%221914-1918%22%29) &#124; [API console](http://labs.europeana.eu/api/console/?function=search&query=somme&qf=(%22world+war+I%22%20OR%20%221914-1918%22))
+- A small selection of openly licensed video and audio clips: [Browse items](http://europeana.eu/portal/search.html?query=*%3A*&qf=TYPE%3AVIDEO&qf=TYPE%3ASOUND&qf=%28%22world%2Bwar%2BI%22%29+OR+%28%221914-1918%22%29&qf=REUSABILITY%3Aopen) &#124; [API console](http://labs.europeana.eu/api/console/?function=search&query=*:*&qf=(%22world+war+I%22)%20OR%20(%221914-1918%22)&qf=TYPE:VIDEO%20OR%20TYPE:SOUND&profile=minimal&reusability=open)
 
 ## API news
 
