@@ -12,6 +12,9 @@ tags:
 <br>
 **Welcome to the 2nd Europeana Labs newsletter. Every few months we bring you the latest news from Europeana, focussed on showcasing the exciting opportunities available to our developer community and inspiring you to be creative with Europe’s cultural heritage!**
 
+* TOC
+{:toc}
+
 ## Apply now for 2nd Europeana Creative Innovation Challenges
  
 Are you a creative developer or entrepreneur? Would you like to use your skills to build an exciting product using Europe’s cultural heritage?  If so, take your idea, build a prototype that taps into the 33 million objects in the Europeana collections, then enter our latest challenges.
