@@ -9,13 +9,13 @@ tags:
   - Newsletter
 ---
 
-<small>Image credit: [Madonna and Child, Ambrogio Borgognone (1465-1525) vanGo’d by Nina](http://vangoyourself.com/vango/madonna-and-child-ambrogio-borgognone-1465-1525-vangod-by-nina/ "Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina" [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/ "Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)") via the Europeana Creative pilot project [VanGoYourself](http://vangoyourself.com/).</small>
-<br>
-
 **Welcome to the 2nd Europeana Labs newsletter. Every few months we bring you the latest news from Europeana, focussed on showcasing the exciting opportunities available to our developer community and inspiring you to be creative with Europe’s cultural heritage!**
 
 * TOC
 {:toc}
+
+<small>Image credit: [Madonna and Child, Ambrogio Borgognone (1465-1525) vanGo’d by Nina](http://vangoyourself.com/vango/madonna-and-child-ambrogio-borgognone-1465-1525-vangod-by-nina/ "Madonna and Child, Ambrogio Borgognone (1465-1525)  vanGo’d by Nina" [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/ "Creative Commons Attribution Share-Alike 3.0 (CC BY-SA)") via the Europeana Creative pilot project [VanGoYourself](http://vangoyourself.com/).</small>
+<br>
 
 ## Apply now for 2nd Europeana Creative Innovation Challenges
  
