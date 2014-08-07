@@ -1,4 +1,5 @@
 ---
+published:false
 layout: data-item
 category: data
 title: Shoes from the Rossimoda Shoe Museum
