@@ -18,7 +18,7 @@ translateQuery.json is a wrapper that uses the Wikipedia API to return suggested
 
 A sample API call would be 
 
-    http://europeana.eu/api/v2/translateQuery.json?languageCodes=en,de,fr,it,es&wskey=api2demo&term=butterfly
+    http://europeana.eu/api/v2/translateQuery.json?languageCodes=en,de,fr,it,es&wskey=xxxxxx&term=butterfly
 
 which returns a json response that includes
 
@@ -26,6 +26,8 @@ which returns a json response that includes
 
 Users would then place that query string into a standard [search.json](http://labs.europeana.eu/api/search/) call, which in this case adds over 500 records to the results compared to a simple search for just 'butterfly'.
 
-Languages should be defined using the two-letter codes according to the [ISO 639-1 standard](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). All we ask is that you don't run search queries with more than about 6 'OR' options as that puts quite a train on our server!
+Languages should be defined using the two-letter codes according to the [ISO 639-1 standard](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). All we ask is that you don't run search queries with more than about 6 'OR' options as that puts quite a strain on our server!
+
+Further documentation will be provided, but in the meantime there's some further detail in our [changelog](http://labs.europeana.eu/api/changelog/#v2translatequeryjson).
 
 The same methodology has been employed on our own search portal, and you can find more about the background to this on our blog - [Improving search across languages](http://blog.europeana.eu/2014/08/improving-search-across-languages/)
