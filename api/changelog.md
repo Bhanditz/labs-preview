@@ -60,6 +60,7 @@ It returns
   "translatedQuery": "Notre-Dame OR \"Notre Dame\""
 }
 ```
+
 For background information see the blog post [Improving search across languages](http://blog.europeana.eu/2014/08/improving-search-across-languages/)
 
 ### Renaming field "europeanaCollectionName" to "edmDatasetName"
