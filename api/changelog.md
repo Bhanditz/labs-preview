@@ -12,7 +12,7 @@ This document describes the changes of Europeana API. The changes are grouped by
 
 ### /v2/translateQuery.json
 
-Translate a term to different languages and return a query string to use in the search API method. Right now this functionality is a wrapper around an Wikipeadia API call.
+Translate a term to different languages and return a query string to use in the search API method. Right now this functionality is a wrapper around a Wikipeadia API call.
 
 Request parameters:
 
