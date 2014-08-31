@@ -1,8 +1,8 @@
 ---
 layout: data-item
 category: data
-title: "3D models of Art Nouveau objects from the Isle of Mann"
-permalink: /data/3d-models-of-art-nouveau-objects-from-the-isle-of-mann
+title: "3D models of Art Nouveau objects from the Isle of Man"
+permalink: /data/3d-models-of-art-nouveau-objects-from-the-isle-of-man
 provider: Manx National Heritage
 description: 3D models of everyday objects such as plates and candle holders. Provided through the Partage Plus project.
 contact: enquiries@mnh.gov.im
@@ -14,7 +14,7 @@ imageurl:
 tags:
   - Art Nouveau
 
-licenses:
+licenses: 
 dataset: 2026101
 copyright: Creative Commons Attribution
 copyrighturl: http://creativecommons.org/licenses/by/3.0/
