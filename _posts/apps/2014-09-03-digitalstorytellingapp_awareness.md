@@ -1,7 +1,7 @@
 ---
 category: apps
 layout: "apps-item"
-published: true
+published: false
 title: Digital Storytelling Prototype
 featured: false
 permalink: "apps/digitalstorytellingapp_awareness"
