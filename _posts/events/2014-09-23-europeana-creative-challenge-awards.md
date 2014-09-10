@@ -1,4 +1,7 @@
 ---
+published: true
+layout: events-item
+category: events
 permalink: /events/2nd-Europeana-Creative-Challenge-Award-Ceremony
 title: 2nd Europeana Creative Challenge Award Ceremony
 imageurl: 
