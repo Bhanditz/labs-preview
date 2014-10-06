@@ -18,4 +18,4 @@ links:
 contact: 
   email: 
 ---
-[Culture Grid](http://www.culturegrid.org.uk/) opens up a wealth of information from museums, galleries, libraries and archives: giving greater access to UK culture, arts and heritage. It is also an aggregator, powering UK collections into Europeana. On their own search ortal they have used the Europeana API to offer users extended search results from across Europe.
+[Culture Grid](http://www.culturegrid.org.uk/) opens up a wealth of information from museums, galleries, libraries and archives: giving greater access to UK culture, arts and heritage. It is also an aggregator, powering UK collections into Europeana. On their own search portal they have used the Europeana API to offer users extended search results from across Europe.
