@@ -6,7 +6,7 @@ title: Digital Storytelling Prototype
 featured: false
 permalink: "apps/digital-storytelling-prototype"
 imageurl: 
-  - ""
+  - "digital-storytelling-prototype.png"
 tags: 
   - API Implementation
   - Open Source tools
@@ -19,7 +19,7 @@ links:
   - "https://github.com/europeana/contrib/tree/master/ntua/awareness"
 
 contact: 
-  email: 
+  email: mint-info@image.ntua.gr
 ---
 The Digital Storytelling Protype (DSP) was developed in the Europeana Awareness project by partners [Netherlands Institute of Sound and Vision](http://www.beeldengeluid.nl/en/netherlands-institute-sound-and-vision),
 [National Technical University Athens](http://www.ntua.gr/index_en.html), [Spild af Tid](http://www.spildaftid.dk/) and Europeana. It's a service (backend, API and client) that allows users to create and publish collections of content 
