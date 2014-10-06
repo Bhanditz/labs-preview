@@ -6,7 +6,7 @@ title: Digital Storytelling Prototype
 featured: false
 permalink: "apps/digital-storytelling-prototype"
 imageurl: 
-  - "digital-storytelling-prototype.png"
+  - "/img/apps/digital-storytelling-prototype.png"
 tags: 
   - Open Source tools
   - R&D results
