@@ -6,7 +6,7 @@ title: Culture Grid
 featured: false
 permalink: "apps/culture-grid"
 imageurl: 
-  - "img/apps/culture-grid.png"
+  - "/img/apps/culture-grid.png"
 tags: 
   - API Implementation
 secondarytags:
