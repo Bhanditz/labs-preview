@@ -15,9 +15,14 @@ tags:
   - 1989
 
 licenses:
+- CC
+- BY
+- SA
+- PD
 dataset: 2025902
-copyright: Creative Commons Attribution - Share Alike
-Creative Commons Public Domain Mark
+copyright: 
+- Creative Commons Attribution - Share Alike
+- Creative Commons Public Domain Mark
 copyrighturl: http://creativecommons.org/licenses/by-sa/3.0/
 http://creativecommons.org/publicdomain/mark/1.0/
 ---
