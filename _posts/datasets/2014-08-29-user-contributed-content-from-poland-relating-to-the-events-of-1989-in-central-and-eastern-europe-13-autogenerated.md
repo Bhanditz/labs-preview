@@ -15,10 +15,6 @@ tags:
   - 1989
 
 licenses:
-- CC
-- BY
-- SA
-- PD
 dataset: 2025902
 copyright: Creative Commons Attribution - Share Alike
 Creative Commons Public Domain Mark
