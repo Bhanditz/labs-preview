@@ -20,6 +20,5 @@ links:
 contact: 
   email: mint-info@image.ntua.gr
 ---
-The Digital Storytelling Prototype was developed in the Europeana Awareness project by partners [Netherlands Institute of Sound and Vision](http://www.beeldengeluid.nl/en/netherlands-institute-sound-and-vision),
-[National Technical University Athens](http://www.ntua.gr/index_en.html), [Spild af Tid](http://www.spildaftid.dk/) and Europeana. It's a service (backend, API and client) that allows users to create and publish collections of content 
-mixing their own uploads with existing content in Europeana and on YouTube. As the code is open, anyone can use it to build their own storytelling platforms.
+The Digital Storytelling Prototype was developed by partners [Netherlands Institute of Sound and Vision](http://www.beeldengeluid.nl/en/netherlands-institute-sound-and-vision),
+[National Technical University Athens](http://www.ntua.gr/index_en.html), [Spild af Tid](http://www.spildaftid.dk/) and Europeana and is an outcome of the Europeana Awareness project. It's a service (backend, API and client) that allows users to create and publish collections of content, mixing their own uploads with existing content in Europeana and on YouTube. As the code is open, anyone can use it to build their own storytelling platforms.
