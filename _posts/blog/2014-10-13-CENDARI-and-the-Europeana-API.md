@@ -1,4 +1,5 @@
 ---
+published: false
 layout: blog-item
 category: blog
 permalink: blog/CENDARI-and-the-Europeana-API
