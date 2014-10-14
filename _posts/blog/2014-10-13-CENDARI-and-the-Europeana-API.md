@@ -4,7 +4,7 @@ category: blog
 permalink: blog/CENDARI-and-the-Europeana-API
 title: Hunting for First World War data - CENDARI and the Europeana API
 imageurl: 
-  - "/img/blog/CENDARI-and-the-Europeana-API.png"
+  - "/img/blog/CENDARI-and-the-Europeana-API.jpg"
 tags: 
   - API
   - research
