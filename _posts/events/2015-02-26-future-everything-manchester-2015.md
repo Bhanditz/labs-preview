@@ -31,4 +31,4 @@ europeanaevent:
 featured:
   - "false"
 ---
-The event will also host Apps4Europe international business lounge where the winners of local Apps4Europe events and the finalists of the online competition will pitch their projects to investors and experts in various domains (business development, marketing, etc.) For registrations, tickets and more information, visit [http://futureeverything.org/festival/](http://futureeverything.org/festival/) 
+The event will also host [Apps4Europe international business lounge](http://appsforeurope.eu/ibl2015) where the winners of local Apps4Europe events and the finalists of the online competition will pitch their projects to investors and experts in various domains (business development, marketing, etc.) For registrations, tickets and more information, visit [http://futureeverything.org/festival/](http://futureeverything.org/festival/) 
