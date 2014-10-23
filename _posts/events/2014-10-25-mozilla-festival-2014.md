@@ -11,7 +11,7 @@ tags:
 links:
   - http://redesignyourculture.tumblr.com/
 excerpt:
-  - "The aim of the Redesign your cultural heritage! session is to connect the digital cultural heritage offered by Europeana to communities of designers and artists who wish to use open cultural content - data, pictures, sound, videos -  as inspiration and sources for new derivative works, such as animations and films, media art and installations, textile patterns, and other design artefacts."
+  - "The aim of the Redesign Your Cultural Heritage! session at MozFest2014 aims to connect the digital cultural heritage offered by Europeana to communities of designers and artists who wish to use open cultural content - data, pictures, sound, videos -  as inspiration and sources for new derivative works, such as animations and films, media art and installations, textile patterns, and other design artefacts."
 startdate:
   - 25/10/2014
 enddate:
