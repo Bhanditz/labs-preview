@@ -5,7 +5,7 @@ category: blog
 permalink: blog/FLOSS-open-source-tools
 title: Open source tools - what's available, what are you using?
 imageurl: 
-  - "/img/blog/placeholder.jpg"
+  - "/img/blog/2014-10-28-what-are-you-wearing.png"
 tags: 
   - FLOSS
 secondarytags:
