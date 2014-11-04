@@ -3,7 +3,7 @@ published: true
 layout: blog-item
 category: blog
 permalink: blog/europeana-creative-design-challenge
-title: Europeana Creative Design Challnge now open
+title: Europeana Creative Design Challenge now open
 imageurl: 
   - "/img/blog/2014-11-04-europeana-creative-design-challenge.jpg"
 tags: 
@@ -66,10 +66,10 @@ Here you will find entry guidelines and the questions you have to complete. Your
 
 ### Additional Support
 
+Take a look at our [Europeana Creative blog posts](http://pro.europeana.eu/web/europeana-creative/news) where we will publish new guides and share ideas over the coming months to further support your application. 
+
 If you would like additional support in finding suitable content, accessing digital objects, license conditions or anything else connected to Europeana please don’t hesitate to contact <api@europeana.eu>
 
-If you have any questionsabout the challenge feel free to contact us at <europeanacreative@onb.ac.at>. 
+If you have any questions about the challenge feel free to contact us at <europeanacreative@onb.ac.at>. 
 
-We will be delighted to help!
-
-GOOD LUCK!
+### GOOD LUCK!
