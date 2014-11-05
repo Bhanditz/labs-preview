@@ -15,6 +15,7 @@ We have several ways that you can keep up to date with news from Europeana Labs,
 
 * **Want to get regular news from Europeana Labs?**  
 Our e-newsletter is sent every few months to all API keyholders and anyone who has opted to subscribe. There’s an opt-out link at the bottom of every email.
+
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
