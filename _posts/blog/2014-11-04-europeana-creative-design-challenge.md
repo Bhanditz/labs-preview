@@ -68,6 +68,6 @@ Additional Support
 
 For additional support you can look at our previous blog postswhere we have additional inspirational ideas & support in completing your application available to you. We will continue to publish new guides and share ideas over the coming months to further support your application.
 
-If you have any questions feel free to contact us at europeanacreative@onb.ac.at . We will be delighted to help!
+If you have any questions feel free to contact us at <europeanacreative@onb.ac.at> . We will be delighted to help!
 
 GOOD LUCK!
