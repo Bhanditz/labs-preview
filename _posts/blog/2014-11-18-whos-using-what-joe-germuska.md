@@ -3,7 +3,7 @@ published: false
 layout: blog-item
 category: blog
 permalink: blog/whos-using-what-joe-germuska
-title: Who's Using What: Joe Germuska Developer Profile 
+title: Who's Using What - Joe Germuska Developer Profile
 imageurl: 
   - "/img/blog/2014-11-18-joe-germuska.png"
 tags: 
