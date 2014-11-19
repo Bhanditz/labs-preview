@@ -2,15 +2,13 @@
 published: true
 layout: blog-item
 category: blog
-permalink: blog/FLOSS-open-source-tools
-title: Open source tools - what's available, what are you using?
+permalink: blog/europeana-creative-design-challenge
+title: Europeana Creative Design Challenge now open
 imageurl: 
-  - "/img/blog/2014-10-28-what-are-you-wearing.png"
+  - "/img/blog/2014-11-04-europeana-creative-design-challenge.jpg"
 tags: 
-  - FLOSS
-secondarytags:
-  - tools
-  - open source
+  - Challenge
+  - Europeana Creative
 ---
 
 Europeana Creative is pleased to announce its final challenge encouraging you to design and submit products, applications and designs that reuse Europeana content in the theme of Design.
