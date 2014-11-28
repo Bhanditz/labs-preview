@@ -13,7 +13,7 @@ links:
 excerpt:
   - "Nesta and the Open Data Institute are asking teams to develop products and services which answer the question: 'How can we use open data to engage more people, and more diverse people, in UK heritage and culture?'"
 startdate:
-  - 04/11/2014
+  - 09/02/2015
 enddate:
   - 09/02/2015
 datenotconfirmed:
