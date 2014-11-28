@@ -15,7 +15,7 @@ excerpt:
 startdate:
   - 30/10/2014
 enddate:
-  - 15/01/2014
+  - 15/01/2015
 datenotconfirmed:
   - ""
 starttime:
