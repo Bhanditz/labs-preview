@@ -13,7 +13,7 @@ links:
 excerpt:
   - "Our partner project Apps4Europe invites developers, start-ups and companies that use open data to join the project’s online competition and win a spot at the International Business Lounge @ Future Everything conference on 26 and 27 February 2015 in Manchester (UK)."
 startdate:
-  - 01/11/2014
+  - 20/12/2014
 enddate:
   - 20/12/2014
 datenotconfirmed:
