@@ -13,7 +13,7 @@ links:
 excerpt:
   - "Europeana Creative is pleased to announce its final challenge encouraging you to design and submit products, applications and designs that reuse Europeana content in the theme of Design."
 startdate:
-  - 30/10/2014
+  - 15/01/2015
 enddate:
   - 15/01/2015
 datenotconfirmed:
