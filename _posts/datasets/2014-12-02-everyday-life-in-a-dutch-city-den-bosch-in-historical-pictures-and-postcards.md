@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards
