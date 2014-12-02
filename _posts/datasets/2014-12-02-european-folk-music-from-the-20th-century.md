@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/european-folk-music-from-the-20th-century
