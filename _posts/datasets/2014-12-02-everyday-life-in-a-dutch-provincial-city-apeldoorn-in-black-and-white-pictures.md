@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures
