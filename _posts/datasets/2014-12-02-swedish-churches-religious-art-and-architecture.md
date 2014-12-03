@@ -3,7 +3,7 @@ layout: data-item
 category: data
 permalink: data/swedish-churches-religious-art-and-architecture
 title: Swedish churches: religious art and architecture
-provider: Riksantikvarieämbetet 
+provider: Riksantikvarie&auml;mbetet 
 description: More than 120,000 colour and black-and-white photographs documenting the diversity of Swedish church architecture, interiors, ritual objects, frescoes and all kinds of religious art.
 contact: registrator@raa.se
 portal: "http://europeana.eu/portal/search.html?query=europeana_collectionName%3A91622*&rows=24" 
