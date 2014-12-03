@@ -2,7 +2,7 @@
 layout: data-item
 category: data
 permalink: data/everyday-life-in-a-dutch-city-den-bosch-in-historical-pictures-and-postcards
-title: Everyday life in a Dutch city: Den Bosch in historical pictures and postcards
+title: Everyday life in a Dutch city - Den Bosch in historical pictures and postcards
 provider: Gemeente Den Bosch
 description: More than 55,000 pictures and postcards showing the day-to-day life of the inhabitants of the Dutch city of Den Bosch: shops, houses, celebrations, local dignitaries and ice-skating parties.
 contact: Stadsarchief@s-hertogenbosch.nl
