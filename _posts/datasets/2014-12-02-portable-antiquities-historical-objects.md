@@ -1,7 +1,7 @@
 ---
 layout: data-item
 category: data
-permalink: data/portable-antiquities-historical-objects-from-the-neolithic-until-the-middle-ages
+permalink: data/portable-antiquities-historical-objects
 title: Portable Antiquities: historical objects from the Neolithic until the Middle Ages
 provider: The British Museum and The Portable Antiquities Scheme
 description: More than 290,000 portable artifacts from the pre-modern period such as Neolithic end scrapers, Bronze Age axes, Roman coins, Medieval seals and Post-Medieval cannon balls.
