@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/medieval-manuscripts-and-parchment-fragments-from-finland
