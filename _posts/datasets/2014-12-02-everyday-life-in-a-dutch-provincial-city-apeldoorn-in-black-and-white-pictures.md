@@ -2,7 +2,7 @@
 layout: data-item
 category: data
 permalink: data/everyday-life-in-a-dutch-provincial-city-apeldoorn-in-black-and-white-pictures
-title: Everyday life in a Dutch provincial city: Apeldoorn in black-and-white pictures
+title: Everyday life in a Dutch provincial city - Apeldoorn in black-and-white pictures
 provider: CODA  Apeldoorn
 description: More than 30,000 black-and-white pictures showing occasions from everyday life in the Dutch city of Apeldoorn, from traditional holidays and official openings to groups of construction workers at their site.
 contact: mail@coda-apeldoorn.nl
