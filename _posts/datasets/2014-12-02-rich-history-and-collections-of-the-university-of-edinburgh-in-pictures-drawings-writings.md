@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/rich-history-and-collections-of-the-university-of-edinburgh-in-pictures-drawings-writings
