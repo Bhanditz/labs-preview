@@ -17,5 +17,5 @@ tags:
 - History
 licenses:
   - Creative Commons Public Domain Mark
-Creative Commons Attribution 
+  - Creative Commons Attribution 
 ---
