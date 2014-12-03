@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/photographs-of-places-and-buildings-in-estonia
