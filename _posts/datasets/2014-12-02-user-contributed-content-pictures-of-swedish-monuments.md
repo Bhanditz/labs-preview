@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/user-contributed-content-pictures-of-swedish-monuments
