@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/historical-views-and-landscapes-of-europe-from-the-austrian-national-library
