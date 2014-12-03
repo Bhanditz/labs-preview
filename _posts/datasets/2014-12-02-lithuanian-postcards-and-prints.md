@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/lithuanian-postcards-and-prints
