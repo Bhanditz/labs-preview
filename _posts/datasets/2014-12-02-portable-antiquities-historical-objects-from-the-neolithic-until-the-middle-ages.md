@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/portable-antiquities-historical-objects-from-the-neolithic-until-the-middle-ages
