@@ -2,7 +2,7 @@
 layout: data-item
 category: data
 permalink: data/user-contributed-content-pictures-of-swedish-monuments
-title: User contributed content: pictures of Swedish Monuments
+title: User contributed content - pictures of Swedish Monuments
 provider: Wikimedia Sweden
 description: A small collection of colour photographs of Swedish architectural or natural monuments, as submitted by users to Wikimedia Sweden for their Wiki Loves Monuments project.
 contact: info@wikimedia.se
