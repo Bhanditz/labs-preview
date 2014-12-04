@@ -1,5 +1,5 @@
 ---
-published:false
+published: false
 layout: data-item
 category: data
 title: "Pictures and scientific texts of birds from Naturalis"
