@@ -2,10 +2,10 @@
 published: true
 layout: blog-item
 category: blog
-permalink: blog/whos-using-what-eero-hynonen
-title: Who's Using What - Eero Hynonen Developer Profile 
+permalink: blog/whos-using-what-eero-hyv&ouml;nen
+title: Who's Using What - Eero Hyvonen Developer Profile 
 imageurl: 
-  - "/img/blog/whos-using-what-eero-hynonen.png"
+  - "/img/blog/whos-using-what-eero-hyvonen.png"
 tags: 
   - FLOSS
 secondarytags:
