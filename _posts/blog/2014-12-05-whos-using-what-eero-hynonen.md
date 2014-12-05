@@ -43,43 +43,31 @@ user interfaces and visualizations.
 ### 2. What open source tools have you used in the past to develop larger applications? 
 
 There are also quite a few Open Source tools that we have used in larger
-applications before, such as [Cocoon](https://github.com/nathanvda/cocoon), [Spring](http://www.google.com/url?q=http%3A%2F%2Fspring.io%2F&amp;sa=D&amp
-;sntz=1&amp;usg=AFQjCNFS4RO-thoKI99EIx_mnRLry6XXOg), and [Tapestry
-](http://www.google.com/url?q=http%3A%2F%2Ftapestry.apache.org%2F&
-amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHHDMEy_V47P4hS1LRoGdQ0D3hHmA)&nbsp;as web development frameworks, and [SWI
-Prolog](http://www.google.com/url?q=http%3A%2F%2Fwww.swi-prolog.org%2F&amp
-;sa=D&amp;sntz=1&amp;usg=AFQjCNEnLdMRaLHtnW5lBpbN_FzN-MoP9g)&nbsp;for logic programming.
+applications before, such as [Cocoon](https://github.com/nathanvda/cocoon), [Spring](http://spring.io/), and [Tapestry
+](http://tapestry.apache.org/)&nbsp;as web development frameworks, and [SWI
+Prolog](http://www.swi-prolog.org/)&nbsp;for logic programming.
 
 ### 3. What are you currently developing? 
 
  On the tooling side, the [SeCo
-Lexical Analysis Service](http://www.google.com/url?q=http%3A%2F%2Fdemo.seco.tkk.fi%2Flas%2F
-&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHif-7OvKVmgt8XEJDunH493LeqFw)&nbsp;combines various open
+Lexical Analysis Service](http://demo.seco.tkk.fi/las/)&nbsp;combines various open
 source language technology tools into a web service, and [SPARQL
-SAHA](http://www.google.com/url?q=http%3A%2F%2F2014.eswc-conferences.org
-%2Fsites%2Fdefault%2Ffiles%2Feswc2014pd_submission_46.pdf&amp;sa=D&amp;
-sntz=1&amp;usg=AFQjCNGpi_rej7xh7pocHhEBKXRNpBb2RA)&nbsp;makes use of them for automatic annotation
+SAHA](http://2014.eswc-conferences.org/sites/default/files/eswc2014pd_submission_46.pdf)&nbsp;makes use of them for automatic annotation
 and data curation. Aether is a tool for analyzing Linked Data dynamics,
 [
-csv2whatever](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Frvagg%
-2Fcsv2&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNG8T2kjd1bJKPvPpa2TMb3JbcDKMQ)&nbsp;is a tool for data transformations,
-and [Snapper ](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fjiemakel%
-2Fsnapper&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGPzEousXMwby46gcGA1ROHBT3jWA
-)is a browser-based Turtle
+csv2whatever](https://github.com/rvagg/csv2)&nbsp;is a tool for data transformations,
+and [Snapper ](https://github.com/jiemakel/snapper)is a browser-based Turtle
 editor.
 
- For linked data and ontology
+For linked data and ontology
 creation, publishing, and reuse, the Linked Data Finland platform is
 being developed further and is combined with various tools for a
 comprehensive Linked Data publishing service.
 
- Application prototypes being developed at the moment
+Application prototypes being developed at the moment
 include [Semantic National
-Biography](http://www.google.com/url?q=http%3A%2F%2Fwww.seco.tkk.fi%
-2Fpublications%2Fsubmitted%2Fhyvonen-et-al-biography-2014.pdf&amp;sa=D&
-amp;sntz=1&amp;usg=AFQjCNFPaz9WPgBHc2xDiVCJHS81xJGxAQ)&nbsp;for enriching and linking over 6300 of
-short life stories on the Semantic Web,[&nbsp;Semantic Finlex](http://www.google.com/url?q=http%3A%2F%2Fwww.ldf.fi%2Fdataset%2F%
-3Ffinlex&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH0HuIKyh5grmsbOnKtrESM8XksPw)&nbsp;for publishing and using
+Biography](http://www.seco.tkk.fi/publications/)&nbsp;for enriching and linking over 6300 of
+short life stories on the Semantic Web,[&nbsp;Semantic Finlex](http://www.ldf.fi/dataset/finlex)&nbsp;for publishing and using
 Finnish legislation as a Linked Data service, and WarSampo for
 publishing historical datasets as Linked Data related to WW1 and WW2. We
 collaborate with historians in Stanford University, University of
