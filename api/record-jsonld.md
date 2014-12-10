@@ -4,6 +4,7 @@ title: Record in JSON-LD
 published: true
 excerpt: Retrieving a single record from the dataset in JSON-LD format
 ---
+*Please note:* due to a recently identified issue this method is currently unavailable.
 
 ## JSON-LD
 
