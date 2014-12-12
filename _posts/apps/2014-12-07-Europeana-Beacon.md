@@ -12,7 +12,7 @@ secondarytags:
   - tourism
   - iBeacons
 imageurl: 
-  - /img/apps/europeana-beacon.jpg
+  - /img/apps/europeana-beacon.png
 links: 
   - "http://www.oimmei.com/europeana/europeana-beacon.html"
   - "http://www.oimmei.com"
