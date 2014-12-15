@@ -43,12 +43,12 @@ You should find everything you need to get started using the Europeana API in th
 
 ### Using the translation API
 
-Want to look for content from across Europe but don't know the word for beer in Swedish, or for sausage in Italian? The [Europeana translation API](http://labs.europeana.eu/blog/new-translation-method-in-API/) uses Wikipedia to provide transated terms in many European langauges, returning a search string that you can use directly in our standard search API method. You need to specifiy your term, and the list of languages that you want results for (up to a maximum of about 6 for performance reasons).
+Want to look for content from across Europe but don't know the word for beer in Swedish, or for sausage in Italian? The [Europeana translation API](http://labs.europeana.eu/blog/new-translation-method-in-API/) uses Wikipedia to provide translated terms in many European langauges, returning a search string that you can use directly in our standard search API method. You need to specify your term, and the list of languages that you want results for (up to a maximum of about 6 for performance reasons).
 
 Here's an example:
 
 ```
-(http://europeana.eu/api/v2/translateQuery.json?languageCodes=en,de,fr,it,es,sv&wskey=api2demo&term=beer)
+http://europeana.eu/api/v2/translateQuery.json?languageCodes=en,de,fr,it,es,sv&wskey=api2demo&term=beer
 ```
 
 whose response includes
@@ -60,10 +60,10 @@ whose response includes
 Putting this into a standard search gives over 47,000 results, compared with 29,500 if you search for beer alone.
 
 ```
-(http://europeana.eu/api/v2/search.json?wskey=api2demo&query=beer%20OR%20\%22Beer\%22%20OR%20\%22%C3%96l\%22%20OR%20\%22Cerveza\%22%20OR%20\%22Birra\%22%20OR%20\%22Bier\%22%20OR%20\%22Bi%C3%A8re\%22&start=1&rows=20&profile=rich)
+http://europeana.eu/api/v2/search.json?wskey=api2demo&query=beer%20OR%20\%22Beer\%22%20OR%20\%22%C3%96l\%22%20OR%20\%22Cerveza\%22%20OR%20\%22Birra\%22%20OR%20\%22Bier\%22%20OR%20\%22Bi%C3%A8re\%22&start=1&rows=20&profile=rich
 ```
 
-Find out more about the tranlsation API on our previous blog post (http://labs.europeana.eu/blog/new-translation-method-in-API/)
+Find out more about the tranlsation API on our previous blog post http://labs.europeana.eu/blog/new-translation-method-in-API/
 
 ### Licensing
 
@@ -80,7 +80,7 @@ This is a very common question from developers, so here's a quick overview and a
 - every item returned in a standard search call will have a url to a thumbnail e.g. "edmPreview": [ "http://europeanastatic.eu/api/image?uri=http%3A%2F%2Fcoleccionfff.unav.es%2Fbvunav%2Fi18n%2Fcatalogo_imagenes%2Fimagen_id.cmd%3FidImagen%3D10000592&size=LARGE&type=IMAGE" ]  
 (note that if we have not been able to create a thumbnail, for example if the item is not an image, then a placeholder thumbnail will be returned)
 
-- in addition, each item **may** have a direct link to the original media file. This is returned in the edmIsShowBy attribute, but note that you *must* set `&profile=rich` to have these returned in standard search results.
+- in addition, each item **may** have a direct link to the original media file. This is returned in the edmIsShowBy attribute, but note that you **must** set `&profile=rich` to have these returned in standard search results.
 
 - you can query just for records that have such links by using `&qf=provider_aggregation_edm_isShownBy:\*` in your API call
 
@@ -112,6 +112,6 @@ The Food & Drink Chellnge gives you a chance to pitch your app against other Eur
 
 ---
 
-<small>Header image: [Pieter Cornelisz van Rijck, Kitchen Scene with the Parable of the Rich Man and Poor Lazarus, (1610 – 1620)](http://www.europeana.eu/portal/record/90402/SK_A_868.html?start=1&query=cornelisz+kitchen&startPage=1&rows=24) from Rijksmuseum (Public Domain).</small>
+<small>Header image: [Pieter Cornelisz van Rijck, Kitchen Scene with the Parable of the Rich Man and Poor Lazarus, 1610 – 1620](http://www.europeana.eu/portal/record/90402/SK_A_868.html?start=1&query=cornelisz+kitchen&startPage=1&rows=24) from Rijksmuseum (Public Domain).</small>
 
 <a name="comments"></a>
