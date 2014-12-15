@@ -3,7 +3,7 @@ published: true
 layout: blog-item
 category: blog
 permalink: blog/food-drink-challenge-content-sourcing
-title: "Content sourcing case study - food & dring challenge"
+title: "Content sourcing - food and drink challenge"
 imageurl: 
   - "/img/blog/2014-11-25-food-and-drink-challenge.jpg"
 
@@ -20,7 +20,7 @@ The Europeana Portal provides an easy, visual way to manually source content for
 
 All these searches are based on openly licensed material, but if your use is non-commercial this opens up even more possibilities.
 
-To see some specific examples of what you might find, we've compiled [a list of around 30 top openly licensed images](http://www.europeana.eu/portal/record/2021639/2286.html)
+To see some specific examples of what you might find, we've compiled [a list of around 30 top openly licensed images](https://docs.google.com/document/d/1zs_B-xOiQ2faCHR4vSPYdAPQvN84uph4WDImNNgF0E4/edit?usp=sharing)
 
 ## Using the Europeana API
 
