@@ -3,7 +3,7 @@ published: true
 layout: blog-item
 category: blog
 permalink: blog/food-drink-challenge-content-sourcing
-title: "Content sourcing - food and drink challenge"
+title: "Content sourcing for the Europeana Food and Drink Challenge"
 imageurl: 
   - "/img/blog/2014-11-25-food-and-drink-challenge.jpg"
 
