@@ -2,7 +2,7 @@
 published: true
 layout: blog-item
 category: blog
-permalink: blog/food-drink-chellenge-content-sourcing
+permalink: blog/food-drink-challenge-content-sourcing
 title: "Content sourcing case study - food & dring challenge"
 imageurl: 
   - "/img/blog/2014-11-25-food-and-drink-challenge.jpg"
