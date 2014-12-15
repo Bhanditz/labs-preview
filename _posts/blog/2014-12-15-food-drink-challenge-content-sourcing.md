@@ -8,7 +8,7 @@ imageurl:
   - "/img/blog/2014-11-25-food-and-drink-challenge.jpg"
 
 tags:
-  - challenge
+  - challenges
   - food and drink
 
 ---
