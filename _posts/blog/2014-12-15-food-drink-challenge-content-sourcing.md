@@ -39,13 +39,6 @@ You should find everything you need to get started using the Europeana API in th
 - there are a number of client libraries available for languages such as php, Python and Django
 - we have also produced a [directory of open source tools](/apps/#tag=open-source-tools) that might be useful to developers, covering topics such as metadata management, annotation, front end display etc.
 
-### Collaborate
-- we're always keen to facilitate collaborations between developers, and with our own team. A great example is the [Europeana Open Culture app for iOS and Android](http://labs.europeana.eu/apps/europeana-open-culture/) which has been released as an open source platform for building tablet-based experiences using Europeana content. It's [available on GitHub](https://github.com/europeana/openculture/wiki) under the "European Union Public Licence". 
-
-### Need help?
-
-If you have any questions, just leave a comment below or check out the [other ways to contact us](/support/contact/).
-
 ## Hints & tips
 
 ### Using the translation API
@@ -97,6 +90,13 @@ A lot of work is being undertaken to address this and provide a more direct and 
 
 ## Where next?
 
+### Collaborate
+- we're always keen to facilitate collaborations between developers, and with our own team. A great example is the [Europeana Open Culture app for iOS and Android](http://labs.europeana.eu/apps/europeana-open-culture/) which has been released as an open source platform for building tablet-based experiences using Europeana content. It's [available on GitHub](https://github.com/europeana/openculture/wiki) under the "European Union Public Licence". 
+
+### Need help or have something to share?
+
+If you have any questions, just leave a comment below or check out the [other ways to contact us](/support/contact/).
+
 Our data, API and associated documentation are constantly updated and improved. Much of this is in response to feedback and requests received from our user community. However big or small, we would love to hear of your plans and answer any questions you may have. 
 
 - Send us your ideas
@@ -104,9 +104,9 @@ Our data, API and associated documentation are constantly updated and improved. 
 - Ask us to test
 - Tell us your needs
 
-Leave a comment below, or see some of the other ways to [contact us](/support/contact). 
+### Enter the Challenge
 
-But whatever you do
+The Food & Drink Chellnge gives you a chance to pitch your app against other Europeana developers and the opportunity to win 5,000 €
 
 - [enter the Europeana Food & Drink Challenge](http://foodanddrinkeurope.eu/challengeone/)
 
