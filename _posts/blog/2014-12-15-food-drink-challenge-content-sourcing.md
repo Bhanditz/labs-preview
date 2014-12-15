@@ -106,7 +106,7 @@ Our data, API and associated documentation are constantly updated and improved. 
 
 ### Enter the Challenge
 
-The Food & Drink Chellnge gives you a chance to pitch your app against other Europeana developers and the opportunity to win 5,000 €
+The Food & Drink Challenge gives you a chance to pitch your app against other Europeana developers and the opportunity to win 5,000 €
 
 - [enter the Europeana Food & Drink Challenge](http://foodanddrinkeurope.eu/challengeone/)
 
