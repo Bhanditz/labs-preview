@@ -108,7 +108,7 @@ Our data, API and associated documentation are constantly updated and improved. 
 
 The Food & Drink Challenge gives you a chance to pitch your app against other Europeana developers and the opportunity to win 5,000 €
 
-- [enter the Europeana Food & Drink Challenge](http://foodanddrinkeurope.eu/challengeone/)
+- [enter the Europeana Food & Drink Challenge](http://foodanddrinkeurope.eu/challengeone/), closing date 20 December 2014.
 
 ---
 
