@@ -5,7 +5,7 @@ category: blog
 permalink: blog/whos-using-what-douglas-duhaime
 title: Who's Using What: Douglas Duhaime Developer Profile 
 imageurl: 
-  - "/img/blog/placeholder.png"
+  - "/img/blog/2015-01-22-whos-using-what-douglas-duhaime.png"
 tags: 
   - FLOSS
 secondarytags:
