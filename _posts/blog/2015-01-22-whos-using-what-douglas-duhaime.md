@@ -3,7 +3,7 @@ published: true
 layout: blog-item
 category: blog
 permalink: blog/whos-using-what-douglas-duhaime
-title: "Who's Using What: Douglas Duhaime Developer Profile"
+title: Who's Using What - Douglas Duhaime Developer Profile
 imageurl: 
   - "/img/blog/2015-01-22-whos-using-what-douglas-duhaime.jpg"
 tags: 
