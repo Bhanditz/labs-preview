@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 layout: blog-item
 category: blog
 permalink: blog/whos-using-what-douglas-duhaime
-title: Who's Using What: Douglas Duhaime Developer Profile 
+title: "Who's Using What: Douglas Duhaime Developer Profile"
 imageurl: 
   - "/img/blog/2015-01-22-whos-using-what-douglas-duhaime.jpg"
 tags: 
@@ -12,6 +12,7 @@ secondarytags:
   - OCR
   - Natural Language Processing
 ---
+
 This week&rsquo;s &ldquo;Who&rsquo;s Using What&rdquo; spotlight goes to [Douglas
 Duhaime](http://douglasduhaime.com/); from the University of Notre Dame.
 Douglas&rsquo;s research takes him to intersections of early modern
