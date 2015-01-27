@@ -1,5 +1,5 @@
 ---
-published:false
+published: false
 layout: data-item
 category: data
 title: "Black and white photographs from Lithuania"
