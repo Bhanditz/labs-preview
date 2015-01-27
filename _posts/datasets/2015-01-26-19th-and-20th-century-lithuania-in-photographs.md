@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/19th-and-20th-century-lithuania-in-photographs
