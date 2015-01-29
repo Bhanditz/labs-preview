@@ -14,7 +14,7 @@ imageurl:
 tags:
   - Tourism
   - geodata
-
+secondarytags: Europeana Photography Project
 licenses:
 dataset: 2024914
 copyright: Creative Commons Public Domain Mark
