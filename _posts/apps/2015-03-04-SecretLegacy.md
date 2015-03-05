@@ -13,8 +13,7 @@ secondarytags:
   - Europeana Creative
   - Pilot
 links: 
-  - "http://pro.europeana.eu/get-involved/projects/project-list/europeana-creati
-ve/pilots/natural-history-education-pilots"
+  - "http://pro.europeana.eu/get-involved/projects/project-list/europeana-creative/pilots/natural-history-education-pilots"
 
 contact: 
   - name: Felix King, exozet Berlin
