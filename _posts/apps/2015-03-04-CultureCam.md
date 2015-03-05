@@ -23,13 +23,14 @@ contact:
   email: sanna.marttila@aalto.fi
 
 ---
-## Culture Cam
 
-The Culture Cam (http://culturecam.eu) tool offers a non-text based visual search interface to European cultural heritage. People can browse a sub collection of Europeana’s content in an easy and intuitive way through a colour, a shape or a pattern by using camera from a computer or a mobile phone. Culture Cam enables and engages creative people and industries with European digital cultural heritage to find inspiration and source materials for new designs and art artefacts. All pictures in Culture Cam are under public domain, meaning that all the copyrights are waived or expired.
+The Culture Cam (http://culturecam.eu) tool offers a non-text based visual search interface to European cultural heritage.
+
+People can browse a sub collection of Europeana’s content in an easy and intuitive way through a colour, a shape or a pattern by using camera from a computer or a mobile phone. Culture Cam enables and engages creative people and industries with European digital cultural heritage to find inspiration and source materials for new designs and art artefacts. All pictures in Culture Cam are under public domain, meaning that all the copyrights are waived or expired.
 
 The code of Culture Cam (back-end) is open source and available via the following links: 
-https://github.com/europeana/Europeana-Creative/ 
-https://github.com/europeana/Europeana-Creative/tree/master/image-similarity 
+(https://github.com/europeana/Europeana-Creative/)
+(https://github.com/europeana/Europeana-Creative/tree/master/image-similarity)
  
 Culture Cam is developed by the Danish Design Company [Spild ad Tid](http://www.spildaftid.dk/) in collaboration with Aalto University ARTS and The Austrian Institute of Technology.
  
