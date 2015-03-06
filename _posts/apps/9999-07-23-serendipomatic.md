@@ -3,7 +3,7 @@ category: apps
 layout: "apps-item"
 published: true
 title: Serendip-o-matic
-featured: true
+featured: false
 permalink: "apps/serendip-o-matic"
 imageurl: 
   - "/img/apps/serendip-o-matic.png"
