@@ -2,7 +2,7 @@
 category: apps
 layout: "apps-item"
 published: true
-title: Secret Legacy
+title: The Secret Legacy
 featured: true
 permalink: "apps/secretlegacy"
 imageurl: 
