@@ -5,6 +5,7 @@ published: true
 title: VanGoYourself
 featured: true
 permalink: "apps/vangoyourself"
+description: VanGoYourself is a genuinely different and surprisingly deep way for visitors to engage with heritage, based on emotion, playfulness and curiosity
 imageurl: 
   - "/img/apps/2015-03-04-VanGoYourself.jpg"
 tags: 
