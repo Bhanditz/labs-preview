@@ -12,9 +12,8 @@ secondarytags:
   - Game
   - Crowdsourcing
   - Geolocation
-http://www.youtube.com/watch?v=W9a6NASUulA&feature=player_embedded  - Geolocation
 links:
-  - 
+  - http://www.youtube.com/watch?v=W9a6NASUulA&feature=player_embedded
 contact: 
   name: "Piotr Kaleta and Zbigniew Tenerowicz"
 ---
