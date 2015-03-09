@@ -20,7 +20,6 @@ contact:
   name: Monique Szpak
   website: "https://twitter.com/zenlan"
 ---
+The Culture Collage MS Office App allows easy embedding of images, together with their associated descriptions and license information, directly into documents such as Powerpoint presentations.
 
-The Culture Collage MS Office App was developed by Monique Szpak (@zenlan) and allows easy embedding of images, together with their associated descriptions and license information, directly into documents such as Powerpoint presentations.
-
-Monique has also developed the [Culture Collage website](culture-collage/) where users can explore Europeana collections alongside other providers such as DPLA and Trove.
+It was developed by Monique Szpak (@zenlan) who also developed the related [Culture Collage website](culture-collage/) where users can explore Europeana collections alongside other providers such as DPLA and Trove.

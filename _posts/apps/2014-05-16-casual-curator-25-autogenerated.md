@@ -8,8 +8,8 @@ imageurl:
 featured: false
 tags:
   - Hackathon Prototype
+  - Curation/Annotation
 secondarytags:
-  - Curation
   - Mobile
 links:
   - 

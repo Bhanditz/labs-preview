@@ -7,6 +7,7 @@ title: "GathrIt"
 featured: false
 tags:
   - Open Source tools
+  - Curation/Annotation
 secondarytags:
   - Social Applications
   - Crowdsourcing

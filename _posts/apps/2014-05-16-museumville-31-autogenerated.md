@@ -8,6 +8,7 @@ imageurl:
 featured: false
 tags:
   - Hackathon Prototype
+  - Curation/Annotation
   - Gaming
 links:
   - http://www.youtube.com/watch?v=HySnGLJgG6g&feature=youtu.be

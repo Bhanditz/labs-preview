@@ -7,6 +7,7 @@ title: "DBpedia Spotlight"
 featured: false
 tags:
   - Open Source tools
+  - Curation/Annotation
 secondarytags:
   - Linked Open Data
   - Data Annotation/Curation

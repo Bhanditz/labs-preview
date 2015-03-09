@@ -7,6 +7,7 @@ title: "yuma.min.js"
 featured: false
 tags:
   - Open Source tools
+  - Curation/Annotation
 secondarytags:
   - Media Annotation/Tagging
   - Data Annotation/Curation
