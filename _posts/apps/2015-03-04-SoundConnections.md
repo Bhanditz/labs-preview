@@ -20,8 +20,7 @@ contact:
   email: hello@historypin.org
   
 ---
-
-### Explore sounds from across Europe and help enrich them with contextual information and audio-visual media.
+Explore sounds from across Europe and help enrich them with contextual information and audio-visual media.
 
 Sound Connections allows users to explore sound collections from across Europe and enrich them with comments, links, photos, videos and audio clips. Sound Connections provides four thematic pages: aviation, city soundscapes (London and Amsterdam) and birdlife. All themes can be explored by location and date and are accessible from the [Sound Connections landing page](https://www.historypin.org/en/explore/sound-connections) on historypin.org
 
