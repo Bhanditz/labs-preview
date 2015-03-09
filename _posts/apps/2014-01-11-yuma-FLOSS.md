@@ -7,6 +7,7 @@ title: "yuma.min.js"
 featured: false
 tags:
   - Open Source tools
+secondarytags:
   - Media Annotation/Tagging
   - Data Annotation/Curation
 imageurl:
@@ -15,7 +16,7 @@ links:
   - http://dme.ait.ac.at/yuma4j-server/
   - https://github.com/rsimon/yuma.min.js
 ---
-Open Source media annotation toolkit that makes content on a Web page annotatable with just a few lines of JavaScript. **Deprectated** Cf. ['Annotorious'](http://labs.europeana.eu/apps/Annotorious-FLOSS/)
+Open Source media annotation toolkit that makes content on a Web page annotatable with just a few lines of JavaScript. **Deprectated** Cf. ['Annotorious'](/apps/Annotorious-FLOSS/)
 
 Demo is available at [http://yuma-js.github.com/demos.html](http://yuma-js.github.com/demos.html)
 
