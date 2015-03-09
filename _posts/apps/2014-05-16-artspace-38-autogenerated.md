@@ -8,6 +8,7 @@ imageurl:
 featured: false
 tags:
   - Hackathon Prototype
+secondarytags:
   - Rich media
 links:
   - http://www.artspace.deseostudio.com/

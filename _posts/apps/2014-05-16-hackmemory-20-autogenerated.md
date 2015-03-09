@@ -8,7 +8,8 @@ imageurl:
 featured: false
 tags:
   - Hackathon Prototype
-  - Game
+  - Education
+  - Gaming
 links:
   - 
 contact: 
