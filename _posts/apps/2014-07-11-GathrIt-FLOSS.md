@@ -7,7 +7,9 @@ title: "GathrIt"
 featured: false
 tags:
   - Open Source tools
+secondarytags:
   - Social Applications
+  - Crowdsourcing
   - Data Annotation/Curation
   - Exhibition Management
   
@@ -15,7 +17,6 @@ imageurl:
   - "/img/no-image.gif"
 links:
   - http://gathr.it/
-  - https://github.com/Leaflet/Leaflet
 
 ---
 The concept of GathrIt is to provide a crowdsourcing toolset for cultural collections.
