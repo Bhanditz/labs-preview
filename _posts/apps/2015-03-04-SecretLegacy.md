@@ -9,9 +9,9 @@ imageurl:
   - "/img/apps/2015-03-04-SecretLegacy.jpg"
 tags: 
   - Gaming
+  - Pilot
 secondarytags: 
   - Europeana Creative
-  - Pilot
 links: 
   - "http://pro.europeana.eu/get-involved/projects/project-list/europeana-creative/pilots/natural-history-education-pilots"
 

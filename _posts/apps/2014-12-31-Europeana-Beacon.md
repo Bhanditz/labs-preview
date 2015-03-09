@@ -7,7 +7,7 @@ featured: true
 permalink: apps/europeana-beacon
 tags: 
   - API Implementation
-  - tourism
+  - Tourism
 secondarytags:
   - hack4pisa
   - iBeacons

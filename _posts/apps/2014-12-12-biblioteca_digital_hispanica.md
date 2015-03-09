@@ -15,6 +15,7 @@ contact:
   telephone: 
 tags: 
   - API Implementation
+  - Discovery
 links:
   - http://bdh.bne.es/bnesearch/
 ---

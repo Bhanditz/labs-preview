@@ -8,10 +8,12 @@ permalink: "apps/sound-connections"
 imageurl: 
   - "/img/apps/2015-03-04-SoundConnections.jpg"
 tags: 
-  - Crowdsourcing
+  - Pilot
+  - Engagement
+  - API Implementation
 secondarytags: 
   - Europeana Creative
-  - pilot
+  - crowdsourcing
 links: 
   - "https://www.historypin.org/en/explore/sound-connections"
   - "https://github.com/Historypin/europeana-api-ingest"

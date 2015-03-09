@@ -9,9 +9,10 @@ imageurl:
   - "/img/apps/2015-03-04-VanGoYourself.jpg"
 tags: 
   - Engagement
+  - Education
+  - Pilot
 secondarytags: 
   - Europeana Creative
-  - Pilot
 links: 
   - "http://vangoyourself.com/"
   - "https://wordpress.org/plugins/image-twinning/"

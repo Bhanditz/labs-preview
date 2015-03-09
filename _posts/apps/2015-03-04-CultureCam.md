@@ -8,9 +8,8 @@ permalink: "apps/culturecam"
 imageurl: 
   - "/img/apps/2015-03-04-CultureCam.jpg"
 tags: 
-  - discovery
-  - engagement
-  - pilot
+  - Discovery
+  - Pilot
 secondarytags: 
   - Europeana Creative
   - design
