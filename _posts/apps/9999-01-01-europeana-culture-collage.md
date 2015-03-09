@@ -4,7 +4,7 @@ layout: "apps-item"
 published: true
 title: Culture Collage
 featured: true
-permalink: "apps/culture-collage"
+permalink: "apps/culture-collage-ms-office"
 imageurl: 
   - "/img/apps/culture-collage.png"
 tags: 
@@ -12,7 +12,6 @@ tags:
   - Discovery
 links: 
   - "http://www.zenlan.com/collage/europeana/#"
-  - "http://www.zenlan.com/apps/"
   - "https://github.com/zenlan/eurapi"
 
 contact: 
@@ -26,4 +25,4 @@ Monique writes: "The Europeana API proved to be easy to use and provides access 
 
 Searches for a specific keyword result in [a stream of related Europeana images](http://zenlan.com/collage/europeana/#bicyclette "Search Culture Collage for images matching bicyclette on Europeana"). Clicking on an image lets you save it to a scrapbook and you can also hop over to the object’s page on the Europeana portal. Searches can be tweeted and search terms are preserved in the URL ready to be shared anywhere.
 
-Monique has also developed [Culture Collage apps for the Microsoft Office suite](http://www.zenlan.com/apps/). These allow easy embedding of images, together with their associated descriptions and license information, directly into documents such as Powerpoint presentations.
+Monique has also developed [Culture Collage apps for the Microsoft Office suite](culture-collage-MS-Office/). 
