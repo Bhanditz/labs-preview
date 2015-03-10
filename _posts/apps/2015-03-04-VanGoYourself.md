@@ -8,7 +8,7 @@ permalink: "apps/vangoyourself"
 imageurl: 
   - "/img/apps/2015-03-04-VanGoYourself.jpg"
 tags: 
-  - Engagement
+  - Curation/Annotation
   - Education
   - Pilot
 secondarytags: 

@@ -8,6 +8,8 @@ imageurl:
 featured: false
 tags:
   - API Implementation
+  - Discovery
+secondarytags:
   - Search
 links:
   - http://www.wbc.poznan.pl/dlibra/docmetadata?id=1382&from=pubstats

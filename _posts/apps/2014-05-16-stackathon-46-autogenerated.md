@@ -9,7 +9,7 @@ featured: false
 tags:
   - Hackathon Prototype
   - Distribution
-    - Curation/Annotation
+  - Curation/Annotation
 secondarytags:
   - Mobile
 links:

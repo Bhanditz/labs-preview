@@ -9,7 +9,7 @@ imageurl:
   - "/img/apps/2015-03-04-SoundConnections.jpg"
 tags: 
   - Pilot
-  - Engagement
+  - Curation/Annotation
   - API Implementation
 secondarytags: 
   - Europeana Creative
