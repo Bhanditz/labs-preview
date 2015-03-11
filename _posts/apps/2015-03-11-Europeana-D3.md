@@ -6,7 +6,7 @@ title: Europeana-D3
 featured: false
 permalink: "apps/Europeana-D3"
 imageurl: 
-  - "/img/apps/2015-03-15-Europeana-D3.png"
+  - "/img/apps/2015-03-11-Europeana-D3.png"
 tags: 
   - API Implementation
   - Visualisation

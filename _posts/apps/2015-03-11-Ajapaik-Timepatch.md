@@ -6,7 +6,7 @@ title: Ajapaik / Timepatch
 featured: false
 permalink: "apps/ajapaik-timepatch"
 imageurl: 
-  - "/img/apps/2015-03-15-ajapaik-timepatch.jpg"
+  - "/img/apps/2015-03-11-ajapaik-timepatch.jpg"
 tags: 
   - API Implementation
   - Curation/Annotation
