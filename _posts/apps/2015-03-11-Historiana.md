@@ -2,24 +2,26 @@
 category: apps
 layout: "apps-item"
 published: true
-title: Culture Collage MS Office app
+title: Historiana
 featured: false
-permalink: "apps/culture-collage-MS-Office"
+permalink: "apps/historiana"
 imageurl: 
-  - "/img/apps/2015-03-15-culture-collage-MS-Office.png"
+  - "/img/apps/2015-03-11-historiana.jpg"
+  - "/img/apps/2015-03-11-historiana2.jpg"
 tags: 
   - API Implementation
+  - Education
   - Curation/Annotation
 secondarytags:
-  - Commercial
+  - learning
 links: 
-  - "http://www.zenlan.com/apps/"
-  - "https://github.com/zenlan/eurapi"
+  - "http://historiana.eu"
 
 contact: 
-  name: Monique Szpak
-  website: "https://twitter.com/zenlan"
+  email: inbox@historiana.eu
 ---
-The Culture Collage MS Office App allows easy embedding of images, together with their associated descriptions and license information, directly into documents such as Powerpoint presentations.
+The Historiana Learning Section is the History Education Pilot from the Europeana Creative Project.
 
-It was developed by Monique Szpak (@zenlan) who also developed the related [Culture Collage website](culture-collage/) where users can explore Europeana collections alongside other providers such as DPLA and Trove.
+The Historiana Learning Section is an online environment where educator can find sources, find learning activities and create online their own learning activities in their own language.
+
+It is a digital learning resource designed for use in history lessons aimed at students (14+) and their educators. It was made by: EUROCLIO - European Association of History Educators; Webtic Consultancy; and history educators from across Europe. 
