@@ -31,4 +31,4 @@ For the first aim, this is primarily about surfacing content that is not geotagg
 
 For the second aim, the point is to keep it really simple - everything is automatically put on the map in a tentative location and users simply have to confirm, move or reject.
 
-And for the final aim, all the crowdsourced data that is captured is available as a very simple geoJson feed ([example feed for Oxford area](http://postcodepast/data/pinned.php?bbox=-1.2678909301757812,51.748660840922504,-1.2479138374328613,51.75570118786657))
+And for the final aim, all the crowdsourced data that is captured is available as a very simple geoJson feed ([example feed for Oxford area](http://postcodepast.com/data/pinned.php?bbox=-1.2678909301757812,51.748660840922504,-1.2479138374328613,51.75570118786657))
