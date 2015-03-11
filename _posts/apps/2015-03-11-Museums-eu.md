@@ -14,7 +14,7 @@ tags:
   - Tourism
 links: 
   - "http://museums.eu/"
-  = "http://museums.eu/blog/104145/reusing-millions-of-records-from-europeana"
+  - "http://museums.eu/blog/104145/reusing-millions-of-records-from-europeana"
 
 contact: 
   email: info@semantika.si
