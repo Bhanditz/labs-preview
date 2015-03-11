@@ -7,6 +7,7 @@ featured: false
 permalink: "apps/museums-eu"
 imageurl: 
   - "/img/apps/2015-03-11-museums-eu.jpg"
+  - "/img/apps/2015-03-11-museums-eu2.jpg"
 tags: 
   - API Implementation
   - Discovery
