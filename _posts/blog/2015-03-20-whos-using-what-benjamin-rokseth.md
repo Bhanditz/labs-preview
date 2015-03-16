@@ -17,7 +17,7 @@ Team at the Oslo Public Library. The [Oslo Public Library] (https://www.deichman
 need for a progressive CMS and a new and improved way for local visitors and researchers as well as internationals alike seeking to access the library’s collection. The Oslo Public Library decided to make a big change their new
 library system on the well known OSS, [Koha](http://www.koha.org/). You can read all about the transition in [this fascinating piece](http://digital.deichman.no/blog/2015/01/12/working-with-koha-at-oslo-public-library/). Rokseth is an OS
 champion and for any library’s looking to make the switch from an old CMS to Koha, hopefully his answers and insights will
-provide some guidance. For more info you can investigate his [Github](https://github.com/bensinober) and the [Digital Development Team’s blog](http://digital.deichman.no/). 
+provide some guidance. For more info you can investigate his personal [Github](https://github.com/bensinober) and the [Digital Development Team’s blog](http://digital.deichman.no/) and [Github](https://github.com/digibib) . 
 
 ##1. What open source tools are you currently working with? 
 
