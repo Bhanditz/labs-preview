@@ -23,8 +23,7 @@ provide some guidance. For more info you can investigate his [Github](https://gi
 
 Today, our public library is migrating from a proprietary library system to the community driven Koha, which is open source in
 all respects. The main focus for the present is on the development workflow and continuous integration, and in that respect we
-use Jenkins as staging/integration tool and SaltStack and Docker for the entire deployment/setup process. For functionality
-testing we use Cucumber, and Watir for browser testing. Everything neat and open source.
+use [Jenkins](http://jenkins-ci.org/) as staging/integration tool and [SaltStack](http://saltstack.com/) and [Docker](https://www.docker.com/) for the entire deployment/setup process. For functionality testing we use [Cucumber](https://cukes.info/), and [Watir](http://watir.com/) for browser testing. Everything neat and open source.
 
 ## 2. What open source tools have you used in the past to develop larger applications?
 
