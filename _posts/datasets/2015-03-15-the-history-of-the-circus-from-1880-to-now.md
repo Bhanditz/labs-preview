@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/the-history-of-the-circus-from-1880-to-now
