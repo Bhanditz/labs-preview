@@ -1,4 +1,4 @@
-﻿---
+---
 layout: data-item
 category: data
 permalink: data/famous-manuscripts-and-notebooks-from-the-british-library
