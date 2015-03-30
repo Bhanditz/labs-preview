@@ -5,7 +5,7 @@ category: blog
 permalink: blog/whos-using-what-benjamin-rokseth
 title: Who's Using What - Benjamin Rokseth Developer Profile
 imageurl: 
-  - "/img/blog/place-holder"
+  - "/img/blog/2015-03-20-whos-using-what-benjamin-rokseth.jpg"
 tags: 
   - FLOSS
 secondarytags:
