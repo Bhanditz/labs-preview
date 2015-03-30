@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: blog-item
 category: blog
 permalink: blog/whos-using-what-benjamin-rokseth
