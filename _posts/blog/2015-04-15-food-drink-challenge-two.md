@@ -5,7 +5,7 @@ category: blog
 permalink: blog/food-drink-challenge-video-storytelling
 title: Europeana Food and Drink launches video storytelling Open Innovation Challenge
 imageurl: 
-  - "/img/blog/32015-04-15-food-drink-challenge-two.jpg"
+  - "/img/blog/2015-04-15-food-drink-challenge-two.jpg"
 tags: 
   - Challenge
 secondarytags:
