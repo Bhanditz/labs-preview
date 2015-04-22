@@ -83,7 +83,7 @@ In the documentation we sometime refer to namespace prefixes, such as dc, skos, 
 
 ## Callback Function
 
-Name of a client side (JavaScript) callback function. If you set a funtion the JSON response will be wrapped by this function call, so it is not JSON, but [JSONP](http://en.wikipedia.org/wiki/JSONP) (JSON with Paggings). JSONP provides a method to request data from a server in a different domain, something prohibited by typical web browsers because of the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
+Name of a client side (JavaScript) callback function. If you set a funtion the JSON response will be wrapped by this function call, so it is not JSON, but [JSONP](http://en.wikipedia.org/wiki/JSONP) (JSON with Padding). JSONP provides a method to request data from a server in a different domain, something prohibited by typical web browsers because of the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
 
 > "Under the same origin policy, a web page served from server1.example.com cannot normally connect to or communicate with a server other than server1.example.com. An exception is the HTML script element. Exploiting the open policy for script elements, some pages use them to retrieve JavaScript code that operates on dynamically generated JSON-formatted data from other origins. This usage pattern is known as JSONP. Requests for JSONP retrieve not JSON, but arbitrary JavaScript code. They are evaluated by the JavaScript interpreter, not parsed by a JSON parser." (Wikipedia: [JSONP](http://en.wikipedia.org/wiki/JSONP))
 
