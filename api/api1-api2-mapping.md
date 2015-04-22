@@ -82,7 +82,7 @@ Some fields available in API1 were renamed in API2. In the table below you can f
 |enrichment_place_broader_label|pl_dcterms_isPartOf_label|
 |enrichment_period_broader_term|ts_dcterms_isPartOf|
 |enrichment_period_broader_label|ts_dcterms_isPartOf_label|
-|enrichment_concept_broader_term|cc_skos_broader", false, true),|
+|enrichment_concept_broader_term|cc_skos_broader|
 |enrichment_concept_broader_label|cc_skos_broaderLabel|
 |europeana_year|proxy_edm_year|
 |europeana_language|europeana_aggregation_edm_language|

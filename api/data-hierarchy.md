@@ -2,14 +2,14 @@
 layout: "api-page"
 title: Europeana Data Hierarchy
 published: true
-excerpt: "How Europeana data hierarchy is organized"
+excerpt: "How Europeana data hierarchy is organised"
 
 ---
 
 * TOC
 {:toc}
 
-To organize its data Europeana uses a complex data model which is called the Europeana Data Model (EDM). A detailed description of EDM is beyond the scope of this documentation: the reader is referred to the extensive documentation [on Europeana website](http://pro.europeana.eu/edm-documentation). However, a basic understanding of the data organiszation is necessary for implementing the API. The objective of this section is to provide this basic understanding.
+To organize its data Europeana uses a complex data model which is called the Europeana Data Model (EDM). A detailed description of EDM is beyond the scope of this documentation: the reader is referred to the extensive documentation [on Europeana website](http://pro.europeana.eu/edm-documentation). However, a basic understanding of the data organisation is necessary for implementing the API. The objective of this section is to provide this basic understanding.
 
 ## EDM and Records
 
@@ -25,7 +25,7 @@ where 091 is the identifier of the provider, 02 is the id of the dataset and _GN
 
 ## Fields
 
-Europeana data is organiszed in records which correspond to cultural heritage objects. Each object is described by a number of fields in the record which contain information such as the title of the object, its description, the date, persons and concepts related to it.
+Europeana data is organised in records which correspond to cultural heritage objects. Each object is described by a number of fields in the record which contain information such as the title of the object, its description, the date, persons and concepts related to it.
 
 ## Aggregated Fields
 

@@ -12,13 +12,13 @@ This document describes the changes of Europeana API. The changes are grouped by
 
 ### Support for and inclusion of technical metadata
 
-The API now supports technical metadata, metadata which is extracted from media files such as images. This results in new request parameters for the [search API](/api/search), the addition of [new facets](/api/data-fields/) and an updated [response in the record API](/api/record). At the time of release (end of April), we have extracted technical metadata for about one-third of our collection. This number will increase gradually over the next few months.
+The API now supports technical metadata, metadata which is extracted from media files such as images. This results in new request parameters for the [search API](/api/search/#request), the addition of [new facets](/api/data-fields/#technical-metadata-facets) and an updated [response in the record API](/api/record/#response). At the time of release, we have extracted technical metadata for about one-third of our collection. This number will increase gradually over the next few months.
 
 An overview of the new API parameters:
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
-| media | Boolean | Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata. Works only with 'true'. |
+| media | Boolean | Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata and is resolvable. Works only with 'true'. |
 
 An overview of the new facets:
 
@@ -39,18 +39,23 @@ Examples:
 
 Find all records that match the query ‘Paris’ which are openly licensed and have large images:
  
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&reusability=open&qf=IMAGE_SIZE:large
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&reusability=open&qf=IMAGE_SIZE:large
+
+[Test on API Console](/api/console/?function=search&query=Paris&reusability=open&qf=IMAGE_SIZE:large)
 
 Find all records that match the query Paris which have a thumbnail image, are of mime type image/jpeg and have an aspect ratio of 'landscape':
  
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&thumbnail=true&qf=MIME_TYPE:image%2Fjpeg&qf=IMAGE_ASPECTRATIO:landscape
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&thumbnail=true&qf=MIME_TYPE:image%2Fjpeg&qf=IMAGE_ASPECTRATIO:landscape
 
-Find all records where the subject is opera and where the results are sound files with a long duration :
+[Test on API Console](/api/console/?function=search&query=Paris&thumbnail=true&qf=MIME_TYPE:image%2Fjpeg&qf=IMAGE_ASPECTRATIO:landscape)
+
+Find all records where the subject is opera and where the results are sound files with a long duration:
  
-http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=what:opera&qf=SOUND_DURATION:long
+    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=what:opera&qf=SOUND_DURATION:long
 
+[Test on API Console](/api/console/?function=search&query=what:opera&qf=SOUND_DURATION:long)
 
-## Version 2.-0-.12 (2014-06-18)
+## Version 2.0.12 (2014-06-18)
 
 ### /v2/translateQuery.json
 

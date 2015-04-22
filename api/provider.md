@@ -16,6 +16,8 @@ This page describes the API calls that retrieve information about Europeana data
 Retrieve information about all Europeana data providers.
 
     http://europeana.eu/api/v2/providers.json
+
+Alternatively, you can also use the [DATA_PROVIDER facet](/api/data-fields/#metadata-facets) in a [Search Query](/api/search/) to group results by and search for results by a provider.
     
 ### Request  
 
@@ -24,6 +26,11 @@ Retrieve information about all Europeana data providers.
 | offset | String |  query | for paging needs - offset to start with |
 | pagesize | Number | query  | for paging needs - size of the result set to fetch |
 | countryCode | String | query | two-letters ISO 3166-1 country code |
+
+List all providers from The Netherlands:
+
+    &countryCode=NL
+    http://www.europeana.eu/api/v2/providers.json?wskey=xxxx&countryCode=NL
 
 ### Response
 
@@ -39,7 +46,6 @@ Retrieve information about all Europeana data providers.
 | edm:geographicLevel | geolevel | String | the level of operations (Regional/Nationa/European/Worldwide) |
 | edm:europeanaRole | role | String | the type of the organisation with relation to Europeana (Aggregator/Data Provider)  |
 | foaf:homepage | website | String | The website of the provider  |
-
 
 ## Provider
 
@@ -59,6 +65,10 @@ Retrieve information about datasets supplied by a specific data provider.
 
 	http://europeana.eu/api/v2/provider/[providerID]/datasets.json
 
+Alternatively, you can also construct a [Search Query](/api/search) with a custom dataset facet to group results by and search for results by dataset.
+
+	http://europeana.eu/api/v2/search.json?wskey=xxxx&query=europeana_collectionName:*&facet=europeana_collectionName&f.europeana_collectionName.facet.limit=2000&profile=facets
+
 ### Request  
 
 | Parameter | Datatype | Type | Description |
@@ -69,13 +79,13 @@ Retrieve information about datasets supplied by a specific data provider.
 
 | EDM Field | Name in search | Datatype | Description |
 |:-------------------|:-------------|:-------------|:----------|
-|  dc:identifier | identifier  | String | the internal identifier of the dataset in Europeana derived from the edm:datasetName |
+| dc:identifier | identifier  | String | the internal identifier of the dataset in Europeana derived from the edm:datasetName |
 | dc:identifier | provIdentifier | String | the internal identifier of the provider of the dataset  |
-edm:provider | providerName | String | the name of the provider of the dataset  |
+| edm:provider | providerName | String | the name of the provider of the dataset  |
 | edm:datasetName | edmDatasetName | String | the name of the dataset  |
 | adms:status | status | String | the current status of the dataset in the europeana ingestion lifecycle |
 | dcterms:extent | publishedRecords  | Number | the number of records that belong to this dataset and are published on the Europeana Portal |
-| ... | deleteRecords | Number | The number of records that have been removed or deleted |
+| N/A | deleteRecords | Number | The number of records that have been removed or deleted |
 | dcterms:created | creationDate | Date | the date the dataset was created |
 
 

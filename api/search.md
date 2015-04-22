@@ -22,7 +22,7 @@ Search for records.
 | start | Number | The item in the search results to start with. The first item is 1. Defaults to 1. |
 | callback | String | Name of a client side [callback function](/api/getting-started/#callback-function). |
 | reusability | String | Filter by copyright status. Possible values are open, restricted or permission, see [reusability parameters](#reusability-parameter). |
-| media | Boolean | Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata. Works only with 'true'. |
+| media | Boolean | Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata and is resolvable. Works only with 'true'. |
 | facet | String | Name of an individual facet. See [individual facets](#individual-facets) |
 | f.[facet name].facet.limit | Number | Number of values an individual facet should contain. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#individual-facets) |
 | f.[facet name].facet.offset | Number | The offset of the first value in an individual facet. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#individual-facets) |

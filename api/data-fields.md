@@ -304,15 +304,12 @@ Facets that relate to the metadata extracted from the media, such as images and 
 | Name in search | Datatype | Media type | Description
 |:-------------|:-----|:-----|:-------------|
 | MIME_TYPE | string |  | Mime-type of the file, e.g. image/jpeg |
-| IMAGE_SIZE | string | | Image | Size in megapixels of an image, values: small (< 0.5MP), medium (0.5-1MP), large (1-4MP) and extra_large (> 4MP) |
+| IMAGE_SIZE | string | Image | Size in megapixels of an image, values: small (< 0.5MP), medium (0.5-1MP), large (1-4MP) and extra_large (> 4MP) |
 | IMAGE_COLOUR | boolean | Image | Lists 'true' for colour images. An alias to this facet is IMAGE_COLOR, note that for non-colour images you cannot provide the 'false' value. Use the greyscale-facet instead. |
 | IMAGE_GREYSCALE | boolean | Image | Lists 'true' for greyscale images. An alias to this facet is IMAGE_GRAYSCALE, note that for colour images you cannot provide the 'false' value. Use the colour-facet instead. |
 | IMAGE_ASPECTRATIO | string | Image | Portrait or landscape. | 
-| VIDEO_HD | boolean | Video | Lists 'true' for videos that have a resolution higher than 576p. 
-| 
+| VIDEO_HD | boolean | Video | Lists 'true' for videos that have a resolution higher than 576p. |
 | VIDEO_DURATION | string | Video | Duration of the video, values: short (< 4 minutes), medium (4-20 minutes) and long (> 20 minutes). | 
 | SOUND_HQ | boolean | Sound | Lists 'true' for sound files where the bit depth is 16 or higher or if the file format is a lossless file type (ALAC, FLAC, APE, SHN, WAV, WMA, AIFF & DSD). Note that 'false' does not work for this facet. |
 | SOUND_DURATION | string | Sound | Duration of the sound file, values: very_short (< 30 seconds), short (30 seconds - 3 minutes), medium (3-6 minutes) and long (> 6 minutes). |
-| TEXT_FULLTEXT | boolean | Text | Lists 'true' for text media types which are searchable, e.g. a PDF with text. | 
-
-
+| TEXT_FULLTEXT | boolean | Text | Lists 'true' for text media types which are searchable, e.g. a PDF with text. |
