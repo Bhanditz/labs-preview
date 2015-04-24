@@ -23,6 +23,7 @@ Return all suggestions for the query 'paris':
 
     &query=paris
     http://www.europeana.eu/api/v2/suggestions.json?wskey=xxxx&query=paris
+
 [Test on API Console](/api/console/?function=suggestions&query=paris)
 
 ## Response
