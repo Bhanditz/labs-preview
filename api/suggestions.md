@@ -32,7 +32,7 @@ A response to this call contains [the common fields](/api/getting-started/#respo
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
-| items | Array ([Item](/api/suggestions/#item) | A collection of suggestion items. |
+| items | Array ([Item](/api/suggestions/#item)) | A collection of suggestion items. |
 
 ## Item
 
