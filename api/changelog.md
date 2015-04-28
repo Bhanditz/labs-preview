@@ -12,7 +12,7 @@ This document describes the changes of Europeana API. The changes are grouped by
 
 ### Support for and inclusion of technical metadata
 
-The API now supports technical metadata, metadata which is extracted from media files such as images. This results in new request parameters for the [search API](/api/search/#request), the addition of [new facets](/api/data-fields/#technical-metadata-facets) and an updated [response in the record API](/api/record/#response). At the time of release, we have extracted technical metadata for about one-third of our collection. This number will increase gradually over the next few months.
+The API now supports technical metadata, metadata which is extracted from media files such as images. This results in new request parameters for the [search API](/api/search/#request), the addition of [new facets](/api/data-fields/#technical-metadata-facets) and an updated [response in the record API](/api/record/#response). At the time of release, we have extracted technical metadata for a few millions of records. This number will increase gradually over the next few months.
 
 An overview of the new API parameters:
 
