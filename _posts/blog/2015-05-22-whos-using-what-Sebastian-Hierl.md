@@ -15,8 +15,8 @@ secondarytags:
 
 ### What open source tools are you currently working with?
 
-The institutions of the Koha Gruppo Italiano, composed of the (American Academy in Rome)[http://www.aarome.org/], (The American
-University of Rome)[http://www.aur.edu/], and the [Pontificia Università della Santa Croce](http://www.pusc.it/), all use the Open Source ILS, Koha.  We are among an increasing number of [Koha libraries in Rome and throughout Italy](http://www.kohagruppoitaliano.moonfruit.com/koha-in-italy/4588271863).  
+The institutions of the Koha Gruppo Italiano, composed of the [American Academy in Rome](http://www.aarome.org/), [The American
+University of Rome](http://www.aur.edu/), and the [Pontificia Università della Santa Croce](http://www.pusc.it/), all use the Open Source ILS, Koha.  We are among an increasing number of [Koha libraries in Rome and throughout Italy](http://www.kohagruppoitaliano.moonfruit.com/koha-in-italy/4588271863).  
 
 ### What open source tools have you used in the past to develop larger applications?
 
