@@ -13,7 +13,7 @@ secondarytags:
   - Koha
 ---
 
-After being inspired by our last Who's Using What column, we are proud to welcome Dr. Sebastian Hierl from the American Academy in Rome to our growing community of FLOSSers. Before becoming [Drue Heinz Librarian of the Arthur & Janet C. Ross Library](http://www.aarome.org/it/news/features/dr-sebastian-hierl-new-drue-heinz-librarian), Dr. Hierl was responsible for developing the [Widener Library’s Western European collections at Harvard University](http://hcl.harvard.edu/libraries/widener/collections/western_european.cfm). Hierl is a strong supporter of Koha as an ILS (integrated library system) for its web-based interface and flexibility as well as the strong and growing community of instituions and developers. So without further ado, Dr. Sebastian Hierl from the American Academy in Rome! 
+After being inspired by our [last Who's Using What column](http://labs.europeana.eu/blog/whos-using-what-benjamin-rokseth/), we are proud to welcome Dr. Sebastian Hierl from the American Academy in Rome to our growing community of FLOSSers. Before becoming [Drue Heinz Librarian of the Arthur & Janet C. Ross Library](http://www.aarome.org/it/news/features/dr-sebastian-hierl-new-drue-heinz-librarian), Dr. Hierl was responsible for developing the [Widener Library’s Western European collections at Harvard University](http://hcl.harvard.edu/libraries/widener/collections/western_european.cfm). Hierl is a strong supporter of Koha as an ILS (integrated library system) for its web-based interface and flexibility as well as the strong and growing community of instituions and developers. So without further ado, Dr. Sebastian Hierl from the American Academy in Rome! 
 
 ### What open source tools are you currently working with?
 
