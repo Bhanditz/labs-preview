@@ -2,14 +2,14 @@
 published: true
 layout: blog-item
 category: blog
-permalink: blog/whos-using-what-benjamin-rokseth
-title: Who's Using What - Benjamin Rokseth Developer Profile
+permalink: blog/whos-using-what-Sebastian-Hierl
+title: Who's Using What - Sebastian Hierl Developer Profile
 imageurl: 
   - "/img/blog/2015-03-20-whos-using-what-benjamin-rokseth.jpg"
 tags: 
   - FLOSS
 secondarytags:
-  - RDF
+  - ILS
   - Koha
 ---
 
