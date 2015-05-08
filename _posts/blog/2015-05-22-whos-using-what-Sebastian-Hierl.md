@@ -27,7 +27,7 @@ Principally, we implemented Koha in our libraries and contributed to the develop
 
 ### What are you currently developing?
 
-We are currently working with the Koha community and with [EBSCO](https://www.ebscohost.com/) on replacing the current Zebra search engine in Koha with [ElasticSearch](https://www.elastic.co/products/elasticsearch).  The community, under the leadership of [ByWater Solutions](http://bywatersolutions.com/), aims at providing ElasticSearch as an alternate search engine, thus offering a choice to all Koha libraries between Zebra and ElasticSearch.  
+We are currently working with the Koha community and with [EBSCO](https://www.ebscohost.com/) on replacing the current Zebra search engine in Koha with [ElasticSearch](https://www.elastic.co/products/elasticsearch).  The community, under the leadership of [ByWater Solutions](http://bywatersolutions.com/), aims at providing ElasticSearch as an alternate search engine, thus offering a choice to all Koha libraries between Zebra and ElasticSearch. (Read more about the collaboration [here](https://www.ebsco.com/news-center/press-releases/koha-receives-massive-support-from-ebsco-for-enhancements).)  
 
 ### What would you like to see developed?
 
