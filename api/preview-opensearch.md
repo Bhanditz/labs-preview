@@ -15,7 +15,7 @@ Basic search function following the OpenSearch specification (see [http://www.op
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
-| searchTerms | String | The search terms used to query the Europeana repository; similar to the query parameter in the [search method](/api/search/). |
+| searchTerms | String | The search terms used to query the Europeana repository; similar to the query parameter in the [search method](/api/preview-search/). |
 | count | Number | The number of search results to return; possible values can be any integer up to 100 [default = 12]. |
 | startIndex | Number | The first object in the search result set to start with (first item = 1), e.g., if a result set is made up of 100 objects, you can set the first returned object to the 22nd object in the set [default = 1]. |
 

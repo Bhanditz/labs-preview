@@ -24,7 +24,7 @@ Translate a term to different languages and return a query string to use in the 
 
 Get the translations of Notre Dame
 
-    http://europeana.eu/api/v2/translateQuery.json?languageCodes=nl,en,hu&wskey=xxxxxxxx&term=notre%20dame
+    http://beta.europeana.eu/v2/translateQuery.json?languageCodes=nl,en,hu&wskey=xxxxxxxx&term=notre%20dame
 
 It returns
 

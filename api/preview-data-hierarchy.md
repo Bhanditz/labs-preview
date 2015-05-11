@@ -13,7 +13,7 @@ To organize its data Europeana uses a complex data model which is called the Eur
 
 ## EDM and Records
 
-The Europeana API provides access to the Europeana data, which is modeled using EDM. While EDM is an open flexible data model featuring various kind of resources and relations between them, the Europeana API (and the Europeana Portal) supports the retrieval of a segment of EDM for practical purposes (a subgraph, to use strict terminology). These ‘atomic' EDM segments usually contain one Cultural Heritage Object (CHO), the aggregation information which connects the metadata and the digital representations together and a number of contextual resources such as the agents, places, concepts and time pertaining to the CHO. The further API documentation, in particular the [/record](http://labs.europeana.eu/api/record) call refers to this subgraph as _object_. 
+The Europeana API provides access to the Europeana data, which is modeled using EDM. While EDM is an open flexible data model featuring various kind of resources and relations between them, the Europeana API (and the Europeana Portal) supports the retrieval of a segment of EDM for practical purposes (a subgraph, to use strict terminology). These ‘atomic' EDM segments usually contain one Cultural Heritage Object (CHO), the aggregation information which connects the metadata and the digital representations together and a number of contextual resources such as the agents, places, concepts and time pertaining to the CHO. The further API documentation, in particular the [/record](http://labs.europeana.eu/api/preview-record) call refers to this subgraph as _object_.
 
 ## Identifying Records
 

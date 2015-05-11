@@ -9,22 +9,22 @@ published: true
 
 Get autocompletion recommendation for search queries. This call returns a list of Europeana records that contain a query term in one of their fields.
 
-    http://europeana.eu/api/v2/suggestions.json
+    http://beta.europeana.eu/v2/suggestions.json
 
 ## Request
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
 | query | String | The search term on which to search. |
-| callback | String | Name of a client side [callback function](/api/getting-started/#callback-function). |
+| callback | String | Name of a client side [callback function](/api/preview-getting-started/#callback-function). |
 | rows | Number | The maximum number of results (the default is 10). |
 
 Return all suggestions for the query 'paris':
 
     &query=paris
-    http://www.europeana.eu/api/v2/suggestions.json?wskey=xxxx&query=paris
+    http://beta.europeana.eu/v2/suggestions.json?wskey=xxxx&query=paris
 
-[Test on API Console](/api/console/?function=suggestions&query=paris)
+<!--[Test on API Console](/api/console/?function=suggestions&query=paris)-->
 
 ## Response
 
@@ -32,7 +32,7 @@ A response to this call contains [the common fields](/api/getting-started/#respo
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
-| items | Array ([Item](/api/suggestions/#item)) | A collection of suggestion items. |
+| items | Array ([Item](/api/preview-suggestions/#item)) | A collection of suggestion items. |
 
 ## Item
 

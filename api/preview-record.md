@@ -8,16 +8,16 @@ excerpt: Retrieving a single record from the dataset
 * TOC
 {:toc}
 
-Retrieve a single record from the Europeana dataset. On the relation between EDM and records read [this](http://labs.europeana.eu/api/data-hierarchy/#edm-and-records).
+Retrieve a single record from the Europeana dataset. On the relation between EDM and records read [this](http://labs.europeana.eu/api/preview-data-hierarchy/#edm-and-records).
 
-    http://europeana.eu/api/v2/record/[recordID].json
+    http://beta.europeana.eu/v2/record/[recordID].json
     
 ## Request
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
-| recordID | String | [Europeana ID](http://labs.europeana.eu/api/data-hierarchy/#identifying-records) of the record to retrieve. |
-| callback | String | Name of a [client side callback function](http://labs.europeana.eu/api/search/#callback-function). |
+| recordID | String | [Europeana ID](http://labs.europeana.eu/api/preview-data-hierarchy/#identifying-records) of the record to retrieve. |
+| callback | String | Name of a [client side callback function](http://labs.europeana.eu/api/preview-search/#callback-function). |
 
 
 ## Response
@@ -25,14 +25,14 @@ Retrieve a single record from the Europeana dataset. On the relation between EDM
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
 | object | [Object](#object) | The object representing the EDM metadata record. (see the note above) |
-| similarItems | Array([item](http://labs.europeana.eu/api/search/#item)) | The collection of metadata records similar to the current one. Available when profile parameter value is set to **similar**. The structure of each record is the same as the structure of the items collection returned by the [search](http://labs.europeana.eu/api/search) method. |
+| similarItems | Array([item](http://labs.europeana.eu/api/preview-search/#item)) | The collection of metadata records similar to the current one. Available when profile parameter value is set to **similar**. The structure of each record is the same as the structure of the items collection returned by the [search](http://labs.europeana.eu/api/preview-search) method. |
 
 
 ### object
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
-| about | String | [Europeana ID](http://labs.europeana.eu/api/data-hierarchy/#identifying-records) of the returned object.|
+| about | String | [Europeana ID](http://labs.europeana.eu/api/preview-data-hierarchy/#identifying-records) of the returned object.|
 | agents | Array([Agent](#edm-agent)) | A collection of EDM Agent objects contextually related to the object. Find more in the EDM Definition. |
 | aggregations | Array([Aggregation](#edm-aggregation)) | A collection of EDM Aggregation objects related to the object. Find more in the EDM Definition. |
 | concepts | Array([Concept](#edm-concept)) | A collection of EDM Concept objects contextually related to the object. Find more in the EDM Definition. |

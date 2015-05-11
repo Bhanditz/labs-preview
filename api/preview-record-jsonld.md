@@ -9,7 +9,7 @@ excerpt: Retrieving a single record from the dataset in JSON-LD format
 
 JSON-LD is stands for JSON for Linking Data, and is lightweight Linked Data format.
 
-The basic structure of the JSON-LD response is similar to a normal [single Record JSON request](/api/record/):
+The basic structure of the JSON-LD response is similar to a normal [single Record JSON request](/api/preview-record/):
 
 ```
 JavaScript

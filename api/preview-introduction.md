@@ -1,27 +1,26 @@
 ---
 layout: "api-page2"
-title: Europeana REST API
+title: Europeana preview REST API
 published: true
 ---
 
-The Europeana REST API allows you to build applications that use the wealth of cultural heritage objects stored in the Europeana repository. The API uses the standard web technology of REST calls over HTTP. Responses are returned in the popular JSON format.
-
-To get straight to the point of the API, you can go directly to the [Getting Started page](/api/getting-started) which tells you only what you have to know to start using the API.
+This part of our documentation reflects a preview version of the Europeana REST API. This is an upcoming version of our API and can be used to preview and play with new API functionality. Please have a look at our [changelog](/api/preview-changelog/) for a list of all new features and API changes.
 
 ### Registration
-To start using the API you should register at the registration page. Upon registration you will get your individual private authentication key. This key should be used when calling API methods as a special wskey authentication parameter.
 
-### Backward Compatibility
+For the preview API you can use the same API key as you would use for the normal version of the API.
 
-The current version of the Europeana API (API2) is fully backward compatible with the previous version (API1). However, we encourage developers to switch to the new naming of the fields that were used in API1. For more information on the mapping between the new and the old fields, please see [API1-API2 Fields Mapping](http://www.europeana.eu/portal/api-api1-api2.html).
+## Data
+
+The preview API works with a dataset of the Europeana data that is 1-3 months behind on the data you can find on the Europeana portal.
 
 ### API Console
 
-There is a method for developers to see how Europeana API works and test it for their needs without getting registered - the [API console](/api/console/). This is an interactive tool that allows filling method parameters in an online form and see both the expected results and the exact format of the call that should be used by an application to get these results. The API console has been built by us for developers’ convenience. You are encouraged to use it and provide us feedback about its usability for the developer community.
+The API console is currently not compatible with the API preview version.
 
 ### Discussion
 
-Join the [Europeana API discussion group at Google Groups](https://groups.google.com/forum/?pli=1#!forum/europeanaapi) and get regular updates about the Europeana API, provide feedback and discuss it with other developer.
+Join the [Europeana API discussion group at Google Groups](https://groups.google.com/forum/?pli=1#!forum/europeanaapi) and get regular updates about the Europeana API, provide feedback and discuss it with other developers.
 
 ### Terms of Use
 

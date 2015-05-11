@@ -12,17 +12,17 @@ The MyEuropeana part of the API allows you accessing personal user data stored o
 
 There are two methods to access MyEuropeana user data.
 
-To access data of a specific account you can use MyData methods which require [authentication using the public and private key of the user](http://labs.europeana.eu/api/authentication/#user_authentication).
+To access data of a specific account you can use MyData methods which require [authentication using the public and private key of the user](http://labs.europeana.eu/api/preview-authentication/#user_authentication).
 
-Applications that wish to access MyEuropeana data of a specific end-user on her behalf need to authenticate using the [OAuth2 scheme](http://labs.europeana.eu/api/authentication/#oauth2_authentication) and to use MyEuropeana set of methods.
+Applications that wish to access MyEuropeana data of a specific end-user on her behalf need to authenticate using the [OAuth2 scheme](http://labs.europeana.eu/api/preview-authentication/#oauth2_authentication) and to use MyEuropeana set of methods.
 
 
 ## Profile
 
 Retrieve your MyEuropeana profile, including statistics about user's activity. This call is read-only.
 
-    GET http://europeana.eu/api/v2/user/profile.json
-    GET http://europeana.eu/api/v2/mydata/profile.json
+    GET http://beta.europeana.eu/v2/user/profile.json
+    GET http://beta.europeana.eu/v2/mydata/profile.json
 
 ### Response
 
@@ -54,8 +54,8 @@ Retrieve or modify saved items (favorites) at your MyEuropeana account.
 
 Retrieve saved items.
 
-    GET http://europeana.eu/api/v2/user/saveditem.json
-    GET http://europeana.eu/api/v2/mydata/saveditem.json
+    GET http://beta.europeana.eu/v2/user/saveditem.json
+    GET http://beta.europeana.eu/v2/mydata/saveditem.json
 
 #### Request
 
@@ -69,7 +69,7 @@ Retrieve saved items.
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
 | username | String |  |
-| items | Array([SavedItem](http://labs.europeana.eu/api/myeuropeana/saved_item)) | Collection of saved items |
+| items | Array([SavedItem](http://labs.europeana.eu/api/preview-myeuropeana/saved_item)) | Collection of saved items |
 
 #### SavedItem
 
@@ -78,7 +78,7 @@ Information about one saved item.
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
 | id | Number | The unique ID of this item |
-| europeanaID | String | [Europeana ID](http://labs.europeana.eu/api/data-hierarchy/#identifying_records) of the item |
+| europeanaID | String | [Europeana ID](http://labs.europeana.eu/api/preview-data-hierarchy/#identifying_records) of the item |
 | guid | String | Link to the item on Europeana Portal |
 | link | String | Link to the JSON representation of the item |
 | title | String |  |
@@ -90,8 +90,8 @@ Information about one saved item.
 
 Creates a new saved item.
 
-    POST http://europeana.eu/api/v2/user/saveditem.json
-    POST http://europeana.eu/api/v2/mydata/saveditem.json
+    POST http://beta.europeana.eu/v2/user/saveditem.json
+    POST http://beta.europeana.eu/v2/mydata/saveditem.json
 
 #### Request
 
@@ -104,8 +104,8 @@ Creates a new saved item.
 
 Deletes a saved item.
 
-    DELETE http://europeana.eu/api/v2/user/saveditem.json
-    DELETE http://europeana.eu/api/v2/mydata/saveditem.json
+    DELETE http://beta.europeana.eu/v2/user/saveditem.json
+    DELETE http://beta.europeana.eu/v2/mydata/saveditem.json
 
 #### Request  
 
@@ -123,8 +123,8 @@ Retrieve information about, create, or delete tags at MyEuropeana account.
 
 Get a tag.
 
-    GET http://europeana.eu/api/v2/user/tag.json
-    GET http://europeana.eu/api/v2/mydata/tag.json
+    GET http://beta.europeana.eu/v2/user/tag.json
+    GET http://beta.europeana.eu/v2/mydata/tag.json
 
 #### Request
 
@@ -138,7 +138,7 @@ Get a tag.
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
 | username | String |  |
-| items | Array([Tag](http://labs.europeana.eu/api/myeuropeana/tag)) |  |
+| items | Array([Tag](http://labs.europeana.eu/api/preview-myeuropeana/tag)) |  |
 
 #### Tag
 
@@ -160,7 +160,7 @@ TBD
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
 | username | String |  |
-| items | Array([TagCloud](http://labs.europeana.eu/api/myeuropeana/tagcloud)) |  |
+| items | Array([TagCloud](http://labs.europeana.eu/api/preview-myeuropeana/tagcloud)) |  |
 
 #### TagCloud
 
@@ -173,8 +173,8 @@ TBD
 
 Create a new tag.
 
-    GET http://europeana.eu/api/v2/user/tag.json
-    GET http://europeana.eu/api/v2/mydata/tag.json
+    GET http://beta.europeana.eu/v2/user/tag.json
+    GET http://beta.europeana.eu/v2/mydata/tag.json
 
 #### Request
 
@@ -188,8 +188,8 @@ Create a new tag.
 
 Delete a tag.
 
-    DELETE http://europeana.eu/api/v2/user/tag.json
-    DELETE http://europeana.eu/api/v2/mydata/tag.json
+    DELETE http://beta.europeana.eu/v2/user/tag.json
+    DELETE http://beta.europeana.eu/v2/mydata/tag.json
 
 ## Request
 
@@ -209,15 +209,15 @@ Retrieve or modify saved searches in your MyEuropeana account
 
 Get saved searches.
 
-    GET http://europeana.eu/api/v2/user/savedsearch.json
-    GET http://europeana.eu/api/v2/mydata/savedsearch.json
+    GET http://beta.europeana.eu/v2/user/savedsearch.json
+    GET http://beta.europeana.eu/v2/mydata/savedsearch.json
 
 ### Response
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
 | username | String |  |
-| items | Array([SavedSearch](http://labs.europeana.eu/api/myeuropeana/savedsearch)) | Collection of saved searches  |
+| items | Array([SavedSearch](http://labs.europeana.eu/api/preview-myeuropeana/savedsearch)) | Collection of saved searches  |
 
 ### SavedSearch
 
@@ -232,8 +232,8 @@ Get saved searches.
 
 Create a new saved search. Read more on the search parameters in [Query Syntax](http://labs.europeana.eu/api/query/).
 
-    POST http://europeana.eu/api/v2/user/savedsearch.json
-    POST http://europeana.eu/api/v2/mydata/savedsearch.json
+    POST http://beta.europeana.eu/v2/user/savedsearch.json
+    POST http://beta.europeana.eu/v2/mydata/savedsearch.json
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
@@ -246,8 +246,8 @@ Create a new saved search. Read more on the search parameters in [Query Syntax](
 
 Delete a saved search.
 
-    DELETE http://europeana.eu/api/v2/user/savedsearch.json
-    DELETE http://europeana.eu/api/v2/mydata/savedsearch.json
+    DELETE http://beta.europeana.eu/v2/user/savedsearch.json
+    DELETE http://beta.europeana.eu/v2/mydata/savedsearch.json
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
