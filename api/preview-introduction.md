@@ -10,7 +10,7 @@ This part of our documentation reflects a preview version of the Europeana REST 
 
 For the preview API you can use the same API key as you would use for the normal version of the API.
 
-## Data
+### Data
 
 The preview API works with a dataset of the Europeana data that is 1-3 months behind on the data you can find on the Europeana portal.
 

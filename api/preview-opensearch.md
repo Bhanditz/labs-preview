@@ -9,7 +9,7 @@ published: true
 
 Basic search function following the OpenSearch specification (see [http://www.opensearch.org/](http://www.opensearch.org)), returning the results in XML (RSS) format. This function does not support facet search or profiles. Name of parameters are different from other API call methods, because they match the opensearch standard. The OpenSearch response elements can be used by search engines to augment existing XML formats with search-related metadata.
 
-    http://europeana.eu/api/v2/opensearch.rss
+    http://beta.europeana.eu/v2/opensearch.rss
 
 ## Request
 

@@ -15,12 +15,12 @@ Search for records.
 
 | Parameter | Datatype | Description |
 |:-------------|:-------------|:-----|
-| query | String | The search term(s). See [Query Syntax](/api/query) for information on forming complex queries and examples. |
+| query | String | The search term(s). See [Query Syntax](/api/preview-query) for information on forming complex queries and examples. |
 | profile | String | Profile parameter controls the format and richness of the response. See the possible values of the [profile parameter](#profile-parameter). |
-| qf | String | Facet filtering query. This parameter can be defined more than once. See [Query Syntax](/api/query) page for more information. |
+| qf | String | Facet filtering query. This parameter can be defined more than once. See [Query Syntax](/api/preview-query) page for more information. |
 | rows | Number | The number of records to return. Maximum is 100. Defaults to 12. |
 | start | Number | The item in the search results to start with. The first item is 1. Defaults to 1. |
-| callback | String | Name of a client side [callback function](/api/getting-started/#callback-function). |
+| callback | String | Name of a client side [callback function](/api/preview-getting-started/#callback-function). |
 | reusability | String | Filter by copyright status. Possible values are open, restricted or permission, see [reusability parameters](#reusability-parameter). |
 | media | Boolean | Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata and is resolvable. Works only with 'true'. |
 | facet | String | Name of an individual facet. See [individual facets](#individual-facets) |
