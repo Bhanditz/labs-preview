@@ -206,9 +206,3 @@ Looking for objects containing the term _Paris_ among objects provided by the us
     http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&qf=UGC:true
 
 [Test on API Console](/api/console/?function=search&query=Paris&qf=UGC:true)
-
-Looking for objects containing the term _Paris_ that have an extra large image:
-
-    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&qf=IMAGE_SIZE:extra_large
-
-[Test on API Console](/api/console/?function=search&query=Paris&qf=IMAGE_SIZE:extra_large)

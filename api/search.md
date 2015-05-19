@@ -22,17 +22,9 @@ Search for records.
 | start | Number | The item in the search results to start with. The first item is 1. Defaults to 1. |
 | callback | String | Name of a client side [callback function](/api/getting-started/#callback-function). |
 | reusability | String | Filter by copyright status. Possible values are open, restricted or permission, see [reusability parameters](#reusability-parameter). |
-| media | Boolean | Filter by records where an URL to the full media file is present in the edm:isShownBy or edm:hasView metadata and is resolvable. Works only with 'true'. |
 | facet | String | Name of an individual facet. See [individual facets](#individual-facets) |
 | f.[facet name].facet.limit | Number | Number of values an individual facet should contain. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#individual-facets) |
 | f.[facet name].facet.offset | Number | The offset of the first value in an individual facet. The [facet name] part should be replaced with one of the the facet names you specified in `facet` parameter. See [individual facets](#individual-facets) |
-
-Conduct a search for all openly licensed records with a direct link to the full media file:
-
-    &query=Paris&reusability=open&media=true
-    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&reusability=open&media=true
-
-[Test on API Console](/api/console/?function=search&query=Paris&reusability=open&media=true)
 
 ### Profile parameter
 
@@ -41,36 +33,22 @@ We have two profile types: one to control which fields of the record should be i
 | Value | Description |
 |:------|:------------|
 | minimal | Returns minimal set of metadata. See [metadata sets](/api/search/#metadata-sets). |
-| standard | Returns a broader set of metadata. See [metadata sets](/api/search/#metadata-sets). |
+| standard | Returns a boarder set of metadata. See [metadata sets](/api/search/#metadata-sets). |
 | rich | Returns the broadest set of metadata. See [metadata sets](/api/search/#metadata-sets). |
 | facets | Information about [facets](/api/search/#facets) is added. For the records the Standard profile is used. |
 | breadcrumbs | information about the query is added in the form of [breadcrumbs](/api/search/#breadcrumb). Facets are added as well; for the records the Standard profile is used. |
 | params | The header of the response will contain a params key, which lists the requested and default parameters of the API call. |
 | portal | `standard`, `facets`, and `breadcrumb` combined, plus additional fields over `standard` metadata set.  See [metadata sets](/api/search/#metadata-sets). |
 
-Include the broadest set of metadata in the search response:
-
-    &query=Paris&profile=rich
-    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&profile=rich
-
-[Test on API Console](/api/console/?function=search&query=Paris&profile=rich)
-
 ### Reusability parameter
 
-The possible values of the reusability parameters.
+The possible values of the reusability parameters
 
 | Value | Description |
 |:------|:------------|
-| open | The records are freely reusable. The licenses in this category are [PD](http://creativecommons.org/publicdomain/mark/1.0/), [NOC](http://creativecommons.org/publicdomain/mark/), [CC ZERO](http://creativecommons.org/publicdomain/zero/1.0/), [CC BY](http://creativecommons.org/licenses/by/), [CC BY-SA](http://creativecommons.org/licenses/by-sa/) |
-| restricted | The records are reusable, but with restrictions. The licenses in this category are [CC BY-NC](http://creativecommons.org/licenses/by-nc/), [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/), [CC BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/), [CC BY-ND](http://creativecommons.org/licenses/by-nd/), [OOC-NC](http://www.europeana.eu/rights/out-of-copyright-non-commercial/) |
+| open | The records are freely reusable. The licenses in this category are [Public Domain](http://creativecommons.org/publicdomain/mark/1.0/), [CC-ZERO](http://creativecommons.org/publicdomain/zero/1.0/), [CC BY](http://creativecommons.org/licenses/by/), [CC BY-SA](http://creativecommons.org/licenses/by-sa/) |
+| restricted | The records are reusable, but with restrictions. The licenses in this category are [CC-BY-NC](http://creativecommons.org/licenses/by-nc/), [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/), [CC-BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/), [CC BY-ND](http://creativecommons.org/licenses/by-nd/), [OOC-NC](http://www.europeana.eu/rights/out-of-copyright-non-commercial/) |
 | permission | You can reuse the records only with explicit permission. |
-
-Search only for freely reusable records:
-
-    &query=Paris&reusability=open
-    http://www.europeana.eu/api/v2/search.json?wskey=xxxx&query=Paris&reusability=open
-
-[Test on API Console](/api/console/?function=search&query=Paris&reusability=open)
 
 ## Response
 
@@ -84,21 +62,6 @@ For the common data fields returned by both search and object response, see Gett
 | facets | Array ([Facet](#facet)) | A collection of facets that describe the resultant dataset. |
 | breadcrumbs | Array ([Breadcrumb](#breadcrumb)) | A collection of search queries that were applied in this call. |
 
-
-Example of a search response in JSON with the portal profile:
-```
-{
-	"apikey": "XXX",
-	"action": "search.json",
-	"success": true,
-	"requestNumber": 999,
-	"itemsCount": 24,
-	"totalResults": 343,
-	"items": [],
-	"breadCrumbs": [],
-	"facets": []
-}
-```
 
 ### item
 
@@ -134,7 +97,7 @@ Each item is a search result and is represented by a summary of its metadata rec
 | edmTimespanEnd | Array (String) | The date the timespan finished. |
 | edmTimespanBroaderTerm | Array (String) | ts_dcterms_isPartOf |
 | edmTimespanBroaderLabel | edm:TimeSpan/dcterms:isPartOf | ts_dcterms_isPartOf |
-| ugc | Array (Boolnean) | Whether or not the record includeshas user generated contents in the record |
+| ugc | Array (Boolnean) | Whether or not has user generated contents in the record |
 | country | Array (String) | The name of the country in which the Provider is based or “Europe” in the case of Europe-wide projects. |
 | edmPlaceBroaderTerm | Array (String) | pl_dcterms_isPartOf |
 | edmPlaceAltLabel |  | Alternative forms of the name of the place. |
@@ -167,11 +130,11 @@ A collection of search queries that were applied in this call.
 
 ### facet
 
-A collection of facets that describe the resultant dataset. A facet represents the result for the search grouped by a certain entity. If you would conduct a search for the keyword 'paris  and have a look at the TYPE facet, this facet would tell how much items there exist within your search result grouped by TYPE (such as IMAGE, VIDEO etc.). When you search within your result set for a specific facet, the other items in your facet would still exist (you search for TYPE:IMAGE, then you can still see how many results there are for TYPE:VIDEO etc.). This last functionality, called multi-facets, is not supported for the [technical metadata facets](/api/data-fields/). 
+A collection of facets that describe the resultant dataset.
 
 | Field | Datatype | Description |
 |:-------------|:-------------|:-----|
-| name | String | The name of the facet (COUNTRY, DATA_PROVIDER, LANGUAGE, PROVIDER, RIGHTS, TYPE, UGC, YEAR, a [technical metadata facet](/api/data-fields/) or a custom facet) |
+| name | String | The name of the facet (COUNTRY, DATA_PROVIDER, LANGUAGE, PROVIDER, RIGHTS, TYPE, UGC, YEAR or a custom facet) |
 | fields<sup>\*</sup> | Array (field) | A collection of facet fields. Each field is an object that has a label (String) and a count of objects (Number). |
 
 <sup>\*</sup> _indicates an obligatory property_
@@ -180,7 +143,7 @@ A collection of facets that describe the resultant dataset. A facet represents t
 
 ### Minimal profile
 
-The minimal profile returns the following fields:
+The minimal profile returns the follwoing fields:
 
 | Name in API response | EDM field | Name is searching |
 |:-------------|:-------------|:-----|
@@ -255,10 +218,10 @@ The rich profile returns all the fields of the portal profile plus the following
 
 ## Individual facets
 
-API users can select which facets they would like to retrieve beyond the default facet set via the `facet` parameter. When you request a facet you have to set the profile either as `facets` or as `portal` or `rich` (which both covers facets as well).
+API users can select which facets they would like to retrieve beyond the default facet set via the `facet` parameter. When you request facet you have to set the profile either as `facets` or as `portal` (which covers facets as well).
 
 The value of the parameter could be "DEFAULT" (which is a shortcut of the Europeana facet set we use on the portal, containing UGC, LANGUAGE, TYPE, YEAR, PROVIDER, DATA_PROVIDER, COUNTRY and RIGHTS), or any field name which is indexed and stored in Apache Solr.
-We maintain a table in API documentation about the existing  [API Fields](/api/api-fields/). In the field type column, "text" means indexed as as a row of distinct terms, while "string" means indexed as phrase, so the whole content is taken as one individual unit.
+We maintain a table in API documentation about the existing  (API Fields)[/api/api-fields/]. In the field type column "text" means indexed as as a row of distinct terms, while "string" means indexed as phrase, so the whole content is taken as one individual unit.
 
 Users can set one or more facet in one query.
 

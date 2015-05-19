@@ -111,8 +111,7 @@ Meaning of columns
 | EDM Field | Name in search | Datatype | Name in search result | Name (record) | Aggregated Field/Facet |
 |:-------------|:-------------|:-----|:-----|:-----|:-----|
 | @rdf:about | edm_europeana_aggregation | string |  | EuropeanaAggregation.about | 
-| dc:creator | europeana_aggregation_dc_creator | string |  | EuropeanaAggregation.dcCreator |
- | edm_datasetName | string | europeana_aggregation_datasetName |  | 
+| dc:creator | europeana_aggregation_dc_creator | string |  | EuropeanaAggregation.dcCreator | 
 | edm:country | europeana_aggregation_edm_country | string | country | EuropeanaAggregation.edmCountry | COUNTRY
 | edm:hasView | europeana_aggregation_edm_hasView | string |  | EuropeanaAggregation.edmHasView | 
 | edm:isShownBy | europeana_aggregation_edm_isShownBy | string |  | EuropeanaAggregation.edmIsShownBy | 
@@ -126,7 +125,7 @@ Meaning of columns
 
 | EDM Field | Name in search | Datatype | Name in search result | Name (record) | Aggregated Field/Facet |
 |:-------------|:-------------|:-----|:-----|:-----|:-----|
-| @rdf:about | edm_webResource | string |  | WebResource.about | 
+| @rdf:about | edm_webResource (?) | string |  | WebResource.about | 
 | dc:description | wr_dc_description | string |  | WebResource.dcDescription | 
 | dc:format | wr_dc_format | string |  | WebResource.dcFormat | 
 | dc:rights | wr_dc_rights | string |  | WebResource.webResourceDcRights | 
@@ -139,29 +138,13 @@ Meaning of columns
 | dcterms:issued | wr_dcterms_issued | string |  | WebResource.dctermsIssued | 
 | edm:isNextInSequence | wr_edm_isNextInSequence | string |  | WebResource.isNextInSequence | 
 | edm:rights | wr_edm_rights | string |  | WebResource.webResourceEdmRights | 
-| edm:codecName | wr_edm_codecName | string |  |  WebResource.edmcodecName | 
-| ebucore:hasMimeType | wr_ebucore_hasMimeType | string |  |  WebResource.ebucorehasMimeType | |
-| ebucore:fileByteSize | wr_ebucore_fileByteSize | string |  | WebResource.ebucorefileByteSize |
-| ebucore:duration | wr_ebucore_duration | string |  | WebResource.ebucoreduration |
-| ebucore:width | wr_ebucore_width | string |  | WebResource.ebucorewidth |
-| ebucore:height | wr_ebucore_height | string |  | WebResource.ebucoreheight |
-| edm:spatialResolution | wr_edm_spatialResolution | string |  |  WebResource.edmspatialResolution | 
-| ebucore:sampleSize | wr_ebucore_sampleSize | string |  | WebResource.ebucoresampleSize |
-| ebucore:sampleRate | wr_ebucore_sampleRate | string |  | WebResource.ebucoresampleRate |
-| ebucore:bitRate | wr_ebucore_bitRate | string |  | WebResource.ebucorebitRate |
-| ebucore:frameRate | wr_ebucore_frameRate | string |  | WebResource.ebucoreframeRate |
-| edm:hasColorSpace | wr_edm_hasColorSpace | string |  |  WebResource.edmhasColorSpace | 
-| edm:componentColor | wr_edm_componentColor | string |  |  WebResource.edmcomponentColor | 
-| ebucore:orientation | wr_ebucore_orientation | string |  | WebResource.ebucoreorientation |
-| ebucore:audioChannelNumber | wr_ebucore_audioChannelNumber | string |  | WebResource.ebucoreaudioChannelNumber |
-| rdf:type | rdf_type | string |  | WebResource.rdfType | 
 
 
 ## edm:Agent
 
 | EDM Field | Name in search | Datatype | Name in search result | Name (record) | Aggregated Field/Facet |
 |:-------------|:-------------|:-----|:-----|:-----|:-----|
-| @rdf:about | edm_agent | string | edmAgent | Agent.about | 
+| @rdf:about | edm_agent (?) | string | edmAgent | Agent.about | 
 | skos:prefLabel | ag_skos_prefLabel | text | edmAgentLabel | Agent.prefLabel | who
 | skos:altLabel | ag_skos_altLabel | text |  | Agent.altLabel | 
 | skos:hiddenLabel | ag_skos_hiddenLabel | text |  |  | 
@@ -187,7 +170,7 @@ Meaning of columns
 
 | EDM Field | Name in search | Datatype | Name in search result | Name (record) | Aggregated Field/Facet |
 |:-------------|:-------------|:-----|:-----|:-----|:-----|
-| @rdf:about | skos_concept | string | edmConceptTerm | Concept.about | 
+| @rdf:about | skos_concept (?) | string | edmConceptTerm | Concept.about | 
 | skos:prefLabel | cc_skos_prefLabel | text | edmConceptPrefLabel | Concept.prefLabel | what
 | skos:altLabel | cc_skos_altLabel | text |  | Concept.altLabel | 
 | skos:hiddenLabel | cc_skos_hiddenLabel | string |  |  | 
@@ -208,7 +191,7 @@ Meaning of columns
 
 | EDM Field | Name in search | Datatype | Name in search result | Name (record) | Aggregated Field/Facet |
 |:-------------|:-------------|:-----|:-----|:-----|:-----|
-| @rdf:about | edm_place | string | edmPlace | Place.about | 
+| @rdf:about | edm_place (?) | string | edmPlace | Place.about | 
 | wgs84_pos:lat | pl_wgs84_pos_lat | string | edmPlaceLatitude | Place.latitude | 
 | wgs84_pos:long | pl_wgs84_pos_long | string | edmPlaceLongitude | Place.longitude | 
 | wgs84_pos:alt | pl_wgs84_pos_alt | string |  | Place.altitude | 
@@ -226,7 +209,7 @@ Meaning of columns
 
 | EDM Field | Name in search | Datatype | Name in search result | Name (record) | Aggregated Field/Facet |
 |:-------------|:-------------|:-----|:-----|:-----|:-----|
-| @rdf:about | edm_timespan | text | edmTimespan | TimeSpan.about | |
+| @rdf:about | edm_timespan (?) | text | edmTimespan | TimeSpan.about | |
 | skos:prefLabel | ts_skos_prefLabel | text | edmTimespanLabel | TimeSpan.prefLabel | when |
 | skos:altLabel | ts_skos_altLabel | text |  | TimeSpan.altLabel |  |
 | skos:hiddenLabel | ts_skos_hiddenLabel | string | | | |
@@ -242,11 +225,6 @@ Meaning of columns
 | | ts_dcterms_isPartOf_label (?) | string |  |  |
 
 
-
-## edm:FullTextResource
-
-
-
 ## Fields outside of EDM schema
 
 | Name in search | Datatype | Name in search result | Name (record) | Aggregated Field/Facet |
@@ -256,7 +234,7 @@ Meaning of columns
 | timestamp | date |  |  | 
 | europeana_id | string | id |  | 
 | identifier | string |  |  | 
-
+| europeana_collectionName | string | europeanaCollectionName |  | 
 
 ## Aggregated fields
 
@@ -280,7 +258,7 @@ Meaning of columns
 | where | text |
 | who | text |
 
-## Metadata facets
+## Facets
 
 | Name in search | Datatype |
 |:-------------|:-----|
@@ -295,21 +273,6 @@ Meaning of columns
 | SUBJECT | string |
 | TYPE | string |
 | UGC | string |
+| USERTAGS | string |
 | YEAR | string | 
 
-
-## Technical metadata facets
-Facets that relate to the metadata extracted from the media, such as images and videos.
-
-| Name in search | Datatype | Media type | Description
-|:-------------|:-----|:-----|:-------------|
-| MIME_TYPE | string |  | Mime-type of the file, e.g. image/jpeg |
-| IMAGE_SIZE | string | Image | Size in megapixels of an image, values: small (< 0.5MP), medium (0.5-1MP), large (1-4MP) and extra_large (> 4MP) |
-| IMAGE_COLOUR | boolean | Image | Lists 'true' for colour images. An alias to this facet is IMAGE_COLOR, note that for non-colour images you cannot provide the 'false' value. Use the greyscale-facet instead. |
-| IMAGE_GREYSCALE | boolean | Image | Lists 'true' for greyscale images. An alias to this facet is IMAGE_GRAYSCALE, note that for colour images you cannot provide the 'false' value. Use the colour-facet instead. |
-| IMAGE_ASPECTRATIO | string | Image | Portrait or landscape. | 
-| VIDEO_HD | boolean | Video | Lists 'true' for videos that have a resolution higher than 576p. |
-| VIDEO_DURATION | string | Video | Duration of the video, values: short (< 4 minutes), medium (4-20 minutes) and long (> 20 minutes). | 
-| SOUND_HQ | boolean | Sound | Lists 'true' for sound files where the bit depth is 16 or higher or if the file format is a lossless file type (ALAC, FLAC, APE, SHN, WAV, WMA, AIFF & DSD). Note that 'false' does not work for this facet. |
-| SOUND_DURATION | string | Sound | Duration of the sound file, values: very_short (< 30 seconds), short (30 seconds - 3 minutes), medium (3-6 minutes) and long (> 6 minutes). |
-| TEXT_FULLTEXT | boolean | Text | Lists 'true' for text media types which are searchable, e.g. a PDF with text. |

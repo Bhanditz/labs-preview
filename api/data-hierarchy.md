@@ -2,14 +2,14 @@
 layout: "api-page"
 title: Europeana Data Hierarchy
 published: true
-excerpt: "How Europeana data hierarchy is organised"
+excerpt: "How Europeana data hierarchy is organized"
 
 ---
 
 * TOC
 {:toc}
 
-To organize its data Europeana uses a complex data model which is called the Europeana Data Model (EDM). A detailed description of EDM is beyond the scope of this documentation: the reader is referred to the extensive documentation [on Europeana website](http://pro.europeana.eu/edm-documentation). However, a basic understanding of the data organisation is necessary for implementing the API. The objective of this section is to provide this basic understanding.
+To organize its data Europeana uses a complex data model which is called the Europeana Data Model (EDM). A detailed description of EDM is beyond the scope of this documentation: the reader is referred to the extensive documentation [on Europeana website](http://pro.europeana.eu/edm-documentation). However, a basic understanding of the data organization is necessary for implementing the API. The objective of this section is to provide this basic understanding.
 
 ## EDM and Records
 
@@ -25,7 +25,7 @@ where 091 is the identifier of the provider, 02 is the id of the dataset and _GN
 
 ## Fields
 
-Europeana data is organised in records which correspond to cultural heritage objects. Each object is described by a number of fields in the record which contain information such as the title of the object, its description, the date, persons and concepts related to it.
+Europeana data is organized in records which correspond to cultural heritage objects. Each object is described by a number of fields in the record which contain information such as the title of the object, its description, the date, persons and concepts related to it.
 
 ## Aggregated Fields
 
@@ -46,17 +46,4 @@ The number of records that Europeana contains is very big and growing. Therefore
 |Completeness |	Internal Europeana measure of the completeness of the metadata of the record. |
 |UGC	| Whether the record has been contributed by the user community |
 
-The facets listed above relate to the metadata of records. The following list of facets relate to the metadata extracted from media objects, such as images or videos. 
 
-| Facet | Description |
-|:-------------|:-------------|
-| Mime-type | The mime-type of a media file, such as image/jpeg for a JPEG file. | 
-| Image size | The dimensions of an image. |
-| Image colour | Whether an image is a full-colour image. |
-| Image greyscale | Whether an image is a greyscale image. | 
-| Image aspect ratio | The aspect ratio of an image. | 
-| Video HD | Whether a video file can be classified as an HD-video. | 
-| Video duration | The duration of a video file. | 
-| Sound HQ | Whether a sound file can be classified as an HQ-sound. | 
-| Sound duration | The duration of a sound file. | 
-| Full text | Whether the text in a text-object is searchable, such as most PDF files. |
