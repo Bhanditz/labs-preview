@@ -5,7 +5,7 @@ category: events
 permalink: /events/SMK-Set-Art-Free
 title: Set art free – and the rest will follow!
 imageurl: 
-  - "/img/events/2015-05-20-Creative-Culture-Jam.jpg"
+  - "/img/events/2015-05-29-set-art-free-SMK.jpg"
 tags: 
   - exhibition
   - workshop
