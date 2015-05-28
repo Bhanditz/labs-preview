@@ -11,7 +11,6 @@ tags:
   - workshop
 links:
   - http://www.smk.dk/en/visit-the-museum/calendar/begivenhed/aktivitet/smk-fridays-20/
-  - http://conventagusti.com/maker/
 excerpt:
   - "The Europeana Creative project is collaborating with Statens Museum for Kunst (SMK), Copenhagen, for their next SMK Friday event, 29 May 2015, 4—10pm. Join us in experiencing remixed artworks, playing around with interactive installations, remaking and animating masterpieces! "
 startdate:
@@ -21,7 +20,7 @@ enddate:
 datenotconfirmed:
   - ""
 starttime:
-  - ""
+  - "16:00"
 streetaddress:
   - ""
 city:
@@ -52,10 +51,10 @@ In addition, visitors can experience novel interpretations and appropriations of
 
 SMK Fridays is a monthly evening event that caters for a young urban audience. The art is always at the center of attention, but SMK Fridays reflect the art through music, performances, talks and social experiences in a relaxed, informal atmosphere. SMK Friday attracts several thousand people every time.
 
-###More information: [http://www.smk.dk/en/visit-the-museum/calendar/begivenhed/aktivitet/smk-fridays-20/] 
- 
-Contact:
+###More information: 
 
+[SMK event information (English)](http://www.smk.dk/en/visit-the-museum/calendar/begivenhed/aktivitet/smk-fridays-20/) 
+ 
 Contact information at SMK: 
 Merete Sanderhoff, curator of digital museum practice, merete.sanderhoff@smk.dk
 
