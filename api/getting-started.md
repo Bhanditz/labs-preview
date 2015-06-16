@@ -19,6 +19,19 @@ The API root URL is located at:
 
 For obligatory request parameters look into the documentation of specific calls. The [authentication](http://labs.europeana.eu/api/authentication/) section provides information on the obligatory authentication parameter _wskey_.
 
+## Methods
+
+### Search and retrieve records
+|Method|Description|
+| ------------- |:-------------|
+|record.json 	|Retrieve information about a single record within the Europeana repository|
+|search.json 	|Find records within the Europeana repository|
+|suggestions.json 	|Provides suggestions aimed at applications that use autocompletion for search queries|
+|opensearch.rss 	|Find objects within the Europeana repository following the OpenSearch specification|
+
+MyEuropeana Actions
+
+
 
 ## Response
 
