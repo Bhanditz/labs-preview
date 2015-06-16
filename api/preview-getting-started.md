@@ -22,6 +22,7 @@ For obligatory request parameters look into the documentation of specific calls.
 ## Methods
 
 ### Search and retrieve records
+
 |Method|Description|
 |:------------- |:-------------|
 |[record.json](/api/preview-record/) 	|Retrieve information about a single record within the Europeana repository|
