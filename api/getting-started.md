@@ -22,6 +22,7 @@ For obligatory request parameters look into the documentation of specific calls.
 ## Methods
 
 ### Search and retrieve records
+
 |Method|Description|
 |:------------- |:-------------|
 |[record.json](/api/record/) 	|Retrieve information about a single record within the Europeana repository|
@@ -44,7 +45,6 @@ For obligatory request parameters look into the documentation of specific calls.
 |:------------- |:-------------|
 |[providers.json](/api/provider/#providers)|Retrieve information about Europeana data providers|
 |[datasets.json](/api/provider/#datasets-by-provider)|Retrieve information about datasets supplied by a specific data provider|
-
 
 ## Response
 
