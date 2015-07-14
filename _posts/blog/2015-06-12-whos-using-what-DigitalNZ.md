@@ -60,7 +60,7 @@ The tools mentioned above as well as a bunch that appear top of mind…
 - [Homebrew package manager](http://brew.sh/)
 - [LINUX](https://www.linux.com/)!!!! (esp. [Ubuntu](http://www.ubuntu.com/) and [Mint](http://linuxmint.com/))
 
-and lots of others I am can’t think of right now. ;)
+and lots of others I can’t think of right now. ;)
 
 ### What are you currently developing? 
 
