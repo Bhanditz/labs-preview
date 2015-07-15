@@ -11,6 +11,8 @@ tags:
 secondarytags:
   - DigitalNZ
 ---
+Over the next three weeks we will presenting special "Who's Using What?" interviews with the development teams from 3 of the world's leading aggreagtors, protectors, and advocates for digital cultural heritage, DigitialNZ, DPLA, and our very own Europeana. For any developer or instituion currently working on, or planning to manage such massiave digital collections and succesfully re-present them to the global public, these 3 development teams combined hold an unprecedent amount of expertise and they do it all while using OSS. Up first, Chirs McDowall and the development team from DigitialNZ! 
+
 ## Chris McDowall and DigitalNZ
 
 The National Library of New Zealand's [DigitalNZ](http://digitalnz.org/) team makes New Zealand's digital content available to find, share and use. Like Europeana, DigitalNZ aggregates metadata from many digital collections so it is available to search and also encourages the development new discovery experiences through an [open API](http://digitalnz.org/developers). The team works with the collections from a wide range of organisations across the cultural sector, community groups, businesses and media organisations.  It also brings in New Zealand relevant metadata from Europeana and DPLA. DigitalNZ is almost eight years old and its most recent development is the open source release of [Supplejack](http://digitalnz.github.io/supplejack/), an open source tool for aggregating, searching and sharing metadata records.  Supplejack collects metadata about millions of items from hundreds of data sources. The tool transforms messy data, creates a unified search index and makes the reconciled metadata widely available via an open API data service.
