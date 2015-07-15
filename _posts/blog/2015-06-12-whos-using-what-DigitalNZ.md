@@ -11,7 +11,7 @@ tags:
 secondarytags:
   - DigitalNZ
 ---
-Over the next three weeks we will presenting special "Who's Using What?" interviews with the development teams from 3 of the world's leading aggreagtors, protectors, and advocates for digital cultural heritage, DigitialNZ, DPLA, and our very own Europeana. For any developer or instituion currently working on, or planning to manage such massiave digital collections and succesfully re-present them to the global public, these 3 development teams combined hold an unprecedent amount of expertise and they do it all while using OSS. Up first, Chirs McDowall and the development team from DigitialNZ! 
+Over the next three weeks we will present special "Who's Using What?" interviews with the development teams from 3 of the world's leading aggreagtors, protectors, and advocates for digital cultural heritage, [DigitalNZ](http://digitalnz.org/), [DPLA](http://dp.la/), and our very own [Europeana](http://www.europeana.eu/portal/). For any developer or instituion currently working on, or planning to manage such massiave digital collections and succesfully re-present them to the global public, these 3 development teams combined hold an unprecedent amount of expertise and they do it all while using OSS. Read here what tools these teams are favoring, what they've made for the world to improve upon and use, and what they hope to see in the future. Up first, Chirs McDowall and the development team from DigitialNZ! 
 
 ## Chris McDowall and DigitalNZ
 
