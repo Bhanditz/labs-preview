@@ -11,11 +11,13 @@ tags:
 secondarytags:
   - Europeana
 ---
-##Europeana and Development Lead Bram Lohman
+##Europeana Foundation
 
 The Europeana team consists of around 10 developers, ranging from back-end developers to front-enders, a sys-admin and tester. Our main developments are the [Europeana Portal](europeana.eu) and the home-grown ingestion system called [UIM](https://github.com/europeana/uim-europeana) (based on the OSGI framework), as well as several other tools to support our business needs (such as [REPOX](https://github.com/europeana/REPOX), [Europeana Cloud](https://github.com/europeana/Europeana-Cloud)). All of these can be found on our [GitHub](https://github.com/europeana)
 
 Most of our back-end is in [Java](https://java.com/en/), and we have a [JavaScript](https://www.javascript.com/) front-end, but in the near future there are major changes underway that will see us using other languages, such as [Ruby](https://www.ruby-lang.org/en/) and more.
+
+*This interview was submitted by Europeana Development Lead, Bram Lohman*
 
 ### What open source tools are you currently working with?
 To support our development process we use the 'standard' tools: [Jenkins](https://jenkins-ci.org/), [Git](https://git-scm.com/), [JUnit](http://junit.org/), [Apache Maven](https://maven.apache.org/), [Selenium](http://www.seleniumhq.org/), etc. The software itself uses [MongoDB](https://www.mongodb.org/), [Apache Solr](http://lucene.apache.org/solr/), [PostgreSQL](http://www.postgresql.org/), [Apache Tomcat](http://tomcat.apache.org/), [CloudFoundry](https://www.cloudfoundry.org/index.html), [JQuery](https://jquery.com/), and a slew of other tools, too many to name.
