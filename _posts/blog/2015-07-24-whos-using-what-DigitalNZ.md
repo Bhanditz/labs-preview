@@ -5,7 +5,7 @@ category: blog
 permalink: blog/whos-using-what-DigitalNZ
 title: Who's Using What - Chris McDowall and DigitalNZ  Developer Profile
 imageurl: 
-  - "/img/blog/2015-03-20-whos-using-what-benjamin-rokseth.jpg"
+  - ""
 tags: 
   - FLOSS
 secondarytags:
