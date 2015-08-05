@@ -3,9 +3,9 @@ published: false
 layout: blog-item
 category: blog
 permalink: blog/whos-using-what-DPLA
-title: Who's Using What - Mark Matienzo and DPLA  Developer Profile
+title: Who's Using What - Mark Matienzo and DPLA Developer Profile
 imageurl: 
-  - "/img/blog/2015-03-20-whos-using-what-benjamin-rokseth.jpg"
+  - ""
 tags: 
   - FLOSS
 secondarytags:
